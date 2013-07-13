@@ -7,6 +7,7 @@
 
 		<link rel="stylesheet" href="stylesheets/styles.css">
 		<link rel="stylesheet" href="stylesheets/metrize_icons.css">
+		<link rel="stylesheet" href="stylesheets/proudify.css">
 		<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
 		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
 		<script src="javascripts/scale.fix.js"></script>
@@ -28,12 +29,12 @@
 				</ul>
 
 			</header>
-			
+
 			<section>
-				<h3>GitHub Contributions</h3>
-				<iframe src="http://song-of-github.herokuapp.com/?username={{name}}&embeddable" height="240" width="600"></iframe>
+				<h3>GitHub Projects</h3>
+				<div id="proudify"></div>
 			</section>
-			
+
 			<section>
 				<h3>Past Work</h3>
 				<ul>
@@ -52,10 +53,10 @@
 
 			<section>
 				<h3>Current Side Projects</h3>
-	<ul>
-		<li><a href="http://www.coppinc.com/" title="Care of Poor People, Inc." target="_blank">Care of Poor People, Inc.</a> - Migrated website to new host and built a WordPress website. Currently developing a custom theme and functionality to aid the organization.</li>
-		<li><a href="https://github.com/nathanjessen/Gumby2-WP" title="Gumby2-WP">Gumby2-WP</a> - A WordPress theme I just started which will combine the power of WordPress with the awesomeness of the Gumby Framework</li>
-	</ul>
+				<ul>
+					<li><a href="http://www.coppinc.com/" title="Care of Poor People, Inc." target="_blank">Care of Poor People, Inc.</a> - Migrated website to new host and built a WordPress website. Currently developing a custom theme and functionality to aid the organization.</li>
+					<li><a href="https://github.com/nathanjessen/Gumby2-WP" title="Gumby2-WP">Gumby2-WP</a> - A WordPress theme I just started which will combine the power of WordPress with the awesomeness of the Gumby Framework</li>
+				</ul>
 
 			</section>
 
@@ -64,6 +65,12 @@
 			</footer>
 		</div>
 		<!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+		<script type="text/javascript" src="javascripts/jquery-proudify.min.js"></script>
+		<script type="text/javascript">
+			$('#proudify').proudify({'username':'nathanjessen'});
+		</script>
+
 	</body>
 </html>

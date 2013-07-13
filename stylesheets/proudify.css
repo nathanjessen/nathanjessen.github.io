@@ -1,0 +1,60 @@
+.proudify .loading
+{
+	text-align: center;
+}
+.proudify .status
+{
+	float: right;
+}
+.proudify .red
+{
+	color: red;
+}
+.proudify .green
+{
+	color: #87EA23;
+}
+.proudify .desc
+{
+	color: #444;
+	margin-left: 5px;
+	font-weight: normal;
+}
+
+/****** GitHub - begin ******/
+.proudify.github
+{
+
+}
+.proudify.github ul
+{
+
+}
+.proudify.github li
+{
+
+}
+/****** GitHub - end ******/
+
+/****** CodeSchool - begin ******/
+.proudify.codeschool li
+{
+	float: left;
+	margin: 5px;
+}
+.proudify.codeschool li a img
+{
+	width: 90px;
+	height: 90px;
+	border: 0;
+}
+.proudify.codeschool li a img
+{
+	opacity: 1.0;
+}
+.proudify.codeschool li a:hover img
+{
+	opacity: 0.6;
+}
+/****** CodeSchool - end ******/
+
