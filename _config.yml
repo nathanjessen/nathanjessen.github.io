@@ -5,6 +5,12 @@ pygments:         true
 # Permalinks
 permalink:        /:categories/:title
 
+# Server
+destination:      ./_site
+exclude:          ["CNAME","README.md"]
+port:             4502
+
+
 # Custom vars
 base_url:         "/"
 author:           "Nathan Jessen"
