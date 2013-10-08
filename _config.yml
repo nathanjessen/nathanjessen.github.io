@@ -6,9 +6,10 @@ pygments:         true
 permalink:        /:categories/:title
 
 # Custom vars
+base_url:         "/"
 author:           "Nathan Jessen"
 description:      ""
-url:              "http://nathanjessen.github.io"
+url:              "http://semanticss.com"
 paginate:         10
 linkedin:         "//www.linkedin.com/in/njessen/"
 github:           "//github.com/nathanjessen"
