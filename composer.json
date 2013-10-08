@@ -1,0 +1,10 @@
+{
+    "name": "Portfolio"
+  , "description": "Test"
+  , "keywords": ["bootstrap", "css"]
+  , "authors": [
+      {
+        "name": "Nathan Jessen"
+      }
+    ]
+}

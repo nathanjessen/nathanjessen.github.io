@@ -1,9 +1,12 @@
-name: "Nathan Jessen"
-description: ""
+# Dependencies
+markdown:         rdiscount
+pygments:         true
 
-url: "http://nathanjessen.github.io"
+# Permalinks
+permalink:        pretty
 
-paginate: 10
-
-markdown: rdiscount
-permalink: pretty
+# Custom vars
+author:           "Nathan Jessen"
+description:      ""
+url:              "http://nathanjessen.github.io"
+paginate:         10
