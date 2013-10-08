@@ -8,11 +8,11 @@ base_url: "./"
 <section>
 	<h3>Past Work</h3>
 	<ul>
-		{% assign blog_categories = site.categories['blog'] | filter_categories_by_primary_category %}
+		{% assign blog_categories = site.categories['blog'] %}
 		{% for category in blog_categories limit: 20 %}
 		<li><a href="{{ category.url }}" title="{{ category.title }}" target="_blank">{{ category.title }}</a></li>
 		{% endfor %}
-		{% assign portfolio_categories = site.categories['portfolio'] | filter_categories_by_primary_category %}
+		{% assign portfolio_categories = site.categories['portfolio'] %}
 		{% for category in portfolio_categories limit: 20 %}
 		<li><a href="{{ category.url }}" title="{{ category.title }}" target="_blank">{{ category.title }}</a></li>
 		{% endfor %}
