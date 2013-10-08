@@ -9,12 +9,12 @@ base_url: "./"
 	<h3>Past Work</h3>
 	<ul>
 		{% assign blog_categories = site.categories['blog'] | filter_categories_by_primary_category %}
-		{% for category in blog_categories %}<li>{{ category }} {{ category.title }}</li>{% endfor %}
-		{% for post in site.posts limit: 20 %}
-		<li><a href="{{ post.url }}" title="{{ post.title }}" target="_blank">{{ post.title }}</a></li>
+		{% for category in blog_categories limit: 20 %}
+		<li><a href="{{ category.url }}" title="{{ category.title }}" target="_blank">{{ category.title }}</a></li>
 		{% endfor %}
-		{% for project in site.projects limit: 20 %}
-		<li><a href="{{ project.url }}" title="{{ project.title }}" target="_blank">{{ project.title }}</a></li>
+		{% assign blog_categories = site.categories['portfolio'] | filter_categories_by_primary_category %}
+		{% for category in blog_categories limit: 20 %}
+		<li><a href="{{ category.url }}" title="{{ category.title }}" target="_blank">{{ category.title }}</a></li>
 		{% endfor %}
 		<li><a href="http://www.duramunelepto.com/lepto_videos.html" title="Duramune Lepto - Lepto Videos" target="_blank">Duramune Lepto - Lepto Videos</a> - VML Project, Built an additional page to the existing site. Implemented Bootstrap modal and extended the functionality created with Backbone</a></li>
 		<li><a href="http://www.haveweseenyourcatlately.com/Home.html" title="Have We Seen Your Cat Lately" target="_blank">Have We Seen Your Cat Lately</a> - Adobe CQ5 updates. Also, rewrote the CSS/JS for increased maintainability and performance</a></li>
