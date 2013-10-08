@@ -12,8 +12,8 @@ base_url: "./"
 		{% for category in blog_categories limit: 20 %}
 		<li><a href="{{ category.url }}" title="{{ category.title }}" target="_blank">{{ category.title }}</a></li>
 		{% endfor %}
-		{% assign blog_categories = site.categories['portfolio'] | filter_categories_by_primary_category %}
-		{% for category in blog_categories limit: 20 %}
+		{% assign portfolio_categories = site.categories['portfolio'] | filter_categories_by_primary_category %}
+		{% for category in portfolio_categories limit: 20 %}
 		<li><a href="{{ category.url }}" title="{{ category.title }}" target="_blank">{{ category.title }}</a></li>
 		{% endfor %}
 		<li><a href="http://www.duramunelepto.com/lepto_videos.html" title="Duramune Lepto - Lepto Videos" target="_blank">Duramune Lepto - Lepto Videos</a> - VML Project, Built an additional page to the existing site. Implemented Bootstrap modal and extended the functionality created with Backbone</a></li>
