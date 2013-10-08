@@ -8,7 +8,9 @@ base_url: "./"
 <section>
 	<h3>Past Work</h3>
 	<ul>
-		<li><a href="http://rosedale.org/" title="Rosedale Development Association" target="_blank">Rosedale Development Association</a> - WordPress Twenty Twelve Child Theme developed at <a href="http://coders4charities.org/" title="Coders 4 Charities">Coders 4 Charities</a> 2013</li>
+		{% for project in site.projects limit: 20 %}
+		<li><a href="{{ project.url }}" title="{{ project.title }}" target="_blank">{{ project.title }}</a></li>
+		{% endfor %}
 		<li><a href="http://www.duramunelepto.com/lepto_videos.html" title="Duramune Lepto - Lepto Videos" target="_blank">Duramune Lepto - Lepto Videos</a> - VML Project, Built an additional page to the existing site. Implemented Bootstrap modal and extended the functionality created with Backbone</a></li>
 		<li><a href="http://www.haveweseenyourcatlately.com/Home.html" title="Have We Seen Your Cat Lately" target="_blank">Have We Seen Your Cat Lately</a> - Adobe CQ5 updates. Also, rewrote the CSS/JS for increased maintainability and performance</a></li>
 		<li><a href="http://www.clearcurrentpro.com/" title="GE ClearCurrent Pro" target="_blank">GE ClearCurrent Pro</a> - VML Project, Built using Skeleton boilerplate</li>
