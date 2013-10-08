@@ -21,9 +21,7 @@
         <div class="col-md-3">
           <div class="bs-sidebar hidden-print" role="complementary">
             <ul class="nav bs-sidenav">
-              {% if page.slug == "getting-started" %}
-                {% include nav-getting-started.html %}
-              {% endif %}
+                {% include nav-social.html %}
             </ul>
           </div>
         </div>
@@ -38,13 +36,7 @@
     ================================================== -->
     <footer class="bs-footer" role="contentinfo">
       <div class="container">
-        {% include social-buttons.html %}
-
-        <ul class="footer-links">
-          <li><a class="" href="{{ site.github }}" target="_blank">GitHub Profile</a></li>
-          <li><a class="" href="{{ site.linkedin }}" target="_blank">Linkedin</a></li>
-          <li><a class="" href="mailto:{{ site.email }}">Email</a></li>
-        </ul>
+        <p>Hosted on <a href="https://pages.github.com">GitHub Pages</a></p>
       </div>
     </footer>
 
