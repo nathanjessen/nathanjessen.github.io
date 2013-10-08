@@ -11,9 +11,12 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <!-- <li{% if page.slug == "home" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}"></a>
-        </li> -->
+        <li{% if page.slug == "blog" %} class="active"{% endif %}>
+          <a href="{{ site.base_url }}blog/">Blog</a>
+        </li>
+        <li{% if page.slug == "projects" %} class="active"{% endif %}>
+          <a href="{{ site.base_url }}projects/">Projects</a>
+        </li>
       </ul>
     </nav>
   </div>

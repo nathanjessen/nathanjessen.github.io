@@ -1,0 +1,9 @@
+<section>
+	<h3>Recent Projects</h3>
+	<ul>
+		{% assign project_categories = site.categories['projects'] %}
+		{% for project in project_categories limit: 20 %}
+		<li><a href="{{ project.href }}" title="{{ project.title }}" target="_blank">{{ project.title }}</a></li>
+		{% endfor %}
+	</ul>
+</section>
