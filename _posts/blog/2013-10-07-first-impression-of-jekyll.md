@@ -2,7 +2,10 @@
 title: First Impressions of Jekyll
 layout: default
 category: blog
+published: true
 ---
+
+##Sample
 
 I spent tonight diving into Jekyll and Liquid templating and I have to say, how in the heck did I not know about these things before tonight?? I think I've heard the term "Jekyll" used at work before and I understood it to be a tool for continuous deployments. A developer would commit code to a repository, Jekyll would be watching for changes on the files and if there was a change, it would trigger a build process to update the development server for testing.
 
