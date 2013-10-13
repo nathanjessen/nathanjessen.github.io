@@ -1,4 +1,4 @@
 nathanjessen.github.com
 =======================
 
-User page for Nathan Jessen
+Personal page of Nathan Jessen
