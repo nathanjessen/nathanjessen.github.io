@@ -14,3 +14,4 @@ body {
   padding-top: 70px; /* Account for fixed navbar */
 }
 
+.name { font-family: 'Raleway Dots', cursive; font-weight: 400; }
