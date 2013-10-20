@@ -3,7 +3,7 @@
 	<ul>
 		{% assign blog_categories = site.categories['blog'] %}
 		{% for category in blog_categories limit: 20 %}
-		<li><a href="{{ category.url }}" title="{{ category.title }}">{{ category.title }}</a></li>
+		<li><a href="{{ category.url }}" title="{{ category.title }}">{{ category.title }} - {{ category.date | date: "%d %B %Y" }}</a></li>
 		{% endfor %}
 	</ul>
 </section>
