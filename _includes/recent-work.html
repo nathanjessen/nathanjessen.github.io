@@ -1,0 +1,9 @@
+<section>
+	<h3>Recent Work</h3>
+	<ul>
+		{% assign work_categories = site.categories['work'] %}
+		{% for work in work_categories limit: 20 %}
+		<li><a href="{{ work.href }}" title="{{ work.title }}" target="_blank">{{ work.title }}</a></li>
+		{% endfor %}
+	</ul>
+</section>
