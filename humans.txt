@@ -1,0 +1,22 @@
+# TEAM
+
+    Developer: Nathan Jessen
+    Contact: nathan.jessen [at] gmail.com
+    Twitter: @nathanjessen
+
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    Jekyll
+    github-pages
+    Bootstrap
+
+
+# SITE
+
+	Last update:2013/10/20
+	Language: English
+	Doctype:HTML5
+	IDE: Sublime Text, GitHub for Mac
