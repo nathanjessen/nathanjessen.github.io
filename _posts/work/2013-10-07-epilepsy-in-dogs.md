@@ -2,7 +2,7 @@
 title: Epilepsy in Dogs
 layout: default
 href: http://www.epilepsyindogs.co.uk/
-category: projects
+category: work
 ---
 
 

@@ -2,7 +2,7 @@
 title: Pioneer Military Loans
 layout: default
 href: https://www.pioneermilitaryloans.com/pioneer-services
-category: projects
+category: work
 ---
 
 
