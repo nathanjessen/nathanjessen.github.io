@@ -4,11 +4,13 @@ pygments:         true
 
 # Permalinks
 permalink:        pretty
+# permalink:        /:year/:title
 
 # Server
-destination:      ./_site
+# host:             0.0.0.0
+port:             4502
+destination:      /_site
 exclude:          ["CNAME","README.md"]
-# port:             4502
 
 
 # Custom vars
@@ -17,6 +19,7 @@ author:           "Nathan Jessen"
 description:      ""
 url:              "http://semanticss.com"
 paginate:         10
-linkedin:         "//www.linkedin.com/in/njessen/"
 github:           "//github.com/nathanjessen"
+linkedin:         "//www.linkedin.com/in/njessen/"
+googleplus:       "//plus.google.com/108819920657113454025/posts"
 email:            "nathan.jessen@gmail.com"
