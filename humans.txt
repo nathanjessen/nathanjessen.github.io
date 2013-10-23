@@ -8,15 +8,14 @@
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Normalize.css, Zepto
     Jekyll
     github-pages
-    Bootstrap
 
 
 # SITE
 
-	Last update:2013/10/20
+	Last update: 2013/10/20
 	Language: English
-	Doctype:HTML5
+	Doctype: HTML5
 	IDE: Sublime Text, GitHub for Mac
