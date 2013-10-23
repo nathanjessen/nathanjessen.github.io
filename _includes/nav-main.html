@@ -1,0 +1,23 @@
+<nav class="wrap" role="navigation">
+  <div class="brand-logo">Semanticss</div>
+  <ul class="nav no-disc inline-list block-links">
+    <li{% if page.slug == "articles" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}">Articles</a>
+    </li>
+    <li{% if page.slug == "work" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}work/">Work</a>
+    </li>
+    <li{% if page.slug == "contact" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}contact/">Contact</a>
+    </li>
+    <!-- <li{% if page.slug == "about" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}about/">About</a>
+    </li>
+    <li{% if page.slug == "pens" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}pens/">Pens</a>
+    </li>
+    <li{% if page.slug == "talks" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}talks/">Talks</a>
+    </li> -->
+  </ul>
+</nav>
