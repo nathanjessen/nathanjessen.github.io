@@ -1,7 +1,7 @@
 ---
 title: First Impressions of Jekyll
 layout: default
-category: blog
+category: article
 published: true
 ---
 

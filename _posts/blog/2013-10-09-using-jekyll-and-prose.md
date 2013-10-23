@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-category: blog
+category: article
 ---
 
 ## Using Jekyll and Prose
