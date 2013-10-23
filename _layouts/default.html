@@ -1,45 +1,20 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
-<!--<![endif]-->
   <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
-    {% include header.html %}
-    <!-- Place anything custom after this. -->
+    {% include head.html %}
   </head>
   <body>
     <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en/">upgrade your browser</a> to improve your experience.</p>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en/">upgrade your browser</a>. Your experience won't be effected on this site but upgrading your browser is always a great idea!</p>
     <![endif]-->
-    <a class="sr-only" href="#content">Skip navigation</a>
-    {% include nav/nav-main.html %}
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="bs-sidebar hidden-print" role="complementary">
-            <ul class="nav bs-sidenav">
-                {% include nav/nav-social.html %}
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-9" role="main">
-          {{ content }}
-        </div>
-      </div>
+    <header id="top" class="" role="banner">
+      {% include nav-main.html %}
+    </header>
 
+    <div class="wrap">
+      {{ content }}
     </div>
-
-    <!-- Footer
-    ================================================== -->
-    <footer class="bs-footer" role="contentinfo">
-      <div class="container">
-        <p>Hosted on <a href="https://pages.github.com">GitHub Pages</a></p>
-      </div>
-    </footer>
 
     <!-- JS and analytics only. -->
     {% include footer.html %}
