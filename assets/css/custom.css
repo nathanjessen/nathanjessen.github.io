@@ -1,12 +1,14 @@
 /*
  * Table of contents:
  *
+ * Base
  * Scaffolding
+ * Lists
  */
 
 
 /*
- * Scaffolding
+ * Base
  */
 
 body {
@@ -34,15 +36,30 @@ a:hover {
 	text-decoration: underline;
 }
 
+/*
+ * Scaffolding
+ */
 .wrap {
 	margin: 0 auto;
 	width: 640px;
 }
 
+/*
+ * Lists
+ */
 .no-disc {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.inline-list li {
+	float: left;
+}
+
+.block-links a {
+	color: #fff;
+	display: block;
 }
 
 .brand-logo {
@@ -55,6 +72,10 @@ a:hover {
 	height: 70px;
 }
 
+#top li {
+	margin-left: 50px;
+}
+
 .brand-logo,
 #top li {
 	font-weight: bold;
@@ -62,31 +83,3 @@ a:hover {
 	line-height: 70px;
 	text-transform: uppercase;
 }
-
-#top li {
-	margin-left: 50px;
-}
-
-.inline-list li {
-	float: left;
-}
-
-.block-links a {
-	color: #fff;
-	display: block;
-}
-
-
-.personality {
-	overflow: hidden;
-}
-
-.personality-developer {
-	background: #2ab572;
-}
-
-.personality-cardplayer {
-	background: red;
-}
-
-
