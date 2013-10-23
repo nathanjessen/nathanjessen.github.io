@@ -3,13 +3,11 @@ markdown:         rdiscount
 pygments:         true
 
 # Permalinks
-permalink:        pretty
-# permalink:        /:year/:title
+permalink:        articles/:title
 
 # Server
-# host:             0.0.0.0
-port:             4502
-destination:      /_site
+# port:             4502
+destination:      ./_site
 exclude:          ["CNAME","README.md"]
 
 
