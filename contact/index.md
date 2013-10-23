@@ -10,7 +10,7 @@ Thank you for your interest. I'd love to speak with you but first ensure you mee
 
 If you've met the guidelines above, please send an **e-mail** to:
 
-### [nathan.jessen@gmail.com](mailto:{{ site.email }})
+### [nathan.jessen [a] gmail.com](mailto:{{ site.email }})
 
 I look forward to hearing from you!
 
