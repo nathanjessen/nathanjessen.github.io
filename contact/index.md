@@ -15,3 +15,9 @@ If you've met the guidelines above, please send an **e-mail** to:
 I look forward to hearing from you!
 
 -Nathan
+
+
+* <a href="{{ site.github }}" target="_blank">GitHub</a>
+* <a href="{{ site.linkedin }}" target="_blank">Linkedin</a>
+* <a href="{{ site.googleplus }}" target="_blank">Google Plus</a>
+* <a href="mailto:{{ site.email }}">Email</a>
