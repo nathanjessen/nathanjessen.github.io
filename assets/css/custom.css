@@ -10,6 +10,76 @@
  */
 
 body {
-  position: relative; /* For scrollyspy */
-  padding-top: 70px; /* Account for fixed navbar */
+	font-size: 20px;
+	line-height: 1.5;
 }
+
+p, ul, ol, blockquote {
+	margin-bottom: 30px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 600;
+}
+
+a, a:focus, a:visited {
+	/*color: #34495e;*/
+	text-decoration: none;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 640px;
+}
+
+.no-disc {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.brand-logo {
+	float: left;
+}
+
+#top {
+	background: #111;
+	height: 70px;
+}
+
+.brand-logo,
+#top li {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 70px;
+	text-transform: uppercase;
+}
+
+#top li {
+	margin-left: 50px;
+}
+
+.inline-list li {
+	float: left;
+}
+
+.block-links a {
+	color: #fff;
+	display: block;
+}
+
+
+.personality {
+	overflow: hidden;
+}
+
+.personality-developer {
+	background: #2ab572;
+}
+
+.personality-cardplayer {
+	background: red;
+}
+
+
