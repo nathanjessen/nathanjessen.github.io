@@ -8,7 +8,7 @@ permalink:        articles/:title
 # Server
 # port:             4502
 destination:      ./_site
-exclude:          ["CNAME","README.md"]
+exclude:          ["CNAME","README.md","LICENSE.md","cv","about","pens","talks"]
 
 
 # Custom vars
