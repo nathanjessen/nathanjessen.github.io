@@ -6,4 +6,4 @@ category: work
 ---
 
 
-VML Project, joined the project during testing phase. Responsible for fixing defects, refactoring css, and adding new styles and functionality to the site.
+Joined the project during testing phase. Responsible for fixing defects, refactoring css, and adding new styles and functionality to the site.

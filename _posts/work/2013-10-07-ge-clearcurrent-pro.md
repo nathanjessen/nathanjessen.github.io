@@ -6,4 +6,4 @@ category: work
 ---
 
 
-VML Project, Built using Skeleton boilerplate
+Skeleton framework, YouTube API

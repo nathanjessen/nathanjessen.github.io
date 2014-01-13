@@ -5,4 +5,4 @@ href: http://www.duramunelepto.com/lepto_videos.html
 category: work
 ---
 
-VML Project, Built an additional page to the existing site. Implemented Bootstrap modal and extended the functionality created with Backbone
+Built an additional page to the existing site. Implemented Bootstrap modal and extended the functionality created with Backbone

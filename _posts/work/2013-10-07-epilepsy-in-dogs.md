@@ -6,4 +6,4 @@ category: work
 ---
 
 
-VML Project, Adobe CQ5 CMS
+Adobe CQ5 CMS
