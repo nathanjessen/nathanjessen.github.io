@@ -1,16 +1,17 @@
 # TEAM
 
-    Developer: Nathan Jessen
-    Contact: nathan.jessen [at] gmail.com
-    Twitter: @nathanjessen
+	Developer: Nathan Jessen
+	Contact: nathan.jessen [at] gmail.com
+	Twitter: @nathanjessen
 
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    Normalize.css, Zepto
-    Jekyll
-    github-pages
+	HTML5, CSS3
+	Normalize.css
+	Zepto
+	Jekyll
+	github-pages
 
 
 # SITE
