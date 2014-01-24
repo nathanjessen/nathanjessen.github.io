@@ -6,13 +6,7 @@ slug: contact
 
 Hey,
 
-Thank you for your interest. I'd love to speak with you but first ensure you meet my guidelines.
-
-If you've met the guidelines above, please send an **e-mail** to:
-
-### [nathan.jessen [a] gmail.com](mailto:{{ site.email }})
-
-I look forward to hearing from you!
+Thank you for your interest. Reach out to me through one of the links below. While I'm not currently looking for work, my dream job is to work as a front-end architect and will consider opportunities that make the dream a reality.
 
 -Nathan
 

@@ -6,4 +6,4 @@ category: work
 ---
 
 
-Adobe CQ5 CMS, Handlebars, SASS, Grunt.
+Adobe CQ5 CMS, Handlebars, SASS, Grunt
