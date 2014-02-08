@@ -13,15 +13,16 @@
     </header>
 
     <div class="wrap">
+      <h3>{{ page.title }}</h3>
       {{ content }}
     </div>
 
-    <footer>
-      <p>Hosted on <a href="https://pages.github.com">GitHub Pages</a></p>
+    <footer class="wrap">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }} with Jekyll.</p>
     </footer>
 
     <!-- JS and analytics only. -->
-    {% include footer.html %}
+    {% include scripts.html %}
 
   </body>
 </html>

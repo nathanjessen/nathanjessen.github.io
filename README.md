@@ -23,5 +23,3 @@ There are no comments on my blog. If you want to share what you have to say, do 
 ## License
 
 Please see [The CSS-Tricks License](http://css-tricks.com/license/) by [Chris Coyier](http://chriscoyier.net/).
-
-Use of this license for my personal use has been granted by [The CSS-Tricks License](http://css-tricks.com/license/). lol

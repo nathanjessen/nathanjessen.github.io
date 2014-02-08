@@ -2,6 +2,7 @@
 layout: default
 title: About
 slug: about
+permalink: /about/
 ---
 
 ## About
@@ -24,7 +25,7 @@ I am a 26 year old Interactive Front-end Developer from Blair, NE but currently 
 
 - I provide **high quality work** and work fast, my hourly rates are based on this to be fair to both of us.
 
-- Consider a proper timeframe that is doable for you and me. If I don't receive the necessary deliverables on time, the agreed upon project deadline will be void and will need to be readdressed to ensure I have enough time to do the development.
+- Consider a proper time frame that is doable for you and me. If I don't receive the necessary deliverables on time, the agreed upon project deadline will be void and will need to be readdressed to ensure I have enough time to do the development.
 
 
 ## Dear Recruiters,

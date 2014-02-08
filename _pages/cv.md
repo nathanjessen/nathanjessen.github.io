@@ -1,12 +1,13 @@
 ---
 layout: default
 title: "Resumé / CV"
+permalink: /cv/
 ---
 
-# Nathan Jessen
+# {{ site.author }}
 
-[Email](mailto:nathan.jessen@gmail.com)
-[Semanticss.com](http://semanticss.com/)
+[Email](mailto:{{ site.email }})
+[{{ site.title }}]({{ site.BASE_PATH }})
 
 ## Expertise
 
@@ -35,7 +36,7 @@ title: "Resumé / CV"
 
 ## Work history
 
-- September 2012 - Current: Interactive Web Developer at VML
+- September 2012 - Current: Web Developer at VML
 
 
 ## Social commitment

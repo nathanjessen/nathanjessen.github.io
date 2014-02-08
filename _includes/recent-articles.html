@@ -1,9 +1,0 @@
-<section class="articles">
-	<h3>Recent Articles</h3>
-	<ul>
-		{% assign articles = site.categories['article'] %}
-		{% for article in articles limit: 20 %}
-		<li><a href="{{ article.url }}" title="{{ article.title }}">{{ article.title }}</a></li>
-		{% endfor %}
-	</ul>
-</section>

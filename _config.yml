@@ -1,23 +1,44 @@
-# Dependencies
-markdown:         rdiscount
-pygments:         true
-
-# Permalinks
-permalink:        articles/:title
+title:            "Semanticss"
+author:           "Nathan Jessen"
+# BASE_PATH:        "http://semanticss.com"
+BASE_PATH:        "http://0.0.0.0:4000"
+github_url:       "https://github.com/nathanjessen/nathanjessen.github.com"
+description:      "Portfolio of Nathan Jessen"
 
 # Server
 # port:             4502
 destination:      ./_site
-exclude:          ["CNAME","README.md","LICENSE.md","cv","about","pens","talks"]
+include:          ["_pages"]
+exclude:          ["CNAME","README.md","LICENSE.md","_data","_examples"]
+
+paginate:         10
+paginate_path:    "/blog/page:num/"
+permalink:        "/blog/:year/:title/"
+relative_permalinks: false
+
+
+safe:             true
+pygments:         true
+markdown:         "rdiscount"
+timezone:         "America/Chicago"
 
 
 # Custom vars
 base_url:         "/"
-author:           "Nathan Jessen"
-description:      ""
-url:              "http://semanticss.com"
-paginate:         10
+blog_url:         "/blog/"
+rss_path:         feed.xml
+categories_path:  categories.html
+tags_path:        tags.html
+
+# Social
 github:           "//github.com/nathanjessen"
 linkedin:         "//www.linkedin.com/in/njessen/"
 googleplus:       "//plus.google.com/108819920657113454025/posts"
 email:            "nathan.jessen@gmail.com"
+twitter:          "https://twitter.com/nathanjessen"
+codepen:          "http://codepen.io/njessen"
+
+
+# All links will be namespaced by BASE_PATH if defined.
+# Links in your website should always be prefixed with {{ site.BASE_PATH }}
+# Do not put a "/" at the end of the url.

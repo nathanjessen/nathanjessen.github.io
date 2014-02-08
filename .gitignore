@@ -1,5 +1,7 @@
 # Ignore docs files
 _site
+_examples
+_config.yml
 _drafts
 .ruby-version
 
