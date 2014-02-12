@@ -37,30 +37,35 @@ h1, h2, h3, h4 {
 }
 
 header {
+	background: transparent url('/assets/media/sublime.png') no-repeat 0 -50%;
+	background-size: cover;
 	overflow: hidden;
 	text-align: center;
 }
 
 .home header {
-	background: transparent url('/assets/media/sublime.png') no-repeat 0 -50%;
-	background-size: cover;
-	height: 600px;
 	margin-bottom: 30px;
 }
 
-.home .banner {
-	height: 600px;
+.banner {
 	background-color: rgba(61, 66, 96, 0.4);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(61, 66, 96, 0.4)), color-stop(100%, rgba(21, 23, 34, 0.8)));
 	background-image: -webkit-linear-gradient(-410deg, rgba(61, 66, 96, 0.4) 20%, rgba(21, 23, 34, 0.8));
 	background-image: linear-gradient(140deg,rgba(61, 66, 96, 0.4) 20%, rgba(21, 23, 34, 0.8));
 }
 
-.banner {
-	background-color: rgba(61, 66, 96, 0.8);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(61, 66, 96, 0.8)), color-stop(100%, rgba(21, 23, 34, 0.8)));
-	background-image: -webkit-linear-gradient(-410deg, rgba(61, 66, 96, 0.8) 20%, rgba(21, 23, 34, 0.8));
-	background-image: linear-gradient(140deg,rgba(61, 66, 96, 0.8) 20%, rgba(21, 23, 34, 0.8));
+@media (min-width: 640px) {
+	.home header {
+		height: 600px;
+	}
+
+	.home .banner {
+		height: 600px;
+	}
+
+	#top li {
+		margin-left: 50px;
+	}
 }
 
 a, a:focus, a:visited {
@@ -76,10 +81,19 @@ a:hover {
 /*
  * Scaffolding
  */
-.wrap {
-	margin: 0 auto;
-	width: 640px;
+@media (min-width: 640px) {
+	.wrap {
+		margin: 0 auto;
+		width: 640px;
+	}
+	.inline-list li {
+		float: left;
+	}
 }
+.wrap {
+	padding: 0 15px;
+}
+
 footer.wrap {
 	margin-top: 50px;
 }
@@ -93,9 +107,6 @@ footer.wrap {
 	padding: 0;
 }
 
-.inline-list li {
-	float: left;
-}
 
 .block-links a {
 	color: #fff;
@@ -112,10 +123,6 @@ footer.wrap {
 	height: 70px;
 	margin-bottom: 36px;
 }*/
-
-#top li {
-	margin-left: 50px;
-}
 
 .brand-logo,
 #top li {
