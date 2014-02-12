@@ -3,20 +3,22 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
+  <body class="{{ page.slug }}">
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en/">upgrade your browser</a>. Your experience won't be effected on this site but upgrading your browser is always a great idea!</p>
     <![endif]-->
 
     <header id="top" class="" role="banner">
-      {% include nav-main.html %}
+      <div class="banner cf">
+        {% include nav-main.html %}
+      </div>
     </header>
 
-    <div class="wrap">
+    <main class="wrap" role="main">
       {{ content }}
-    </div>
+    </main>
 
-    <footer class="wrap">
+    <footer class="wrap" role="contentinfo">
       <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }} with Jekyll.</p>
     </footer>
 
