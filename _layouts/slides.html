@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% include head-slides.html %}
+</head>
+<body class="{{ page.slug }}">
+
+	<div class="reveal" >
+		<div class="slides">
+			<section data-background="" data-background-size="" data-background-repeat="" data-background-transition="">
+				Single Horizontal Slide 1
+			</section>
+
+			<section>
+				<section>Vertical Slide 1</section>
+				<section>Vertical Slide 2</section>
+			</section>
+
+			<section>Single Horizontal Slide 3</section>
+		</div>
+	</div>
+
+
+	<script>
+		try {
+			Reveal.initialize({
+				controls:true,
+				progress:true,
+				history:true,
+				keyboard:true,
+				touch: true,
+				overview:true,
+				center:true,
+				loop:true,
+				rtl:false,
+				autoSlide:0,
+				mouseWheel:true,
+				transition:'default',
+				transitionSpeed:'default',
+				backgroundTransition:'default',
+				width: 960,
+				height: 700,
+				margin: 0.2,
+				minScale: 0.2,
+				maxScale: 1,
+				keyboard: {
+					13: 'next', /* go to the next slide when the ENTER key is pressed*/
+				}
+			});
+		} catch (err) {
+			alert(err.message);
+		}
+	</script>
+
+</body>
+</html>
