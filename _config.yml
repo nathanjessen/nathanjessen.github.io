@@ -1,15 +1,15 @@
-title:            "Semanticss"
+title:            "Nathan Jessen"
 author:           "Nathan Jessen"
-BASE_PATH:        "http://semanticss.com"
+BASE_PATH:        "http://nathanjessen.github.io"
 # BASE_PATH:        "http://0.0.0.0:4000"
-github_url:       "https://github.com/nathanjessen/nathanjessen.github.com"
+github_url:       "https://github.com/nathanjessen/nathanjessen.github.io"
 description:      "Portfolio of Nathan Jessen"
 
 # Server
 # port:             4502
 destination:      ./_site
 include:          ["_pages"]
-exclude:          ["CNAME","README.md","LICENSE.md","_data","_examples"]
+exclude:          ["CNAME","README.md","LICENSE.md","_data","_examples","node_modules","assets/.sass-cache"]
 
 paginate:         10
 paginate_path:    "/blog/page:num/"
