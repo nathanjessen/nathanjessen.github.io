@@ -1,0 +1,47 @@
+/*
+ * Base
+ */
+
+html {
+	// font:#{($base-font-size/16px)*1em}/#{$line-height-ratio} $base-font-family;
+	font: 112%/1.5 "Open Sans", sans-serif;
+}
+
+body {
+	background: $white-off;
+	color: $gray;
+	font-size: 20px;
+}
+
+header {
+	text-align: center;
+	border-top: 3px solid $green;
+}
+
+.wrap {
+	margin: 0 auto;
+	max-width: 640px;
+	padding: 0 5%;
+}
+
+/**
+ * Headings
+ */
+
+h1, h2, h3, h4 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 600;
+}
+
+footer.wrap {
+	margin-top: 50px;
+}
+
+.img--round {
+}
+
+.headshot {
+	border-radius: 100%;
+	border: 3px solid $green;
+	padding: 3px;
+}

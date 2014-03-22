@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * Primary Sass file
+ * sass --watch main.scss:main.min.css --style compressed
+ */
+
+/////////////////////////////
+// Helpers
+/////////////////////////////
+@import "helpers/vars";
+@import "helpers/mixins";
+
+
+/////////////////////////////
+// Inuit
+/////////////////////////////
+@import "inuit.css/inuit";
+
+
+/////////////////////////////
+// Theme
+/////////////////////////////
+@import "theme/base";
+@import "theme/buttons";
+@import "theme/slabs";

@@ -1,0 +1,10 @@
+.btn--primary {
+	@include vendor(transition, all 0.3s ease);
+	@extend .btn--small, .btn--positive;
+
+	background: green;
+
+	&:hover {
+		background: #418636;
+	}
+}
