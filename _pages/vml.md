@@ -34,10 +34,10 @@ permalink: /vml/
 
 <section class="slab">
 	<div class="wrap">
-		<h3>Rosedale Development Association</h3>
+		<h3>Duramune Lepto - Lepto Videos</h3>
 		<p>10/07/2013</p>
-		<p>WordPress Twenty Twelve Child Theme developed at <a href="http://coders4charities.org" title="Coders 4 Charities">Coders 4 Charities 2013</a></p>
-		<p><a class="btn btn--primary" target="_blank" href="http://rosedale.org" title="Rosedale Development Association">View Work</a></p>
+		<p>Built an additional page to the existing site. Implemented Bootstrap modal and extended the functionality created with Backbone</p>
+		<p><a class="btn btn--primary" target="_blank" href="http://www.duramunelepto.com/lepto_videos.html" title="Duramune Lepto - Lepto Videos">View Work</a></p>
 	</div>
 </section>
 
@@ -52,28 +52,10 @@ permalink: /vml/
 
 <section class="slab">
 	<div class="wrap">
-		<h3>Duramune Lepto - Lepto Videos</h3>
-		<p>10/07/2013</p>
-		<p>Built an additional page to the existing site. Implemented Bootstrap modal and extended the functionality created with Backbone</p>
-		<p><a class="btn btn--primary" target="_blank" href="http://www.duramunelepto.com/lepto_videos.html" title="Duramune Lepto - Lepto Videos">View Work</a></p>
-	</div>
-</section>
-
-<section class="slab slab--alternate">
-	<div class="wrap">
 		<h3>eVent Fabrics</h3>
 		<p>N/A</p>
 		<p>WordPress</p>
 		<p><a class="btn btn--primary" target="_blank" href="http://eventfabrics.com/" title="eVent Fabrics">View Work</a></p>
-	</div>
-</section>
-
-<section class="slab">
-	<div class="wrap">
-		<h3>Heartland Trailways</h3>
-		<p>10/07/2013</p>
-		<p>WordPress</p>
-		<p><a class="btn btn--primary" target="_blank" href="http://www.heartlandtrailways.com" title="Heartland Trailways">View Work</a></p>
 	</div>
 </section>
 
