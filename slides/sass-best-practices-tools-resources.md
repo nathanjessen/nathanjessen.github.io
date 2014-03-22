@@ -12,9 +12,8 @@ permalink: /slides/sass-best-practices-tools-resources/
 </section>
 
 <section>
-	<h2>Sass Best Practices</h2>
 	<section>
-		<h3>Practice 1</h3>
+		<h2>Practice 1</h2>
 		<ul>
 			<li>Test</li>
 			<li>Test 2</li>
@@ -22,7 +21,7 @@ permalink: /slides/sass-best-practices-tools-resources/
 		</ul>
 	</section>
 	<section>
-		<h3>Nesting</h3>
+		<h2>Nesting</h2>
 		<p>Inception Rule</p>
 	</section>
 </section>
