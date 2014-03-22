@@ -9,6 +9,15 @@ permalink: /talks/
 <section class="slab">
 	<div class="wrap">
 		<h3>{{ page.title }}</h3>
-		<p>For now, this is a placeholder page for future talks and slides.</p>
+
+		<section>
+			<h4>Sass Series</h4>
+			<ol>
+				<li><a href="{{ base_url }}slides/sass-best-practices-tools-resources/">Sass Best Practices, Tools, and Resources</a></li>
+				<li>CSS Methodologies</li>
+				<li>Sass Intermediate Concepts</li>
+				<li>Sass Intermediate Concepts Part 2</li>
+			</ol>
+		</section>
 	</div>
 </section>
