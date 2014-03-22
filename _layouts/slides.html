@@ -5,21 +5,11 @@
 </head>
 <body class="{{ page.slug }}">
 
-	<div class="reveal" >
+	<div class="reveal">
 		<div class="slides">
-			<section data-background="" data-background-size="" data-background-repeat="" data-background-transition="">
-				Single Horizontal Slide 1
-			</section>
-
-			<section>
-				<section>Vertical Slide 1</section>
-				<section>Vertical Slide 2</section>
-			</section>
-
-			<section>Single Horizontal Slide 3</section>
+			{{ content }}
 		</div>
 	</div>
-
 
 	<script>
 		try {
@@ -51,6 +41,5 @@
 			alert(err.message);
 		}
 	</script>
-
 </body>
 </html>
