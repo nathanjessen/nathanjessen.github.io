@@ -18,8 +18,3 @@ If you find a bug, [report it here](https://github.com/nathanjessen/nathanjessen
 ## Comments
 
 There are no comments on my blog. If you want to share what you have to say, do it on [Twitter](https://twitter.com/nathanjessen) or [Google Plus](https://plus.google.com/108819920657113454025/posts).
-
-
-## License
-
-Please see [The CSS-Tricks License](http://css-tricks.com/license/) by [Chris Coyier](http://chriscoyier.net/).

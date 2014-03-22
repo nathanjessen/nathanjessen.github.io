@@ -41,3 +41,4 @@ permalink: /cv/
 
 ## Social commitment
 
+- Active Volunteer at the Humane Society of Greater Kansas City
