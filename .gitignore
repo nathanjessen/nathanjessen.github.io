@@ -38,3 +38,4 @@ validation-report.json
 # Folders to ignore
 .sass-cache
 node_modules
+.bundle
