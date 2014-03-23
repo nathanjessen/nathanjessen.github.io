@@ -18,7 +18,6 @@ permalink: /slides/sass-intermediate-concepts/
 			<code>
 				$green: #063;
 				$green-dark: #043;
-
 				$theme-color: $green;
 				$link-color: $green;
 				$link-hover-color: $green-dark;
@@ -67,7 +66,6 @@ permalink: /slides/sass-intermediate-concepts/
 	<h2>Parent Selector</h2>
 	<pre>
 		<code>
-
 		</code>
 	</pre>
 </section>
