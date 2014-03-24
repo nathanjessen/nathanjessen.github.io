@@ -39,3 +39,4 @@ validation-report.json
 .sass-cache
 node_modules
 .bundle
+inuit.css
