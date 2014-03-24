@@ -1,25 +1,28 @@
-<nav class="wrap" role="navigation">
-  <ul class="nav no-disc inline-list block-links">
+<nav role="navigation">
+  <ul class="nav nav--banner nav--block">
     <li{% if page.slug == "home" %} class="active"{% endif %}>
       <a href="{{ site.base_url }}">Home</a>
     </li>
-    <li{% if page.slug == "blog" %} class="active"{% endif %}>
+    <!-- <li{% if page.slug == "about" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}about/">About</a>
+    </li> -->
+    <!-- <li{% if page.slug == "cv" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}cv/">Work</a>
+    </li> -->
+    <!-- <li{% if page.slug == "blog" %} class="active"{% endif %}>
       <a href="{{ site.base_url }}blog/">Blog</a>
-    </li>
-    <li{% if page.slug == "work" %} class="active"{% endif %}>
-      <a href="{{ site.base_url }}work/">Work</a>
+    </li> -->
+    <!-- <li{% if page.slug == "vml" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}vml/">Work</a>
+    </li> -->
+    <!-- <li{% if page.slug == "freelance" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}freelance/">Work</a>
+    </li> -->
+    <li{% if page.slug == "talks" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}talks/">Talks</a>
     </li>
     <li{% if page.slug == "contact" %} class="active"{% endif %}>
       <a href="{{ site.base_url }}contact/">Contact</a>
     </li>
-    <!-- <li{% if page.slug == "about" %} class="active"{% endif %}>
-      <a href="{{ site.base_url }}about/">About</a>
-    </li>
-    <li{% if page.slug == "pens" %} class="active"{% endif %}>
-      <a href="{{ site.base_url }}pens/">Pens</a>
-    </li>
-    <li{% if page.slug == "talks" %} class="active"{% endif %}>
-      <a href="{{ site.base_url }}talks/">Talks</a>
-    </li> -->
   </ul>
 </nav>
