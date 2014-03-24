@@ -1,23 +1,21 @@
 $slab-padding: 3em 0;
-$slab-bg: $white-off;
 $slabs: (
-	cover: $white-off,
-	alternate: $alternate
+	white: $white,
+	teal: $teal-dark
 );
 
 %slab {
+	border-bottom: 1px solid $gray-light;
 	padding: $slab-padding;
 }
 
 .slab {
 	@extend %slab;
-	background: $slab-bg;
 
 	@each $modifier, $color in $slabs {
 		&--#{$modifier} {
 			@extend %slab;
 			background: $color;
-			border-bottom: 1px solid $gray-light;
 		}
 	}
 }

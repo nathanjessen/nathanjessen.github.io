@@ -2,12 +2,16 @@
  * Base
  */
 
+* {
+	@include vendor(transition, all 0.3s ease);
+}
 
 html {
 	font: 112%/1.5 "Open Sans", sans-serif;
 }
 
 body {
+	background: $white-off;
 	color: $gray;
 	font-size: 20px;
 }
@@ -23,11 +27,25 @@ header {
 	padding: 0 5%;
 }
 
-@include sticky-footer($footer-height, '.page-wrap', '.site-footer');
-
 .site-footer {
-	background: $white-off;
-	line-height: $footer-height;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+
+	.nav {
+		margin-bottom: 5px;
+	}
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
 }
 
 /**
@@ -43,4 +61,15 @@ h1, h2, h3, h4 {
 	border-radius: 100%;
 	border: 3px solid $green;
 	padding: 3px;
+}
+
+a:link,
+a:visited {
+	color: $gray;
+	text-decoration: none;
+
+	&:active,
+	&:hover {
+		color: $gray-dark;
+	}
 }
