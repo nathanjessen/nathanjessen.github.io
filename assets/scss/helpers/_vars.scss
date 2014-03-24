@@ -24,29 +24,29 @@
  * following variables to `true`.
  */
 $use-grids:         true;
-$use-flexbox:       true;
-$use-columns:       true;
-$use-nav:           true;
-$use-options:       true;
-$use-pagination:    true;
-$use-breadcrumb:    true;
-$use-media:         true;
-$use-marginalia:    true;
-$use-island:        true;
-$use-block-list:    true;
-$use-matrix:        true;
-$use-split:         true;
-$use-this-or-this:  true;
-$use-link-complex:  true;
-$use-flyout:        true;
-$use-arrows:        true;
-$use-sprite:        true;
-$use-icon-text:     true;
+$use-flexbox:       false;
+$use-columns:       false;
+$use-nav:           false;
+$use-options:       false;
+$use-pagination:    false;
+$use-breadcrumb:    false;
+$use-media:         false;
+$use-marginalia:    false;
+$use-island:        false;
+$use-block-list:    false;
+$use-matrix:        false;
+$use-split:         false;
+$use-this-or-this:  false;
+$use-link-complex:  false;
+$use-flyout:        false;
+$use-arrows:        false;
+$use-sprite:        false;
+$use-icon-text:     false;
 $use-beautons:      true;
-$use-lozenges:      true;
-$use-rules:         true;
-$use-stats:         true;
-$use-greybox:       true;
+$use-lozenges:      false;
+$use-rules:         false;
+$use-stats:         false;
+$use-greybox:       false;
 
 
 
@@ -70,12 +70,16 @@ $use-greybox:       true;
  * Place any of your own variables that sit on top of inuit.css here.
  */
 $white: #fff;
-$white-off: #f2f2f2;
+$white-off: #eee;
+$gray-light: #ccc;
 $gray: #555;
 
 $green: #063;
-$blue: #036;
-$teal: #008282;
-$orange: #ffa500;
+$green-dark: #418636;
 
 $alternate: #313E42;
+$footer-height: 50px;
+
+// Buttons
+$button-color: $green;
+$button-hover-color: $green-dark;

@@ -2,9 +2,9 @@
 	@include vendor(transition, all 0.3s ease);
 	@extend .btn--small, .btn--positive;
 
-	background: green;
+	background: $button-color;
 
 	&:hover {
-		background: #418636;
+		background: $button-hover-color;
 	}
 }

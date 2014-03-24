@@ -8,21 +8,22 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en/">upgrade your browser</a>. Your experience won't be effected on this site but upgrading your browser is always a great idea!</p>
     <![endif]-->
 
-    <header id="top" class="container slab--cover" role="banner">
-      <div class="wrap">
-        <img class="img--round headshot" src="assets/img/nathan-jessen-thumb.jpg" alt="Headshot of Nathan Jessen" width="150" height="150">
-        <h1>Nathan Jessen</h1>
-        <p>Interactive Web Developer<br>CSS/Sass and HTML5 enthusiast<br>Open source advocate</p>
+    <div class="page-wrap">
+      <div class="container">
+        <header id="top" class="container slab--cover" role="banner">
+          <div class="wrap">
+            <img class="img--round headshot" src="assets/img/nathan-jessen-thumb.jpg" alt="Headshot of Nathan Jessen" width="150" height="150">
+            <h1>Nathan Jessen</h1>
+            <p>Interactive Web Developer<br>CSS/Sass and HTML5 enthusiast<br>Open source advocate</p>
+          </div>
+        </header>
+        {{ content }}
       </div>
-    </header>
-
-    <div class="container">
-      {{ content }}
     </div>
 
-    <footer class="container" role="contentinfo">
+    <footer class="container site-footer" role="contentinfo">
       <div class="wrap">
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }} with Jekyll.</p>
+        <span>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</span>
       </div>
     </footer>
 
