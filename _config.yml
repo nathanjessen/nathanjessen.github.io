@@ -31,9 +31,9 @@ categories_path:  categories.html
 tags_path:        tags.html
 
 # Social
-github:           "//github.com/nathanjessen"
+githubs:           "//github.com/nathanjessen"
 linkedin:         "//www.linkedin.com/in/njessen/"
-googleplus:       "//plus.google.com/108819920657113454025/posts"
+gplus:            "//plus.google.com/108819920657113454025/posts"
 email:            "nathan.jessen@gmail.com"
 twitter:          "https://twitter.com/nathanjessen"
 codepen:          "http://codepen.io/njessen"
