@@ -8,19 +8,30 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en/">upgrade your browser</a>. Your experience won't be effected on this site but upgrading your browser is always a great idea!</p>
     <![endif]-->
 
-    <header id="top" class="" role="banner">
-      <div class="banner cf">
-        {% include nav-main.html %}
+    <header id="top" class="container slab" role="banner">
+      <div class="wrap">
+        <a href="{{ site.BASE_PATH }}"><img class="img--round headshot" src="{{ site.base_url }}assets/img/nathan-jessen-thumb.jpg" alt="Headshot of Nathan Jessen" width="150" height="150"></a>
+        <h1>Nathan Jessen</h1>
       </div>
     </header>
 
-    <main class="wrap" role="main">
-      <h3>{{ page.title }}</h3>
-      {{ content }}
+    <main class="container slab--white" role="main">
+      <div class="wrap">
+        <h3>{{ page.title }}</h3>
+        {{ content }}
+      </div>
     </main>
 
-    <footer class="wrap" role="contentinfo">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+    <footer class="container site-footer" role="contentinfo">
+      <div class="wrap">
+        <ul class="nav nav--block nav--banner">
+          <li><a class="icon-github" href="{{site.github}}"><span class="sr-only">GitHub</span></a></li>
+          <li><a class="icon-linkedin" href="{{ site.linkedin }}"><span class="sr-only">Linkedin</span></a></li>
+          <li><a class="icon-gplus" href="{{ site.googleplus }}"><span class="sr-only">Google Plus</span></a></li>
+          <li><a class="icon-mail-alt" href="mailto:{{ site.email }}"><span class="sr-only">Email</span></a></li>
+        </ul>
+        <span>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</span>
+      </div>
     </footer>
 
     <!-- JS and analytics only. -->
