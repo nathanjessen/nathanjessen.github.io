@@ -14,7 +14,6 @@ $slabs: (
 
 	@each $modifier, $color in $slabs {
 		&--#{$modifier} {
-			@extend %slab;
 			background: $color;
 		}
 	}

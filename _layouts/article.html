@@ -15,7 +15,13 @@
       </div>
     </header>
 
-    <main class="container slab--white" role="main">
+    <div class="container site-navigation">
+      <div class="wrap">
+        {% include nav-main.html %}
+      </div>
+    </div>
+
+    <main class="container page-content slab--white" role="main">
       <div class="wrap">
         <h3>{{ page.title }}</h3>
         {{ content }}
