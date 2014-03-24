@@ -11,14 +11,32 @@ html {
 }
 
 body {
-	background: $white-off;
+	background: $white;
 	color: $gray;
 	font-size: 20px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 600;
 }
 
 header {
 	text-align: center;
 	border-top: 3px solid $green;
+}
+
+a {
+	&:link,
+	&:visited {
+		color: $gray;
+		text-decoration: none;
+	}
+
+	&:active,
+	&:hover {
+		color: $gray-dark;
+	}
 }
 
 .wrap {
@@ -27,7 +45,37 @@ header {
 	padding: 0 5%;
 }
 
+.headshot {
+	border-radius: 100%;
+	border: 3px solid $green;
+	padding: 3px;
+}
+
+.site-navigation {
+	background: $white-off;
+	border-bottom: 1px solid $gray-light;
+
+	.nav {
+		margin-bottom: 0;
+	}
+}
+
+.page-content {
+	a {
+		&:link,
+		&:visited {
+			border-bottom: 1px dotted $gray-light;
+		}
+
+		&:active,
+		&:hover {
+			border-bottom-color: $gray-dark;
+		}
+	}
+}
+
 .site-footer {
+	background: $white-off;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	text-align: center;
@@ -38,38 +86,12 @@ header {
 }
 
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  border: 0;
-}
-
-/**
- * Headings
- */
-
-h1, h2, h3, h4 {
-	font-family: 'Dosis', sans-serif;
-	font-weight: 600;
-}
-
-.headshot {
-	border-radius: 100%;
-	border: 3px solid $green;
-	padding: 3px;
-}
-
-a:link,
-a:visited {
-	color: $gray;
-	text-decoration: none;
-
-	&:active,
-	&:hover {
-		color: $gray-dark;
-	}
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
