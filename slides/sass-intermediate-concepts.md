@@ -63,6 +63,11 @@ permalink: /slides/sass-intermediate-concepts/
 </section>
 
 <section>
+	<h2>Variables</h2>
+	<p>Font Stacks</p>
+</section>
+
+<section>
 	<h2>Parent Selector</h2>
 	<pre>
 		<code>
@@ -91,4 +96,23 @@ permalink: /slides/sass-intermediate-concepts/
 			}
 		</code>
 	</pre>
+</section>
+
+<section>
+	<h2>Mixins</h2>
+	<p>Reusable elements</p>
+	<p>Use reasonable defaults</p>
+	<p>Useful for browser prefixes and adding fallbacks</p>
+</section>
+
+<section>
+	<h2>Helpful Mixins</h2>
+	<p><a href="https://gist.github.com/nathanjessen/9789281">Breakpoint</a></p>
+</section>
+
+<section>
+	<h2>Extend</h2>
+	<p>Reuse of CSS using selector inheritance</p>
+	<p>Like a mixin in practice</p>
+	<p>Pay attention to output</p>
 </section>

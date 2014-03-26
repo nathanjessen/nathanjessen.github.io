@@ -47,3 +47,9 @@ permalink: /slides/css-methodologies/
 <section>
 	<h2>SMACSS</h2>
 </section>
+
+<section>
+	<h2>Idiomatic CSS</h2>
+	<p><a href="https://github.com/necolas/idiomatic-css">Idiomatic CSS on GitHub</a></p>
+	<p>Nicolas Gallagher (necolas)</p>
+</section>
