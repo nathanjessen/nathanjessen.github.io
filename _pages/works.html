@@ -5,14 +5,19 @@ slug: works
 permalink: /works/
 ---
 
-{% for project in site.data.projects %}
-<section class="slab slab--{% cycle 'slab': 'primary', 'secondary', 'tertiary', 'quaternary' %}">
-	<div class="wrap">
-		<h3>{{ project.name }}</h3>
-		<p>{{ project.company }}</p>
-		<p>{{ project.datecomplete }}</p>
-		<p>{{ project.tech }}</p>
-		<p><a class="btn btn--{% cycle 'btn': 'primary', 'secondary', 'tertiary', 'quaternary' %}" target="_blank" href="{{ project.url }}" title="{{ project.name }}">View Work</a></p>
-	</div>
-</section>
-{% endfor %}
+<ul class="projects">
+  {% for project in site.data.projects %}
+    <li>
+      <a href="{{ project.url }}" target="_blank">
+        <div class="p-wrap">
+          <time datetime="{{ project.date | date_to_xmlschema }}" class="date">
+            {{ project.date | date_to_string }}
+          </time>
+          <p>{{ project.name }}</p>
+			<!-- <p>{{ project.company }}</p>
+			<p>{{ project.tech }}</p> -->
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

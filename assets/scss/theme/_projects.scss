@@ -1,0 +1,19 @@
+ul.projects {
+	@extend .posts;
+	color: $green-flat-dark;
+
+	li {
+		border-bottom-color: $green-flat-border;
+
+		.p-wrap {
+			background: $green-flat;
+
+			&:hover {
+				background: $green-flat-hover;
+			}
+		}
+		.date {
+			color: $green-flat-dark;
+		}
+	}
+}

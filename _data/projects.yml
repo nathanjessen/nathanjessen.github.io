@@ -1,71 +1,65 @@
 - name: "BIVI UltraDuramune"
-  datecomplete: 03/01/2014
+  date: 03/01/2014
   tech: "Adobe CQ5 CMS, Handlebars, SASS, Grunt"
   url: http://www.biviultraduramune.com
   company: VML
 
 - name: "Dollars and Sense"
-  datecomplete: 01/09/2014
+  date: 01/09/2014
   tech: "HTML5, Grunt, SASS"
   url: http://www.bividollarsandsense.com
   company: VML
 
 - name: "GCR/TDS Tires & Service"
-  datecomplete: 01/09/2014
+  date: 01/09/2014
   tech: "Adobe CQ5 CMS, Handlebars, LESS"
   url: http://www.gcrtdstires.com
   company: VML
 
 - name: "Duramune Lepto - Lepto Videos"
-  datecomplete: 10/07/2013
+  date: 10/07/2013
   tech: "Built an additional page to the existing site. Implemented Bootstrap modal and extended the functionality created with Backbone"
   url: http://www.duramunelepto.com/lepto_videos.html
   company: VML
 
 - name: "Have We Seen Your Cat Lately?"
-  datecomplete: 10/07/2013
+  date: 10/07/2013
   tech: "Adobe CQ5 CMS"
   url: http://www.haveweseenyourcatlately.com/Home.html
   company: VML
 
 - name: "eVent Fabrics"
-  datecomplete: N/A
+  date: 10/07/2013
   tech: "WordPress"
   url: http://eventfabrics.com/
   company: VML
 
-- name: "Pioneer Military Loans"
-  datecomplete: 10/07/2013
-  tech: "Joined the project during testing phase. Responsible for fixing defects, refactoring CSS, and adding new styles and functionality to the site."
-  url: https://www.pioneermilitaryloans.com/pioneer-services
-  company: VML
-
 - name: "GE ClearCurrent Pro"
-  datecomplete: 10/07/2013
+  date: 10/07/2013
   tech: "Skeleton framework, YouTube API"
   url: http://www.clearcurrentpro.com
   company: VML
 
 - name: "Epilepsy in Dogs"
-  datecomplete: 10/07/2013
+  date: 10/07/2013
   tech: "Adobe CQ5 CMS"
   url: http://www.epilepsyindogs.co.uk
   company: VML
 
 - name: "Boehringer Ingelheim Purefil<sup>TM</sup> Technology"
-  datecomplete: 10/07/2013
+  date: 10/07/2013
   tech: "Adobe CQ5 CMS"
   url: http://www.bivipurefil.com
   company: VML
 
 - name: "Rosedale Development Association"
-  datecomplete: 10/07/2013
+  date: 10/07/2013
   tech: "WordPress Twenty Twelve Child Theme developed at Coders 4 Charities 2013"
   url: http://rosedale.org
   company: Freelance
 
 - name: "Heartland Trailways"
-  datecomplete: 10/07/2013
+  date: 10/07/2013
   tech: "WordPress"
   url: http://www.heartlandtrailways.com
   company: Freelance

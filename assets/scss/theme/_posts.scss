@@ -2,12 +2,12 @@
 ul.posts {
 	color: #236CC1;
 	margin: 0;
-	padding: 0;
 	overflow: hidden;
+	padding: 0;
 }
 
 ul.posts li {
-	border-bottom: 1px solid #4492EC;
+	border-bottom: 1px solid $posts-border-color;
 	display: inline-block;
 	width: 100%;
 
@@ -16,12 +16,12 @@ ul.posts li {
 	}
 
 	.p-wrap {
-		background: #589FF1;
+		background: $posts-bg;
 		padding: 50px 40px;
 		transition: all .15s ease-in;
 
 		&:hover {
-			background: #67AAF7;
+			background: $posts-bg-hover;
 			padding-left: 50px;
 
 			&::after {
@@ -30,7 +30,7 @@ ul.posts li {
 			}
 		}
 		&:active {
-			background: #569BEA;
+			background: $posts-bg-active;
 		}
 
 		p {
@@ -43,8 +43,9 @@ ul.posts li {
 		color: #2671C8;
 		padding-right: 20px;
 	}
+
 	a {
-		color: #fff;
+		color: $white;
 		text-decoration: none;
 	}
 }
@@ -76,9 +77,12 @@ ul.posts li {
 
 @media only screen and (max-width : 479px) {
 
-	ul.posts li .p-wrap { padding: 20px;
+	ul.posts li .p-wrap {
+		padding: 20px;
+
+		&:hover {
+			background: #67AAF7;
+			padding-left: 20px;
+		}
 	}
-	ul.posts li .p-wrap:hover { background: #67AAF7;
-		padding-left: 20px;
-}
 }

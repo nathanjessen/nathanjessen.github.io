@@ -3,15 +3,15 @@
 
 #prev,
 #next {
-  position: fixed;
-  text-decoration: none;
   background: #fff;
   border: 1px solid #eee;
-  padding: 10px;
-  line-height: 1;
   border-radius: 25px;
   bottom: 40px;
   color: #333;
+  line-height: 1;
+  padding: 10px;
+  position: fixed;
+  text-decoration: none;
 }
 
 #prev { left: 40px; }
@@ -32,8 +32,8 @@
 }
 
 .nav-title-next {
-  margin-right: 10px;
   margin-left: 5px;
+  margin-right: 10px;
 }
 
 #prev:hover .nav-title,

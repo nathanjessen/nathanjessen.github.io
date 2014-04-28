@@ -1,103 +1,121 @@
 
 .single-content {
-  z-index: 1;
   font-family: 'Lora', Georgia, serif;
-  padding: 0 40px;
   overflow: hidden;
+  padding: 0 40px;
+  z-index: 1;
 }
 
 .single-content .feat {
-  text-align: center;
   border-bottom: 1px dotted #E0E1E6;
   margin: 0 20px 50px;
-}
-
-.single-content .feat h5.page-date {
-  display: inline-block;
-  position: relative;
-  top: 11px;
-  font-size: 85%;
   text-align: center;
-  font-weight: normal;
-  font-style: italic;
-  padding: 0 20px;
+
+  h5.page-date {
+    background: $white;
+    display: inline-block;
+    font-size: 85%;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    top: 11px;
+  }
+  a.popup {
+    display: inline-block;
+    font-size: 24px;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: 15px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+  }
 }
 
 .single-content #share {
   margin: 50px 20px;
 }
 
-.single-content .feat a.popup {
-  display: inline-block;
-  position: relative;
-  top: 15px;
-  font-size: 24px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0 25px;
-  transition: all .2s ease;
-  -webkit-transition: all .2s ease;
-}
-
-.single-content h1.page-title {
-  font-size: 180%;
-  line-height: 135%;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  margin: 0 0 60px;
-  padding: 0 40px;
-}
-
 .single-content p {
   padding: 0 40px;
 }
 
-.single-content ul,
-.single-content ol {
-  padding: 10px 80px;
+.single-content {
+  ul,
+  ol {
+    padding: 10px 80px;
+
+    li {
+      margin-bottom: 15px;
+    }
+  }
 }
 
-.single-content ul li,
-.single-content ol li {
-  margin-bottom: 15px;
+.single-content {
+  h1.page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 180%;
+    line-height: 135%;
+    margin: 0 0 60px;
+    padding: 0 40px;
+    text-align: center;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 40px;
+    padding: 0 40px;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  h2 {
+    font-size: 140%;
+    font-style: italic;
+  }
+  h3 {
+    font-size: 130%;
+    font-weight: lighter;
+  }
+  h4 {
+    font-size: 120%;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline;
+  }
+  h5 {
+    font-size: 110%;
+  }
+  h6 {
+    font-size: 100%;
+  }
 }
 
-.single-content h1,
-.single-content h2,
-.single-content h3,
-.single-content h4,
-.single-content h5,
-.single-content h6 {
-  padding: 0 40px;
-  margin-top: 40px;
+.single-content p {
+  line-height: 160%;
 }
-
-.single-content h1 { font-size: 150%; }
-.single-content h2 { font-size: 140%; font-style: italic; }
-.single-content h3 { font-size: 130%; font-weight: lighter; }
-.single-content h4 { font-size: 120%; font-weight: lighter; text-decoration: underline; text-align: center; }
-.single-content h5 { font-size: 110%; }
-.single-content h6 { font-size: 100%; }
-.single-content p { line-height: 160%; }
 
 .single-content blockquote {
-  font-size: inherit;
-  font-family: 'Open Sans', sans-serif;
-  color: #333;
   border-left: 6px solid #39f;
-  padding: 0 34px;
-  margin: 40px 0;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: inherit;
   line-height: 165%;
-}
+  margin: 40px 0;
+  padding: 0 34px;
 
-.single-content blockquote p {
-  padding-left: 0!important;
-  padding-right: 0!important;
+  p {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
 }
 
 .single-content img {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 
@@ -105,25 +123,31 @@
 
 @media only screen and (max-width : 479px) {
 
-  .single-content .single-content { padding: 0 20px; }
-  .single-content h1.page-title { padding: 0 20px; margin: 0 0 30px; }
-  .single-content p { padding: 0 20px; }
-
-  .single-content ul,
-  .single-content ol {
-    padding: 10px 0 10px 35px;
-  }
-
-  .single-content h1,
-  .single-content h2,
-  .single-content h3,
-  .single-content h4,
-  .single-content h5,
-  .single-content h6 {
+  .single-content {
     padding: 0 20px;
-    margin-top: 30px;
+
+    h1.page-title {
+      margin: 0 0 30px;
+      padding: 0 20px;
+    }
+
+    p {
+      padding: 0 20px;
+    }
+
+    ul,
+    ol {
+      padding: 10px 0 10px 35px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 30px;
+      padding: 0 20px;
+    }
+
+    blockquote {
+      border-left: 4px solid #39f;
+      padding: 0 20px;
+    }
   }
-
-  .single-content blockquote { padding: 0 20px; border-left: 4px solid #39f; }
-
 }
