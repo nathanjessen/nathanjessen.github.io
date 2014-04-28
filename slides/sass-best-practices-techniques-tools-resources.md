@@ -48,7 +48,9 @@ permalink: /slides/sass-best-practices-techniques-tools-resources/
 <section>
 	<h2>Newsletters</h2>
 	<p><a href="http://css-weekly.com/" target="_blank">CSS Weekly</a></p>
+	<p><a href="http://web-design-weekly.com/" target="_blank">Web Design Weekly</a></p>
 	<p><a href="http://us7.campaign-archive1.com/home/?u=b4a4054cce715a3b0ae5e7d35&id=f7c505323d" target="_blank">Sass News</a></p>
+	<p><a href="http://thesassway.com/" target="_blank">The Sass Way</a></p>
 	<p><a href="http://responsivedesignweekly.com/" target="_blank">Responsive Design Weekly</a></p>
 </section>
 
