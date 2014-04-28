@@ -12,15 +12,12 @@
 
 
 /////////////////////////////
-// Inuit
-/////////////////////////////
-@import "inuit.css/inuit";
-
-
-/////////////////////////////
 // Theme
 /////////////////////////////
+@import "theme/normalize";
 @import "theme/fontello";
 @import "theme/base";
 @import "theme/buttons";
 @import "theme/slabs";
+@import "theme/posts";
+@import "theme/article";

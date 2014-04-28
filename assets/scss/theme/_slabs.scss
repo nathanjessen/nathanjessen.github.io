@@ -1,20 +1,12 @@
-$slab-padding: 3em 0;
-$slabs: (
-	white: $white,
-	teal: $teal-dark
-);
-
-%slab {
-	border-bottom: 1px solid $gray-light;
-	padding: $slab-padding;
-}
 
 .slab {
-	@extend %slab;
+	padding: $slab-padding;
 
-	@each $modifier, $color in $slabs {
+	@each $modifier, $color in $brand-colors {
 		&--#{$modifier} {
 			background: $color;
+			border-bottom: 8px solid lighten($color, 12);
+			color: $white;
 		}
 	}
 }

@@ -2,10 +2,6 @@
  * Base
  */
 
-* {
-	@include vendor(transition, all 0.3s ease);
-}
-
 html {
 	font: 112%/1.5 "Open Sans", sans-serif;
 }
@@ -14,16 +10,12 @@ body {
 	background: $white;
 	color: $gray;
 	font-size: 20px;
+	text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4 {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 600;
-}
-
-header {
-	text-align: center;
-	border-top: 3px solid $green;
 }
 
 a {
@@ -41,19 +33,19 @@ a {
 
 .wrap {
 	margin: 0 auto;
-	max-width: 640px;
+	max-width: 840px;
 	padding: 0 5%;
 }
 
 .headshot {
 	border-radius: 100%;
-	border: 3px solid $green;
-	padding: 3px;
+	// padding: 3px;
 }
 
 .site-navigation {
-	background: $white-off;
-	border-bottom: 1px solid $gray-light;
+	background: $gray-light;
+	border-bottom: 1px solid $white-off;
+	padding: 8px 0;
 
 	.nav {
 		margin-bottom: 0;
@@ -61,7 +53,7 @@ a {
 }
 
 .page-content {
-	a {
+	a:not(.btn) {
 		&:link,
 		&:visited {
 			border-bottom: 1px dotted $gray-light;
@@ -74,15 +66,25 @@ a {
 	}
 }
 
+.pre-footer {
+	text-transform: uppercase;
+}
+
 .site-footer {
-	background: $white-off;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	background: $footer-bg;
+	color: $fontello-color;
+	padding-bottom: 50px;
+	padding-top: 20px;
 	text-align: center;
 
 	.nav {
 		margin-bottom: 5px;
 	}
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+	color: $fontello-color;
 }
 
 .sr-only {
