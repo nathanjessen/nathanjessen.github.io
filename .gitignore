@@ -1,9 +1,6 @@
 # Ignore docs files
 _site
-_examples
-_config.yml
 _drafts
-.ruby-version
 
 # Numerous always-ignore extensions
 *.diff
@@ -15,6 +12,7 @@ _drafts
 *.swp
 *.zip
 *.vi
+*.psd
 *~
 
 # OS or Editor folders

@@ -7,15 +7,14 @@
 
 # TECHNOLOGY COLOPHON
 
-	HTML5, CSS3
-	inuit.css
+	HTML5, CSS3, Sass
 	Jekyll
 	github-pages
 
 
 # SITE
 
-	Last update: 2013/10/20
+	Last update: 2014/04/27
 	Language: English
 	Doctype: HTML5
 	IDE: Sublime Text, GitHub for Mac
