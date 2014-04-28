@@ -1,0 +1,138 @@
+
+header {
+  width: 100%;
+  background: $header-bg;
+
+  .h-wrap {
+    padding: 40px;
+  }
+}
+
+header .h-wrap h1.title {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  font-weight: normal;
+
+  a {
+    color: #333;
+    text-decoration: none;
+
+    &:hover {
+      color: #39f;
+    }
+  }
+}
+
+header .h-wrap .menu-icon {
+  float: right;
+  display: inline-block;
+  transition: .3s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+  &:active {
+    transition: 0;
+  }
+}
+
+
+
+header .h-wrap .menu-icon .lines {
+  display: inline-block;
+  width: 24px;
+  height: 2px;
+  background: #333;
+  position: relative;
+  -webkit-transition: background .1s .3s ease;
+  transition:         background .1s .3s ease;
+
+  &,
+  &::before,
+  &::after {
+    border-radius:         10px;
+    -webkit-border-radius: 10px;
+  }
+
+  &::before,
+  &::after {
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background: #333;
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+    content: '';
+    transform-origin:         50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transition:         top .3s .6s ease, transform .3s ease;
+    -webkit-transition: top .3s .6s ease, transform .3s ease;
+  }
+
+  &::before {
+    top: 10px;
+  }
+
+  &::after {
+    top: -10px;
+  }
+}
+
+
+header .h-wrap .menu-icon.hover .lines {
+  &:before {
+    top: -0.0219rem;
+  }
+  &:after {
+    top: 0.0219rem;
+  }
+}
+
+
+header .h-wrap .close .lines {
+  -webkit-transition: background .3s 0s ease;
+  transition:         background .3s 0s ease;
+  background: transparent;
+
+  &::before,
+  &::after {
+    top:0;
+    width: 30px;
+    -webkit-transition: top .3s ease, transform .3s .5s ease;
+    transition:         top .3s ease, transform .3s .5s ease;
+  }
+
+  &::before {
+    transform:         rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 0;
+  }
+
+  &::after {
+    transform:         rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin: 0;
+  }
+}
+
+
+/* Viewport width < 919px */
+@media only screen and (max-width : 919px) {
+  header .h-wrap {
+    padding: 40px 30px;
+    .menu-icon {
+      margin-top: 2px;
+    }
+  }
+}
+
+/* Viewport width < 480px */
+@media only screen and (max-width : 479px) {
+  header .h-wrap {
+    padding: 30px 20px;
+  }
+}

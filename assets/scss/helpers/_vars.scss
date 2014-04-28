@@ -2,20 +2,22 @@
     VARS.SCSS
 \*------------------------------------*/
 
-$white: #fafafa;
+$white: #fff;
 $white-off: #e0e0e0;
 $gray-light: #f3f0f0;
 $gray: #444;
 $gray-dark: #333;
 $black: #212121;
 
+$blue-link: #39f;
+$link-color: $gray;
+$link-color-hover: $blue-link;
+
 $green-flat: #1bbc9b;
 $blue-flat: #3498db;
 $teal-flat: #389ebc;
 $red-flat: #e96151;
 
-$footer-height: 50px;
-$slab-padding: 1em 0;
 
 // Brand Colors
 $brand-colors: (
@@ -25,7 +27,6 @@ $brand-colors: (
 	quaternary: $red-flat
 );
 
-$header-bg: $blue-flat;
+$header-bg: $white;
 // $header-bg: map-get($brand-colors, primary);
-$footer-bg: $black;
-$fontello-color: lighten($blue-flat, 60);
+$fontello-color: $black;
