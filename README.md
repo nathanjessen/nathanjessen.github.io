@@ -1,9 +1,10 @@
 # NathanJessen.github.io
 
 My personal website and blog.
+Uses a modified version of the theme [Hikari for Jekyll](https://github.com/m3xm/hikari-for-Jekyll)
 
 
-## Techniques used:
+## Technologies used:
 
 - [Github Pages](http://pages.github.com/)
 - [Jekyll](http://jekyllrb.com/)
