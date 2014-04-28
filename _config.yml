@@ -2,7 +2,6 @@ title:            "Nathan Jessen"
 author:           "Nathan Jessen"
 BASE_PATH:        "http://nathanjessen.github.io"
 # BASE_PATH:        "http://0.0.0.0:4000"
-baseurl: ""
 github_url:       "https://github.com/nathanjessen/nathanjessen.github.io"
 description:      "Portfolio of Nathan Jessen"
 
@@ -26,13 +25,13 @@ timezone:         "America/Chicago"
 # Custom vars
 base_url:         "/"
 blog_url:         "/blog/"
-rss_path:         feed.xml
+rss_path:         atom.xml
 categories_path:  categories.html
 tags_path:        tags.html
 
 # Google Analytics
-ga_domain:
-ga_tracking_id:
+ga_domain:        nathanjessen.github.io
+ga_tracking_id:   UA-42437510-1
 
 
 # Social

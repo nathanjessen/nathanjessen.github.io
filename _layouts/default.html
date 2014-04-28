@@ -8,20 +8,21 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en/">upgrade your browser</a>. Your experience won't be effected on this site but upgrading your browser is always a great idea!</p>
     <![endif]-->
 
-    <div class="container site-navigation">
-      <div class="wrap">
-        {% include nav-main.html %}
+    <header>
+      <div class="h-wrap">
+        <h1 class="title"><a href="{{ site.BASE_PATH }}" title="Back to Homepage">{{ site.title }}</a></h1>
+        <!-- <a class="menu-icon" title="Open Bio"><span class="lines"></span></a> -->
       </div>
-    </div>
+    </header>
 
-    <main class="container page-content" role="main">
+    <main role="main">
       {{ content }}
     </main>
 
     <footer class="container site-footer" role="contentinfo">
       <div class="wrap">
         {% include nav-social.html %}
-        <span>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</span>
+        <small>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</small>
       </div>
     </footer>
 
