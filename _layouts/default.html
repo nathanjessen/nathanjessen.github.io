@@ -8,25 +8,15 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en/">upgrade your browser</a>. Your experience won't be effected on this site but upgrading your browser is always a great idea!</p>
     <![endif]-->
 
-    <header id="top" class="container slab" role="banner">
-      <div class="wrap">
-        <a href="{{ site.BASE_PATH }}"><img class="img--round headshot" src="{{ site.base_url }}assets/img/nathan-jessen-thumb.jpg" alt="Headshot of Nathan Jessen" width="150" height="150"></a>
-        <h1>Nathan Jessen</h1>
-        {% if page.title == "Nathan Jessen" %}
-        <p>Interactive Web Developer<br>HTML5, CSS3, and Sass enthusiast<br>Open source advocate</p>
-        {% endif %}
-      </div>
-    </header>
-
     <div class="container site-navigation">
       <div class="wrap">
         {% include nav-main.html %}
       </div>
     </div>
 
-    <div class="container page-content">
+    <main class="container page-content" role="main">
       {{ content }}
-    </div>
+    </main>
 
     <footer class="container site-footer" role="contentinfo">
       <div class="wrap">
@@ -36,7 +26,7 @@
     </footer>
 
     <!-- JS and analytics only. -->
-    {% include scripts.html %}
+    <!-- <script src="{{ site.base_url }}assets/js/main.min.js"></script> -->
 
   </body>
 </html>
