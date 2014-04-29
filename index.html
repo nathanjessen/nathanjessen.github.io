@@ -10,11 +10,11 @@ slug: homepage
     <li itemscope itemtype="http://schema.org/BlogPosting">
       <a href="{{ site.BASE_PATH }}{{ post.url }}" itemprop="url">
         <div class="p-wrap">
-          <time datetime="{{ post.date | date_to_xmlschema }}" class="date"
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="date left-slide"
               itemprop="datePublished">
             {{ post.date | date_to_string }}
           </time>
-          <p itemprop="name headline">{{ post.title }}</p>
+          <p itemprop="name headline" class="left-slide">{{ post.title }}</p>
         </div>
       </a>
     </li>
