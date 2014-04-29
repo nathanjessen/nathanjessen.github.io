@@ -1,19 +1,20 @@
 ---
 layout: default
-title: Works
-slug: works
-permalink: /works/
+title: Projects
+slug: projects
+permalink: /projects/
 ---
+
 
 <ul class="projects">
   {% for project in site.data.projects %}
     <li>
       <a href="{{ project.url }}" target="_blank">
         <div class="p-wrap">
-          <time datetime="{{ project.date | date_to_xmlschema }}" class="date">
+          <time datetime="{{ project.date | date_to_xmlschema }}" class="date left-slide">
             {{ project.date | date_to_string }}
           </time>
-          <p>{{ project.name }}</p>
+          <p class="left-slide">{{ project.name }}</p>
 			<!-- <p>{{ project.company }}</p>
 			<p>{{ project.tech }}</p> -->
         </div>
