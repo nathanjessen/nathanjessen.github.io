@@ -1,10 +1,21 @@
 ;(function(){
     var $menuIcon = document.getElementsByClassName("menu-icon")[0],
-        $offCanva = document.getElementById('off-canvas');
+    	$overlay = document.getElementsByClassName("overlay")[0],
+    	$navigation = document.getElementById("nav-main");
 
     $menuIcon.addEventListener('click', function() {
         toggleClass($menuIcon, 'close');
-        toggleClass($offCanva, 'toggled');
+        var overlayIsHidden = hasClass($overlay, 'hidden');
+
+        if(overlayIsHidden){
+	        removeClass($overlay, 'hidden');
+	        addClass($overlay, 'fadeIn');
+        }
+        else {
+	        removeClass($overlay, 'fadeIn');
+	        addClass($overlay, 'hidden');
+        }
+
         removeClass($menuIcon, 'hover');
     }, false);
 
@@ -38,27 +49,7 @@
             removeClass(element, className);
         }
     }
-
-    // Open Twitter/share in a Pop-Up
-    var $popup = document.getElementsByClassName("popup")[0];
-    if (!$popup) {
-        return;
-    }
-    $popup.addEventListener('click', function(e) {
-        e.preventDefault()
-        var width  = 575,
-            height = 400,
-            left   = (document.documentElement.clientWidth  - width)  / 2,
-            top    = (document.documentElement.clientHeight - height) / 2,
-            url    = this.href,
-            opts   = 'status=1' +
-                     ',width='  + width  +
-                     ',height=' + height +
-                     ',top='    + top    +
-                     ',left='   + left;
-
-        window.open(url, 'twitter', opts);
-
-        return false;
-    });
+    function hasClass(element, className) {
+	    return element.className && new RegExp("(^|\\s)" + className + "(\\s|$)").test(element.className);
+	}
 })();
