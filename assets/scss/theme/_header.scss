@@ -1,6 +1,8 @@
 
 header {
   background: $header-bg;
+  position: relative;
+  z-index: $zindex-header;
   width: 100%;
 
   .h-wrap {
@@ -38,8 +40,6 @@ header .h-wrap .menu-icon {
     transition: 0;
   }
 }
-
-
 
 header .h-wrap .menu-icon .lines {
   background: #333;

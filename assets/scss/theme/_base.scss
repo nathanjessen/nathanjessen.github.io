@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
 }
 
+small {
+	font-size: 50%;
+}
+
 p, small, blockquote {
 	-webkit-font-smoothing: antialiased;
 }
@@ -86,9 +90,40 @@ a {
 	}
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-	color: $fontello-color;
+[class^="icon-"],
+[class*=" icon-"] {
+	&:before {
+		color: $fontello-color;
+	}
+	&:hover:before {
+		-webkit-animation: colorloop 1.5s infinite;
+		-moz-animation: colorloop 1.5s infinite;
+		animation: colorloop 1.5s;
+	}
+}
+
+@-moz-keyframes colorloop {
+	0% {
+		color: $fontello-color;
+	}
+	50% {
+		color: $blue-flat;
+	}
+	100% {
+		color: $fontello-color;
+	}
+}
+
+@-webkit-keyframes colorloop {
+	0% {
+		color: $fontello-color;
+	}
+	50% {
+		color: $blue-flat;
+	}
+	100% {
+		color: $fontello-color;
+	}
 }
 
 .sr-only {
@@ -129,4 +164,8 @@ a {
 			padding: 10px;
 		}
 	}
+}
+
+.hidden {
+	display: none;
 }
