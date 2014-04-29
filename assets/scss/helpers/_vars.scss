@@ -2,6 +2,9 @@
     VARS.SCSS
 \*------------------------------------*/
 
+$zindex-overlay: 9989;
+$zindex-header: 9999;
+
 $white: #fff;
 $white-off: #e0e0e0;
 $gray-light: #f3f0f0;
@@ -16,6 +19,7 @@ $blue-flat-active: #569BEA;
 $blue-border: #4492EC;
 // $blue-border: #39f;
 
+$teal: #449a88;
 $green-flat: #86df93;
 $green-flat-hover: saturate(lighten($green-flat, 4), 7);
 $green-flat-border: darken($green-flat, 6);

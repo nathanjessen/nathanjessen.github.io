@@ -1,0 +1,61 @@
+
+.overlay {
+	background: $black;
+	background: rgba($black, 0.95);
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	padding-top: 150px;
+	box-sizing: border-box;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: $zindex-overlay;
+}
+
+#nav-main {
+	font-size: 24px;
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: block;
+			text-align: center;
+
+			a {
+				display: block;
+				padding: 40px 0;
+				-webkit-transition: all .3s ease;
+				transition:         all .3s ease;
+
+				&:link,
+				&:visited {
+					color: $white;
+				}
+
+				&:hover {
+					color: $link-color-hover;
+					padding-left: 20px;
+				}
+			}
+		}
+	}
+}
+
+/* Viewport width < 920px */
+@media only screen and (max-width : 919px) {
+	#nav-main ul li a {
+		padding: 30px;
+	}
+}
+
+/* Viewport width < 480px */
+@media only screen and (max-width : 479px) {
+	#nav-main ul li a {
+		padding: 20px;
+	}
+}
