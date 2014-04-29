@@ -9,7 +9,7 @@ description:      "Portfolio of Nathan Jessen"
 # port:             4502
 destination:      ./_site
 include:          ["_pages"]
-exclude:          ["vendor","CNAME","README.md","LICENSE.md","_data","_examples","node_modules","assets/.sass-cache"]
+exclude:          ["vendor","CNAME","README.md","LICENSE.md","_data","_examples","node_modules","assets/.sass-cache","package.json","Gemfile","Gemfile.lock","gulpfile.js"]
 
 
 permalink:        ":year/:month/:title/"
