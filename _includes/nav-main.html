@@ -1,10 +1,13 @@
-<nav role="navigation">
-  <ul class="nav nav--banner nav--block">
+<nav id="nav-main" role="navigation">
+  <ul>
     <li{% if page.slug == "homepage" %} class="active"{% endif %}>
       <a href="{{ site.base_url }}">Home</a>
     </li>
-    <li{% if page.slug == "works" %} class="active"{% endif %}>
-      <a href="{{ site.base_url }}works/">Works</a>
+    <li{% if page.slug == "posts" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}posts/">Posts</a>
+    </li>
+    <li{% if page.slug == "projects" %} class="active"{% endif %}>
+      <a href="{{ site.base_url }}projects/">Projects</a>
     </li>
   </ul>
 </nav>
