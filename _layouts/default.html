@@ -11,7 +11,7 @@
     <header>
       <div class="h-wrap">
         <h1 class="title"><a href="{{ site.BASE_PATH }}" title="Back to Homepage">{{ site.title }}</a></h1>
-        <!-- <a class="menu-icon" title="Open Bio"><span class="lines"></span></a> -->
+        <a class="menu-icon" title="Open Menu"><span class="lines"></span></a>
       </div>
     </header>
 
@@ -22,12 +22,16 @@
     <footer class="container site-footer" role="contentinfo">
       <div class="wrap">
         {% include nav-social.html %}
-        <small>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</small>
+        <small>Powered by Jekyll - &copy; {{ site.time | date: '%Y' }} {{ site.author }}</small>
       </div>
     </footer>
 
+    <div class="overlay hidden">
+      {% include nav-main.html %}
+    </div>
+
     <!-- JS and analytics only. -->
-    <!-- <script src="{{ site.base_url }}assets/js/main.min.js"></script> -->
+    <script src="{{ site.base_url }}assets/js/main.min.js"></script>
 
   </body>
 </html>
