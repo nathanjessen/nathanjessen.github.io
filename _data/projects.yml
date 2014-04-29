@@ -1,65 +1,71 @@
-- name: "BIVI UltraDuramune"
-  date: 03/01/2014
-  tech: "Adobe CQ5 CMS, Handlebars, SASS, Grunt"
-  url: http://www.biviultraduramune.com
-  company: VML
+# - name: "BIVI UltraDuramune"
+#   date: 2014/03/01
+#   tech: "Adobe CQ5 CMS, Handlebars, SASS, Grunt"
+#   url: http://www.biviultraduramune.com
+#   company: VML
 
 - name: "Dollars and Sense"
-  date: 01/09/2014
+  date: 2014/02/12
   tech: "HTML5, Grunt, SASS"
   url: http://www.bividollarsandsense.com
   company: VML
 
 - name: "GCR/TDS Tires & Service"
-  date: 01/09/2014
+  date: 2014/01/09
   tech: "Adobe CQ5 CMS, Handlebars, LESS"
   url: http://www.gcrtdstires.com
   company: VML
 
-- name: "Duramune Lepto - Lepto Videos"
-  date: 10/07/2013
-  tech: "Built an additional page to the existing site. Implemented Bootstrap modal and extended the functionality created with Backbone"
-  url: http://www.duramunelepto.com/lepto_videos.html
-  company: VML
-
 - name: "Have We Seen Your Cat Lately?"
-  date: 10/07/2013
+  date: 2013/11/10
   tech: "Adobe CQ5 CMS"
   url: http://www.haveweseenyourcatlately.com/Home.html
   company: VML
 
-- name: "eVent Fabrics"
-  date: 10/07/2013
-  tech: "WordPress"
-  url: http://eventfabrics.com/
+- name: "BIVI ProZinc"
+  date: 2013/05/04
+  tech: "Adobe CQ5 CMS, Handlebars, Sass"
+  url: http://www.prozinc.us/
   company: VML
 
-- name: "GE ClearCurrent Pro"
-  date: 10/07/2013
-  tech: "Skeleton framework, YouTube API"
-  url: http://www.clearcurrentpro.com
-  company: VML
-
-- name: "Epilepsy in Dogs"
-  date: 10/07/2013
-  tech: "Adobe CQ5 CMS"
-  url: http://www.epilepsyindogs.co.uk
-  company: VML
-
-- name: "Boehringer Ingelheim Purefil<sup>TM</sup> Technology"
-  date: 10/07/2013
-  tech: "Adobe CQ5 CMS"
-  url: http://www.bivipurefil.com
+- name: "Duramune Lepto - Lepto Videos"
+  date: 2013/03/20
+  tech: "Bootstrap modal"
+  url: http://www.duramunelepto.com/lepto_videos.html
   company: VML
 
 - name: "Rosedale Development Association"
-  date: 10/07/2013
+  date: 2013/03/14
   tech: "WordPress Twenty Twelve Child Theme developed at Coders 4 Charities 2013"
   url: http://rosedale.org
   company: Freelance
 
+- name: "eVent Fabrics"
+  date: 2013/01/15
+  tech: "WordPress"
+  url: http://eventfabrics.com/
+  company: VML
+
+- name: "Epilepsy in Dogs"
+  date: 2012/11/21
+  tech: "Adobe CQ5 CMS"
+  url: http://www.epilepsyindogs.co.uk
+  company: VML
+
+- name: "GE ClearCurrent Pro"
+  date: 2012/11/15
+  tech: "Skeleton framework, YouTube API"
+  url: http://www.clearcurrentpro.com
+  company: VML
+
+- name: "Boehringer Ingelheim Purefil<sup>TM</sup> Technology"
+  date: 2012/10/21
+  tech: "Adobe CQ5 CMS"
+  url: http://www.bivipurefil.com
+  company: VML
+
 - name: "Heartland Trailways"
-  date: 10/07/2013
+  date: 2011/10/07
   tech: "WordPress"
   url: http://www.heartlandtrailways.com
   company: Freelance
