@@ -32,6 +32,8 @@ header .h-wrap .menu-icon {
   display: inline-block;
   float: right;
   transition: .3s;
+  height: 30px;
+  width: 30px;
 
   &:hover {
     opacity: 1;
@@ -48,6 +50,8 @@ header .h-wrap .menu-icon .lines {
   position: relative;
   -webkit-transition: background .1s .3s ease;
   transition:         background .1s .3s ease;
+  float: right;
+  margin-top: 14px;
   width: 24px;
 
   &,
