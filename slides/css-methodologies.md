@@ -11,45 +11,42 @@ permalink: /slides/css-methodologies/
 </section>
 
 <section>
-	<h2>Object Oriented CSS (OOCSS)</h2>
-	<p>Nicole Sullivan (stubbornella)</p>
-	<p><a href="https://github.com/stubbornella/oocss">OOCSS Framework</a></p>
-	<pre>
-		<code data-trim>
-			.btn {
-				display: inline-block;
-				padding: 2px 4px;
-			}
-			.btn-primary {
-				background: #063;
-			}
-		</code>
-	</pre>
+	<section>
+		<h2>Object Oriented CSS (OOCSS)</h2>
+		<p>Nicole Sullivan (stubbornella)</p>
+		<p>Purpose: encourage code reuse and, ultimately, faster and more efficient stylesheets that are easier to add to and maintain</p>
+		<p><a href="http://www.slideshare.net/stubbornella/object-oriented-css" target="_blank">OOCSS Slideshow</a> by Stubbornella</p>
+		<p><a href="https://github.com/stubbornella/oocss" target="_blank">OOCSS Framework</a></p>
+		<p><a href="http://www.stubbornella.org/content/2014/04/09/style-guide-driven-development/" target="_blank">Style Guide Driven Development</a> (Discusses media block at 21:40 - 27:15)</p>
+	</section>
+	<section>
+		<h2>Benefits of OOCSS</h2>
+		<p>Faster websites (smaller file sizes = faster download/render)</p>
+		<p>Maintainable stylesheets (decreases specificity wars</p>
+		<p>Easy to reuse style modules</p>
+		<p>Easy to add new modules</p>
+	</section>
 </section>
 
 <section>
 	<h2>Block Element Modifier (BEM) Syntax</h2>
-	<pre>
-		<code data-trim>
-			.bem {
-				background: green;
-			}
-			.bem--modifier {
-				background: red;
-			}
-			.bem__child {
-				background: blue;
-			}
-		</code>
-	</pre>
+	<p><a href="http://bem.info/" target="_blank">BEM.info</a></p>
+	<p>Unlike OOCSS, it doesn't aim at total modularity but namespacing (through classes names), creating independent modules of css code that don't interact with each other</p>
+	<p>Uses "-, --, __" as separators</p>
+	<p><a href="http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/" target="_blank">Mindbemding..</a> - Another great article</p>
 </section>
 
 <section>
 	<h2>SMACSS</h2>
+	<p><a href="http://smacss.com/" target="_blank">Smacss guide</a></p>
+	<p><a href="http://tv.adobe.com/watch/adc-presents-smacss/smacss-introduction-to-a-scalable-and-modular-architecture-for-css/" target="_blank">Smacss Introduction..</a> Video</p>
+	<p>"is more style guide than rigid framework"</p>
 </section>
 
 <section>
-	<h2>Idiomatic CSS</h2>
-	<p><a href="https://github.com/necolas/idiomatic-css">Idiomatic CSS on GitHub</a></p>
-	<p>Nicolas Gallagher (necolas)</p>
+	<h2>Other notable methodologies & guides</h2>
+	<p><a href="https://github.com/necolas/idiomatic-css" target="_blank">Idiomatic CSS</a> by Nicolas Gallagher (necolas)</p>
+	<p><a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml">Google Styleguide</a></p>
+	<p><a href="http://mdo.github.io/code-guide/">mdo's code guide</a></p>
+	<p><a href="http://www.sitepoint.com/css-sass-styleguide/" target="_blank">Hugo's css/sass styleguide</a></p>
 </section>

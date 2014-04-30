@@ -12,6 +12,7 @@
 	top: 0;
 	width: 100%;
 	z-index: $zindex-overlay;
+	-webkit-transform: translateZ(0)
 }
 
 #nav-main {
