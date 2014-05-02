@@ -1,8 +1,8 @@
-# - name: "BIVI UltraDuramune"
-#   date: 2014/03/01
-#   tech: "Adobe CQ5 CMS, Handlebars, SASS, Grunt"
-#   url: http://www.biviultraduramune.com
-#   company: VML
+- name: "BIVI UltraDuramune"
+  date: 2014/05/02
+  tech: "Adobe CQ5, Handlebars, SASS, Grunt"
+  url: http://www.biviultraduramune.com
+  company: VML
 
 - name: "Dollars and Sense"
   date: 2014/02/12
