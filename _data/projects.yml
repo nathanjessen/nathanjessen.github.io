@@ -1,3 +1,9 @@
+- name: "Gatorade - League of Captains"
+  date: 2014/07/21
+  tech: "Jade, Stylus, Backbone, Grunt"
+  url: http://leagueofcaptains.gatorade.com/
+  company: VML
+
 - name: "BIVI UltraDuramune"
   date: 2014/05/02
   tech: "Adobe CQ5, Handlebars, SASS, Grunt"
