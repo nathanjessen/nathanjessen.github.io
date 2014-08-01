@@ -1,7 +1,7 @@
 title:            "Nathan Jessen"
 author:           "Nathan Jessen"
-BASE_PATH:        "http://nathanjessen.github.io"
-# BASE_PATH:        "http://0.0.0.0:4000"
+# BASE_PATH:        "http://nathanjessen.github.io"
+BASE_PATH:        "http://0.0.0.0:4000"
 github_url:       "https://github.com/nathanjessen/nathanjessen.github.io"
 description:      "Portfolio of Nathan Jessen"
 
