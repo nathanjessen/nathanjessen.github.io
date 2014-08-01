@@ -1,3 +1,9 @@
+- name: "Gatorade - Sweat It. Get It."
+  date: 2014/07/30
+  tech: "Jade, Stylus, Backbone, Grunt, Sitefinity"
+  url: http://www.gatorade.com/sweat-it-get-it
+  company: VML
+
 - name: "Gatorade - League of Captains"
   date: 2014/07/21
   tech: "Jade, Stylus, Backbone, Grunt"
