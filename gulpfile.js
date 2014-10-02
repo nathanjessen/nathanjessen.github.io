@@ -25,6 +25,13 @@ gulp.task('styles', function () {
 		.pipe(minifyCSS())
 		.pipe(notify("css minified"))
 		.pipe(gulp.dest('assets/css'));
+
+	gulp.src([
+			'_assets/vendors/reveal/css/reveal.css',
+			'_assets/vendors/reveal/css/theme/beige.css'
+		])
+		.pipe(minifyCSS())
+		.pipe(gulp.dest('assets/css'));
 });
 
 
@@ -38,7 +45,15 @@ gulp.task('scripts', function () {
 		])
 		.pipe(concat("main.min.js"))
 		.pipe(uglify())
-		.pipe(gulp.dest('assets/js'))
+		.pipe(gulp.dest('assets/js'));
+
+	gulp.src([
+			'_assets/vendors/reveal/js/reveal.js'
+		])
+		.pipe(concat("reveal.min.js"))
+		.pipe(uglify())
+		.pipe(gulp.dest('assets/js'));
+
 });
 
 // Images

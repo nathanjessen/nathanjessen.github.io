@@ -37,7 +37,7 @@ permalink: /slides/sass-intermediate-concepts-part-2/
 			</code>
 		</pre>
 	</section>
-	<section>
+	<!-- <section>
 		<h2>@for</h2>
 		<p>Example: https://github.com/csswizardry/inuit.css-web-template</p>
 		<pre>
@@ -50,8 +50,8 @@ permalink: /slides/sass-intermediate-concepts-part-2/
 				}
 			</code>
 		</pre>
-	</section>
-	<section>
+	</section> -->
+	<!-- <section>
 		<h2>@each</h2>
 		<pre>
 			<code>
@@ -73,7 +73,7 @@ permalink: /slides/sass-intermediate-concepts-part-2/
 	<section>
 		<h2>More Resources</h2>
 		<p><a href="http://thesassway.com/intermediate/if-for-each-while">http://thesassway.com/intermediate/if-for-each-while</a></p>
-	</section>
+	</section> -->
 </section>
 
 <section>
@@ -91,7 +91,7 @@ permalink: /slides/sass-intermediate-concepts-part-2/
 	<p><a href="http://hugogiraudel.com/2013/08/12/sass-functions/">Sass Functions by Hugo Giraudel</a></p>
 </section>
 
-
+<!-- 
 <section>
 	<section>
 		<h2>Sass Maps</h2>
@@ -150,3 +150,4 @@ permalink: /slides/sass-intermediate-concepts-part-2/
 		</pre>
 	</section>
 </section>
+ -->
