@@ -1,0 +1,47 @@
+{% comment %}
+<header>
+  <div class="h-wrap">
+    <h1 class="title"><a href="{{ site.BASE_PATH }}" title="Back to Homepage">{{ site.title }}</a></h1>
+    <a class="menu-icon" title="Open Menu"><span class="lines"></span></a>
+  </div>
+</header>
+{% endcomment %}
+
+<header id="home">
+  {% comment %}
+  <nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+          {% include nav-main.html %}
+        </div>
+      </div>
+    </div>
+  </nav> 
+  {% endcomment %}
+
+  <section class="hero" id="hero">
+    <div class="container">
+      {% comment %}
+      <div class="row">
+        <div class="col-md-12 text-right navicon">
+          <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+        </div>
+      </div>
+      {% endcomment %}
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center inner">
+          <h1 class="animated fadeInDown">NATHAN<span>JESSEN</span></h1>
+          <p class="animated fadeInUp delay-05s">Front-end Developer specialized in CSS architecture and performance</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <a href="#contact" class="learn-more-btn">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>

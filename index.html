@@ -4,19 +4,20 @@ title: Homepage
 slug: homepage
 ---
 
+{% comment %}
+{% include uncss.html %}
+{% include features.html %}
+{% endcomment %}
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li itemscope itemtype="http://schema.org/BlogPosting">
-      <a href="{{ site.BASE_PATH }}{{ post.url }}" itemprop="url">
-        <div class="p-wrap">
-          <time datetime="{{ post.date | date_to_xmlschema }}" class="date left-slide"
-              itemprop="datePublished">
-            {{ post.date | date_to_string }}
-          </time>
-          <p itemprop="name headline" class="left-slide">{{ post.title }}</p>
-        </div>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+{% include intro.html %}
+{% include swag.html %}
+{% include portfolio.html %}
+{% include cta.html %}
+{% include posts.html %}
+
+{% comment %}
+{% include team.html %}
+{% include subscribe.html %}
+{% endcomment %}
+
+{% include contact.html %}

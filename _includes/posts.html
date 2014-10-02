@@ -1,0 +1,32 @@
+<section id="responsive">
+  <div class="container-fluid nopadding responsive-services">
+    <div class="wrapper">
+      <div class="iphone">
+        <div class="wp3"></div>
+      </div>
+      <div class="fluid-white"></div>
+    </div>
+    <div class="container designs">
+      <div class="row">
+        <div class="col-md-5 col-md-offset-7">
+          <h2 class="text-center">Posts</h2>
+          <ul class="posts">
+            {% for post in site.posts %}
+              <li itemscope itemtype="http://schema.org/BlogPosting">
+                <a href="{{ site.BASE_PATH }}{{ post.url }}" itemprop="url">
+                  <div class="p-wrap">
+                    <time datetime="{{ post.date | date_to_xmlschema }}" class="date left-slide"
+                        itemprop="datePublished">
+                      {{ post.date | date_to_string }}
+                    </time>
+                    <p itemprop="name headline" class="left-slide">{{ post.title }}</p>
+                  </div>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
