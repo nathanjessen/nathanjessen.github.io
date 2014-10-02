@@ -2,33 +2,46 @@
 layout: default
 ---
 
-<section class="wrap">
-  <article class="single-content" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="feat">
-      <h5 class="page-date">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {{ page.date | date_to_long_string }}
-        </time>
-      </h5>
-    </div>
-    <h1 class="page-title" itemprop="name headline">{{ page.title }}</h1>
-    <div itemprop="articleBody">
-      {{ content }}
-    </div>
-    <div id="share" class="feat">
-      <a href="http://twitter.com/share" class="popup">
-        <span class="icon-twitter"></span>
-      </a>
-    </div>
-    {% if page.previous %}
-      <a rel="prev" href="{{ site.BASE_PATH }}{{ page.previous.url }}" id="prev">
-        &larr; <span class="nav-title nav-title-prev">older</span>
-      </a>
-    {% endif %}
-    {% if page.next %}
-      <a rel="next" href="{{ site.BASE_PATH }}{{ page.next.url }}" id="next">
-        <span class="nav-title nav-title-next">newer</span> &rarr;
-      </a>
-    {% endif %}
-  </article>
+{% include header.html %}
+
+<section class="section-padding">
+  <div class="container">
+    <article class="row single-content" itemscope itemtype="http://schema.org/BlogPosting">
+      <div class="col-md-8 col-md-offset-2 animated fadeInLeft">
+        <div class="feat">
+          <h5 class="page-date">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+              {{ page.date | date_to_long_string }}
+            </time>
+          </h5>
+        </div>
+        <h1 class="page-title" itemprop="name headline">{{ page.title }}</h1>
+        <div itemprop="articleBody">
+          {{ content }}
+        </div>
+        <div id="share" class="feat">
+          <a href="http://twitter.com/share" class="popup">
+            <span class="icon-twitter"></span>
+          </a>
+        </div>
+
+        <ul class="pager">
+          {% if page.previous %}
+            <li class="previous">
+              <a rel="prev" href="{{ site.BASE_PATH }}{{ page.previous.url }}" id="prev">
+                &larr; <span class="nav-title nav-title-prev">Older</span>
+              </a>
+            </li>
+          {% endif %}
+          {% if page.next %}
+            <li class="next">
+              <a rel="next" href="{{ site.BASE_PATH }}{{ page.next.url }}" id="next">
+                <span class="nav-title nav-title-next">Newer</span> &rarr;
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    </article>
+  </div>
 </section>
