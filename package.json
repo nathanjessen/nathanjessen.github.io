@@ -3,14 +3,18 @@
   "description": "Portfolio of Nathan Jessen",
   "version": "0.0.1",
   "devDependencies": {
-    "gulp-util": "~2.2.13",
+    "glob": "^4.0.6",
     "gulp": "*",
-    "gulp-ruby-sass": "~0.4.0",
-    "gulp-minify-css": "~0.2.0",
     "gulp-autoprefixer": "0.0.6",
     "gulp-concat": "~2.1.7",
-    "gulp-uglify": "~0.2.0",
+    "gulp-imagemin": "^1.0.1",
     "gulp-livereload": "~1.2.0",
+    "gulp-minify-css": "~0.2.0",
+    "gulp-notify": "^1.8.0",
+    "gulp-ruby-sass": "~0.4.0",
+    "gulp-uglify": "~0.2.0",
+    "gulp-uncss": "^0.5.0",
+    "gulp-util": "~2.2.13",
     "gulp-watch": "~0.5.2",
     "tiny-lr": "0.0.5"
   }

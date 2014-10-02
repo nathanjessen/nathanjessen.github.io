@@ -3,35 +3,19 @@
   <head>
     {% include head.html %}
   </head>
-  <body class="{{ page.slug }}">
+  <body id="top" class="{{ page.slug }}">
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en/">upgrade your browser</a>. Your experience won't be effected on this site but upgrading your browser is always a great idea!</p>
     <![endif]-->
 
-    <header>
-      <div class="h-wrap">
-        <h1 class="title"><a href="{{ site.BASE_PATH }}" title="Back to Homepage">{{ site.title }}</a></h1>
-        <a class="menu-icon" title="Open Menu"><span class="lines"></span></a>
-      </div>
-    </header>
+    {% include header.html %}
 
-    <main role="main">
-      {{ content }}
-    </main>
+    {{ content }}
 
-    <footer class="container site-footer" role="contentinfo">
-      <div class="wrap">
-        {% include nav-social.html %}
-        <small>Powered by Jekyll - &copy; {{ site.time | date: '%Y' }} {{ site.author }}</small>
-      </div>
-    </footer>
-
-    <div class="overlay hidden">
-      {% include nav-main.html %}
-    </div>
+    {% include footer.html %}
 
     <!-- JS and analytics only. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="{{ site.base_url }}assets/js/main.min.js"></script>
-
   </body>
 </html>

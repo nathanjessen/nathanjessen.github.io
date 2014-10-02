@@ -1,10 +1,16 @@
-<nav id="nav-main" role="navigation">
-  <ul>
-    <li{% if page.slug == "homepage" %} class="active"{% endif %}>
-      <a href="{{ site.base_url }}">Home</a>
-    </li>
-    <li{% if page.slug == "projects" %} class="active"{% endif %}>
-      <a href="{{ site.base_url }}projects/">Projects</a>
-    </li>
-  </ul>
+<nav id="nav-main" class="pull" role="navigation">
+	<ul class="top-nav">
+		<!-- <li{% if page.slug == "homepage" %} class="active"{% endif %}>
+			<a href="{{ site.base_url }}">Home</a>
+		</li>
+		<li{% if page.slug == "projects" %} class="active"{% endif %}>
+			<a href="{{ site.base_url }}projects/">Projects</a>
+		</li> -->
+		<li><a href="#intro">About Me <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+		<li><a href="#features">Features <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+		<li><a href="#responsive">Responsive Design <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+		<li><a href="#portfolio">Portfolio <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+		<li><a href="#team">Team <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+		<li><a href="#contact">Get in Touch <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+	</ul>
 </nav>

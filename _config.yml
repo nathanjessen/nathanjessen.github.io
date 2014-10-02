@@ -1,7 +1,7 @@
 title:            "Nathan Jessen"
 author:           "Nathan Jessen"
-BASE_PATH:        "http://nathanjessen.github.io"
-# BASE_PATH:        "http://0.0.0.0:4000"
+# BASE_PATH:        "http://nathanjessen.github.io"
+BASE_PATH:        "http://0.0.0.0:4000"
 github_url:       "https://github.com/nathanjessen/nathanjessen.github.io"
 description:      "Portfolio of Nathan Jessen"
 
@@ -9,7 +9,7 @@ description:      "Portfolio of Nathan Jessen"
 # port:             4502
 destination:      ./_site
 include:          ["_pages"]
-exclude:          ["vendor","CNAME","README.md","LICENSE.md","_data","_examples","node_modules","assets/.sass-cache","package.json","Gemfile","Gemfile.lock","gulpfile.js"]
+exclude:          ["vendor","CNAME","README.md","LICENSE.md","node_modules",".sass-cache","package.json","Gemfile","Gemfile.lock","gulpfile.js","*.sublime-project","projects.html"]
 
 
 permalink:        ":year/:month/:title/"
@@ -37,7 +37,7 @@ ga_tracking_id:   UA-42437510-1
 # Social
 githubs:           "//github.com/nathanjessen"
 linkedin:         "//www.linkedin.com/in/njessen/"
-gplus:            "//plus.google.com/108819920657113454025/posts"
+gplus:            "//plus.google.com/+NathanJessen/posts"
 email:            "nathan.jessen@gmail.com"
 twitter:          "https://twitter.com/nathanjessen"
 codepen:          "http://codepen.io/njessen"
