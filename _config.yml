@@ -9,7 +9,7 @@ description:      "Portfolio of Nathan Jessen"
 # port:             4502
 destination:      ./_site
 include:          ["_pages"]
-exclude:          ["vendor","CNAME","README.md","LICENSE.md","node_modules",".sass-cache","package.json","Gemfile","Gemfile.lock","gulpfile.js","*.sublime-project","projects.html"]
+exclude:          ["vendor","CNAME","README.md","LICENSE.md","node_modules",".sass-cache","package.json","Gemfile","Gemfile.lock","gulpfile.js","*.sublime-project"]
 
 
 permalink:        ":year/:month/:title/"
@@ -17,9 +17,18 @@ relative_permalinks: false
 
 
 safe:             true
-pygments:         true
+highlighter:      pygments
 markdown:         "rdiscount"
 timezone:         "America/Chicago"
+
+
+sass:
+  style: expanded
+  sass_dir: _scss
+
+collections:
+  projects:
+    output: false
 
 
 # Custom vars
