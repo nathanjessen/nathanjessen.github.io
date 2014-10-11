@@ -6,19 +6,28 @@ permalink: /projects/
 ---
 
 
-<ul class="projects">
-  {% for project in site.data.projects %}
-    <li>
-      <a href="{{ project.url }}" target="_blank">
-        <div class="p-wrap">
+{% include header.html %}
+
+<ul class="container projects">
+  {% for project in site.projects reversed %}
+    <li class="row">
+      <p class="col-sm-4">
+        <a href="{{ project.link }}" target="_blank" class="thumbnail">
+          <img src="{{ site.base_url }}assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}" width="720" height="400">
+        </a>
+      </p>
+      <div class="col-sm-8">
+        <p><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></p>
+        <p>Client: {{ project.client }}</p>
+        <p>Employer: {{ project.company }}</p>
+        <p>Project Launch: 
           <time datetime="{{ project.date | date_to_xmlschema }}" class="date left-slide">
             {{ project.date | date_to_string }}
           </time>
-          <p class="left-slide">{{ project.name }}</p>
-          <p>{{ project.company }}</p>
-          <p>{{ project.tech }}</p>
-        </div>
-      </a>
+        </p>
+        <p>Tech Stack: {{ project.tech }}</p>
+        {% comment %}<p>{{ project.short-description }}</p>{% endcomment %}
+      </div>
     </li>
   {% endfor %}
 </ul>

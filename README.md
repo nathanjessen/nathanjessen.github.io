@@ -1,7 +1,7 @@
 # NathanJessen.github.io
 
 My personal website and blog.
-Uses a modified version of the theme [Hikari for Jekyll](https://github.com/m3xm/hikari-for-Jekyll)
+Uses a modified version of the template [Halcyon Days](http://tympanus.net/codrops/2014/07/14/freebie-halcyon-days-one-page-website-template/) by Peter Finlan found on Codrops.
 
 
 ## Technologies used:

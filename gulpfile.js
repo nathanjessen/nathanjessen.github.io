@@ -9,13 +9,11 @@ var gulp = require('gulp'),
 	uglify = require('gulp-uglify')
 	imagemin = require('gulp-imagemin'),
 	glob = require('glob'),
+	rename = require('gulp-rename'),
 	notify = require("gulp-notify");
 
 gulp.task('styles', function () {
-	gulp.src('_assets/scss/*.scss')
-		.pipe(sass({
-			sourcemap: false
-		}))
+	gulp.src('_site/css/main.css')
 		.pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7"))
 		// .pipe(uncss({
 		// 	html: glob.sync('_site/**/*.html'),
@@ -23,8 +21,9 @@ gulp.task('styles', function () {
 		// }))
 		// .pipe(notify("uncss finished"))
 		.pipe(minifyCSS())
+		.pipe(rename('main.min.css'))
 		.pipe(notify("css minified"))
-		.pipe(gulp.dest('assets/css'));
+		.pipe(gulp.dest('css'));
 
 	gulp.src([
 			'_assets/vendors/reveal/css/reveal.css',
@@ -67,13 +66,13 @@ gulp.task('imagemin', function () {
 
 gulp.task('watch', function () {
 	var server = livereload();
-	gulp.watch('_assets/scss/**/*.scss', ['styles']);
+	gulp.watch('_site/css/main.css', ['styles']);
 	gulp.watch('_assets/js/*.js', ['scripts']);
 	gulp.watch('_assets/img/**', ['imagemin']);
-	gulp.watch('_assets/css/**').on('change', function(file) {
-		server.changed(file.path);
-	});
+	// gulp.watch('_assets/css/**').on('change', function(file) {
+	// 	server.changed(file.path);
+	// });
 });
 
 
-gulp.task('default', ['imagemin', 'watch']);
+gulp.task('default', ['watch']);
