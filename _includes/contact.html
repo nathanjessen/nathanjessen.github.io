@@ -8,26 +8,32 @@
     </div>
 
     <div class="row contact-details">
+      {% if site.location %}
       <div class="col-md-4">
         <div class="light-box box-hover">
           <h2><i class="fa fa-map-marker"></i><span>Location</span></h2>
-          <p>Las Vegas, NV</p>
+          <p>{{ site.location }}</p>
         </div>
       </div>
+      {% endif %}
 
+      {% if site.phone %}
       <div class="col-md-4">
         <div class="light-box box-hover">
           <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-          <p><a href="tel:4024273734">(402) 427-3734</a></p>
+          <p><a href="tel:{{ site.tel }}">{{ site.phone }}</a></p>
         </div>
       </div>
+      {% endif %}
 
+      {% if site.email %}
       <div class="col-md-4">
         <div class="light-box box-hover">
           <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
           <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         </div>
       </div>
+      {% endif %}
     </div>
 
     <div class="row">
