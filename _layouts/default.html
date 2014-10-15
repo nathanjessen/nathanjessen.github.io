@@ -9,11 +9,12 @@
     <![endif]-->
 
 
+    {% unless page.slug == "homepage" %}
     {% include header.html %}
+    {% endunless %}
 
     {{ content }}
 
-    {% include contact.html %}
     {% include footer.html %}
 
     <!-- JS and analytics only. -->
