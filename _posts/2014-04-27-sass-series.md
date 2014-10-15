@@ -3,8 +3,8 @@ layout: article
 title: Sass Series
 published: true
 fullview: true
-categories: [sass, css]
-tags: [sass, css, methodologies]
+categories: [development]
+tags: [Sass, CSS, Methodologies]
 description: Sass talks given at Afternoon Tea
 ---
 
