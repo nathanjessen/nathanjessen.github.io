@@ -4,7 +4,7 @@ title: First Impressions of Jekyll
 published: true
 fullview: true
 categories: [development]
-tags: [jekyll, cms, static site generator]
+tags: [Jekyll, CMS, Static Site Generator]
 description: Thoughts on Jekyll
 ---
 

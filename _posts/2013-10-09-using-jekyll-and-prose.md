@@ -4,7 +4,7 @@ title: Using Jekyll and Prose
 published: true
 fullview: true
 categories: [development]
-tags: [jekyll, cms]
+tags: [Jekyll, CMS, Prose]
 description: How to use Jekyll
 ---
 
