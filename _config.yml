@@ -47,10 +47,14 @@ ga_tracking_id:   UA-42437510-1
 githubs:           "//github.com/nathanjessen"
 linkedin:         "//www.linkedin.com/in/njessen/"
 gplus:            "//plus.google.com/+NathanJessen/posts"
-email:            "nathan.jessen@gmail.com"
 twitter:          "https://twitter.com/nathanjessen"
 codepen:          "http://codepen.io/njessen"
 
+# Contact
+email:            "nathan.jessen@gmail.com"
+location:         "Las Vegas, NV"
+phone:            "(402) 427-3734"
+tel:              "4024273734"
 
 # All links will be namespaced by BASE_PATH if defined.
 # Links in your website should always be prefixed with {{ site.BASE_PATH }}
