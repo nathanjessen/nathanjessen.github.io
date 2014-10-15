@@ -1,7 +1,15 @@
 {
-  "name": "NathanJessen",
-  "description": "Portfolio of Nathan Jessen",
-  "version": "0.0.1",
+  "name": "nathanjessen",
+  "description": "Personal website of web developer, Nathan Jessen",
+  "version": "1.0.0",
+  "homepage": "http://nathanjessen.github.io",
+  "main": "js",
+  "repository": {
+    "type": "git",
+    "url": "https://nathanjessen@github.com/nathanjessen/nathanjessen.github.io.git"
+  },
+  "author": "Nathan Jessen",
+  "license": "The MIT License (MIT)",
   "devDependencies": {
     "glob": "^4.0.6",
     "gulp": "*",
