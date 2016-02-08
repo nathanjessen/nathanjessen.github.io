@@ -13,12 +13,11 @@ exclude:          ["vendor","CNAME","README.md","LICENSE.md","node_modules",".sa
 
 
 permalink:        ":year/:month/:title/"
-relative_permalinks: false
 
 
 safe:             true
-highlighter:      pygments
-markdown:         "rdiscount"
+highlighter:      rouge
+markdown:         "kramdown"
 timezone:         "America/Chicago"
 
 
