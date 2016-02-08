@@ -3,10 +3,12 @@ Hero
 ========================================================================== */
 
 .hero {
-    background: url('../assets/img/hero-bg.jpg') no-repeat center center;
+    background: rgba(0, 0, 0, 0);
     background-size: cover;
-    height: auto;
+    box-sizing: border-box;
+    height: 100%;
     padding: 32px 0 150px 0;
+    width: 100%;
 }
 
 .hero h1 {
