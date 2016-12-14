@@ -1,14 +1,26 @@
-<ul class="social-buttons">
-  {% if site.githubs %}<li>
-    <a href="{{ site.githubs }}" class="social-btn" target="_blank"><i class="fa fa-github"></i><span class="sr-only">GitHub</span></a>
-  </li>{% endif %}
-  {% if site.twitter %}<li>
-    <a href="{{ site.twitter }}" class="social-btn" target="_blank"><i class="fa fa-twitter"></i><span class="sr-only">Twitter</span></a>
-  </li>{% endif %}
-  {% if site.linkedin %}<li>
-    <a href="{{ site.linkedin }}" class="social-btn" target="_blank"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
-  </li>{% endif %}
-  {% if site.gplus %}<li>
-    <a href="{{ site.gplus }}" class="social-btn" target="_blank"><i class="fa fa-google-plus"></i><span class="sr-only">Google Plus</span></a>
-  </li>{% endif %}
-</ul>
+<nav class="social-buttons">
+  {% if site.githubs %}<a href="{{ site.githubs }}" target="_blank" class="social-btn">
+    <i class="fa fa-github"></i><span class="sr-only">GitHub</span>
+  </a>{% endif %}
+  {% if site.twitter %}<a href="{{ site.twitter }}" target="_blank" class="social-btn">
+    <i class="fa fa-twitter"></i><span class="sr-only">Twitter</span>
+  </a>{% endif %}
+  {% if site.medium %}<a href="{{ site.medium }}" target="_blank" class="social-btn">
+    <i class="fa fa-medium"></i><span class="sr-only">Medium</span>
+  </a>{% endif %}
+  {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" class="social-btn">
+    <i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span>
+  </a>{% endif %}
+  {% if site.gplus %}<a href="{{ site.gplus }}" target="_blank" class="social-btn">
+    <i class="fa fa-google-plus"></i><span class="sr-only">Google Plus</span>
+  </a>{% endif %}
+  {% if site.instagram %}<a href="{{ site.instagram }}" target="_blank" class="social-btn">
+    <i class="fa fa-instagram"></i><span class="sr-only">Instagram</span>
+  </a>{% endif %}
+  {% if site.dribbble %}<a href="{{ site.dribbble }}" target="_blank" class="social-btn">
+    <i class="fa fa-dribbble"></i><span class="sr-only">Dribbble</span>
+  </a>{% endif %}
+  {% if site.angellist %}<a href="{{ site.angellist }}" target="_blank" class="social-btn">
+    <i class="fa fa-angellist"></i><span class="sr-only">AngelList</span>
+  </a>{% endif %}
+</nav>
