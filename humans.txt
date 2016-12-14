@@ -1,20 +1,20 @@
 # TEAM
 
-	Developer: Nathan Jessen
-	Contact: nathan.jessen [at] gmail.com
-	Twitter: @nathanjessen
+  Developer: Nathan Jessen
+  Contact: nathan.jessen [at] gmail.com
+  Twitter: @nathanjessen
 
 
 # TECHNOLOGY COLOPHON
 
-	HTML5, CSS3, Sass
-	Jekyll
-	github-pages
+  HTML5, CSS3, Sass
+  Jekyll
+  github-pages
 
 
 # SITE
 
-	Last update: 2014/09/29
-	Language: English
-	Doctype: HTML5
-	IDE: Sublime Text 3, GitHub for Mac
+  Last update: 2014/09/29
+  Language: English
+  Doctype: HTML5
+  IDE: Sublime Text 3, GitHub for Mac

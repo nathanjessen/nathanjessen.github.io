@@ -13,4 +13,3 @@ company: VML
 ## Have We Seen Your Cat Lately?
 
 Description here
-

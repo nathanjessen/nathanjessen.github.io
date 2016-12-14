@@ -13,4 +13,3 @@ company: Freelance
 ## Rosedale Development Association
 
 WordPress Twenty Twelve Child Theme developed at Coders 4 Charities 2013
-

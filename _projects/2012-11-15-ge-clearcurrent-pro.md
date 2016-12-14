@@ -13,4 +13,3 @@ company: VML
 ## ClearCurrent Pro
 
 Description here
-

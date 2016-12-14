@@ -7,45 +7,42 @@
  * sass --watch main.scss:main.min.css --style compressed
  */
 
-
-
 /////////////////////////////
-// Helpers
+// Variables
 /////////////////////////////
-@import "helpers/index";
-
+// @import "root";
 
 /////////////////////////////
 // Vendor Libraries
 /////////////////////////////
-@import "helpers/lib";
-
-
-/////////////////////////////
-// Base
-/////////////////////////////
-@import "base/index";
-
-
-/////////////////////////////
-// Layout
-/////////////////////////////
-@import "layout/index";
-
+@import "bootstrap";
+@import "bootstrap-theme";
+@import "normalize";
 
 /////////////////////////////
 // Components
 /////////////////////////////
-@import "components/index";
+@import "global";
+@import "navigation";
+@import "hero";
+@import "intro";
+@import "features";
+@import "iphone-section";
+@import "swag";
+@import "portfolio";
+@import "projects";
+@import "subscribe";
+@import "cta";
+@import "contact";
+@import "footer";
+@import "posts";
+@import "queries";
 
 
 /////////////////////////////
 // Theme
 /////////////////////////////
-// @import "theme/index";
-
-
-/////////////////////////////
-// States
-/////////////////////////////
-@import "states/index";
+@import "fontello";
+@import "highlights";
+@import "syntax";
+@import "animations";
