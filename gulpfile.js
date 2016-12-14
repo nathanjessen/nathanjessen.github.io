@@ -36,7 +36,6 @@ gulp.task('styles', function () {
 
 gulp.task('scripts', function () {
   gulp.src([
-      '_assets/js/bootstrap.js',
       '_assets/js/main.js'
     ])
     .pipe(concat("main.min.js"))
