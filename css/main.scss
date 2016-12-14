@@ -17,14 +17,15 @@
 /////////////////////////////
 @import "bootstrap";
 @import "bootstrap-theme";
+@import "flexboxgrid";
 @import "normalize";
 
 /////////////////////////////
 // Components
 /////////////////////////////
 @import "global";
-@import "navigation";
 @import "hero";
+@import "header";
 @import "intro";
 @import "features";
 @import "iphone-section";

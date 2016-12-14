@@ -1,8 +1,13 @@
 /* ==========================================================================
 Font Stack
 ========================================================================== */
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
 }
 
 /* ==========================================================================
@@ -92,10 +97,6 @@ h2::after {
 
 .wrapper {
   height: 650px
-}
-
-.nopadding {
-  padding: 0
 }
 
 .inner {

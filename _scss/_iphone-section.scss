@@ -2,28 +2,9 @@
 iPhone Section
 ========================================================================== */
 
-.iphone {
+.responsive-services {
   background: #f3f5f8;
   box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1);
-  float: left;
-  height: 100%;
-  width: 50%;
-  z-index: 1;
-}
-
-.wp3 {
-  background: url('../assets/img/iphone-bg.png') no-repeat 200px 10px;
-  height: 100%;
-}
-
-.fluid-white {
-  background: #fff;
-  float: right;
-  height: 100%;
-  width: 50%;
-  z-index: 2;
-}
-
-.responsive-services {
-  position: relative
+  padding-top: .625rem;
+  padding-bottom: 2rem;
 }
