@@ -1,9 +1,11 @@
-<section class="portfolio text-center section-padding" id="portfolio">
-  <div class="container">
-    <div class="row">
+<section class="portfolio text-center section-padding-small" id="portfolio">
+  <div class="container-fluid">
+    <h2 class="text-center">Featured Projects</h2>
+
+    <div class="row center-xs">
       {% for project in site.projects reversed %}
       {% if project.featured == true %}
-      <div class="col-md-4 featured">
+      <div class="col-sm-6 col-md-4 featured">
         <div class="overlay-effect effects clearfix">
           <div class="img">
             <img src="assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}">
@@ -15,9 +17,7 @@
         </div>
         <h2>{{ project.title }}</h2>
         <p>
-          <time datetime="{{ project.date | date_to_xmlschema }}" class="date left-slide">
-            {{ project.date | date_to_string }}
-          </time>
+          <time datetime="{{ project.date | date_to_xmlschema }}" class="date left-slide">{{ project.date | date_to_string }}</time>
         </p>
         <!-- <p>{{ project.company }}</p> -->
         <p>{{ project.tech }}</p>
