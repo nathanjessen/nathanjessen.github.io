@@ -19,7 +19,7 @@ permalink: /projects/
             <p><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></p>
             <p>Client: {{ project.client }}</p>
             <p>Employer: {{ project.company }}</p>
-            <p>Project Launch: 
+            <p>Project Launch:
               <time datetime="{{ project.date | date_to_xmlschema }}" class="date left-slide">
                 {{ project.date | date_to_string }}
               </time>

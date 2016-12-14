@@ -13,4 +13,3 @@ company: VML
 ## Dollars and Sense
 
 Description here
-

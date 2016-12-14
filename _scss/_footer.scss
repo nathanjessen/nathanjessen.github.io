@@ -3,40 +3,40 @@ Footer
 ========================================================================== */
 
 footer a {
-    color: #a1a9b0;
+  color: #a1a9b0;
 }
 
 footer {
-    background-color: #242830;
-    padding: 40px 0 30px;
+  background-color: #242830;
+  padding: 40px 0 30px;
 }
 
 footer p {
-    color: $white;
+  color: $white;
 }
 
 ul.legals {
-    color: $white;
-    line-height: 25px;
-    list-style: none;
+  color: $white;
+  line-height: 25px;
+  list-style: none;
 }
 
 ul.legals li {
-    display: inline-block;
+  display: inline-block;
 }
 
 ul.legals li::after {
-    content: " |";
+  content: " |";
 }
 
 ul.legals li:last-child::after {
-    content: "";
+  content: "";
 }
 
 .legals {
-    text-align: left;
+  text-align: left;
 }
 
 .credit {
-    text-align: right;
+  text-align: right;
 }
