@@ -9,7 +9,7 @@
 
     <div class="row contact-details">
       {% if site.location %}
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="light-box box-hover">
           <h2><i class="fa fa-map-marker"></i><span>Location</span></h2>
           <p>{{ site.location }}</p>
@@ -17,17 +17,8 @@
       </div>
       {% endif %}
 
-      {% if site.phone %}
-      <div class="col-md-4">
-        <div class="light-box box-hover">
-          <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-          <p><a href="tel:{{ site.tel }}">{{ site.phone }}</a></p>
-        </div>
-      </div>
-      {% endif %}
-
       {% if site.email %}
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="light-box box-hover">
           <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
           <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
