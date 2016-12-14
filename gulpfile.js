@@ -15,11 +15,6 @@ var gulp = require('gulp'),
 gulp.task('styles', function () {
   gulp.src('_site/css/main.css')
     .pipe(prefix("> 5%"))
-    // .pipe(uncss({
-    // 	html: glob.sync('_site/**/*.html'),
-    // 	ignore: ['[^"\r\n]*slick[^"\r\n]*']
-    // }))
-    // .pipe(notify("uncss finished"))
     .pipe(minifyCSS())
     .pipe(rename('main.min.css'))
     .pipe(notify("css minified"))
