@@ -37,9 +37,7 @@ gulp.task('styles', function () {
 gulp.task('scripts', function () {
   gulp.src([
       '_assets/js/bootstrap.js',
-      '_assets/js/main.js',
-      '_assets/js/slick.js',
-      '_assets/js/modernizr.js'
+      '_assets/js/main.js'
     ])
     .pipe(concat("main.min.js"))
     .pipe(uglify())

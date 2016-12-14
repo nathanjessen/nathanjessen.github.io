@@ -2,12 +2,15 @@
 Portfolio
 ========================================================================== */
 
+.featured {
+  margin-bottom: 30px;
+}
+
 .effects {
     padding-left: 15px;
 }
 
 .effects .img {
-    margin-bottom: 50px;
     overflow: hidden;
     position: relative;
     z-index: 1;

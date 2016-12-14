@@ -22,65 +22,12 @@ $(function() {
 /***************** Overlays ******************/
 
 $(document).ready(function(){
-    if (Modernizr.touch) {
-        // show the close overlay button
-        $(".close-overlay").removeClass("hidden");
-        // handle the adding of hover class when clicked
-        $(".img").click(function(e){
-            if (!$(this).hasClass("hover")) {
-                $(this).addClass("hover");
-            }
-        });
-        // handle the closing of the overlay
-        $(".close-overlay").click(function(e){
-            e.preventDefault();
-            e.stopPropagation();
-            if ($(this).closest(".img").hasClass("hover")) {
-                $(this).closest(".img").removeClass("hover");
-            }
-        });
-    } else {
-        // handle the mouseenter functionality
-        $(".img").mouseenter(function(){
-            $(this).addClass("hover");
-        })
-        // handle the mouseleave functionality
-        .mouseleave(function(){
-            $(this).removeClass("hover");
-        });
-    }
-});
-
-/***************** Slick sliders ******************/
-
-$(window).load(function() {
-
-    var slickOptions = {
-        arrows: false,
-        dots: true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: false,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              dots: false,
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-    };
-
-
-    $('#portfolioSlider').slick(slickOptions);
-    $('#teamSlider').slick(slickOptions);
+    // handle the mouseenter functionality
+    $(".img").mouseenter(function(){
+      $(this).addClass("hover");
+    })
+    // handle the mouseleave functionality
+    .mouseleave(function(){
+      $(this).removeClass("hover");
+    });
 });
