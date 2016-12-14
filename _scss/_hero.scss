@@ -29,7 +29,7 @@ Hero
   background: rgba(61, 201, 179, 1);
   border-radius: 5px;
   box-shadow: 0px 3px 0px 0px #309383;
-  color: $white;
+  color: #fff;
   display: inline-block;
   font-weight: bold;
   letter-spacing: 1px;
@@ -41,5 +41,5 @@ Hero
 .learn-more-btn:hover,
 .learn-more-btn:focus {
   background: rgba(61, 201, 179, 0.6);
-  color: $white;
+  color: #fff;
 }

@@ -5,7 +5,7 @@ Contact
 .up-btn {
   background: rgba(61, 201, 179, 0.5);
   border-radius: 50%;
-  color: $white;
+  color: #fff;
   display: block;
   font-size: 18px;
   height: 50px;
@@ -22,7 +22,7 @@ Contact
 .up-btn:hover,
 .up-btn:focus {
   background: rgba(61, 201, 179, 1);
-  color: $white;
+  color: #fff;
 }
 
 .contact-details {
@@ -64,7 +64,7 @@ ul.social-buttons li:last-child {
 .social-btn {
   background: #242830;
   border-radius: 50%;
-  color: $white;
+  color: #fff;
   display: inline-block;
   font-size: 17px;
   height: 40px;
@@ -76,7 +76,7 @@ ul.social-buttons li:last-child {
 .social-btn:hover,
 .social-btn:focus {
   background: #3dc9b3;
-  color: $white;
+  color: #fff;
 }
 
 .social {

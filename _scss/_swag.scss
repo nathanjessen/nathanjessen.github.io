@@ -10,7 +10,7 @@ Swag
 }
 
 .swag h1 {
-  color: $white;
+  color: #fff;
   font-size: 40px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -25,7 +25,7 @@ Swag
 .down-arrow-btn {
   background: rgba(61, 201, 179, 0.8);
   border-radius: 50%;
-  color: $white;
+  color: #fff;
   display: inline-block;
   font-size: 16px;
   height: 40px;
@@ -38,5 +38,5 @@ Swag
 .down-arrow-btn:hover,
 .down-arrow-btn:focus {
   background: rgba(61, 201, 179, 1);
-  color: $white;
+  color: #fff;
 }
