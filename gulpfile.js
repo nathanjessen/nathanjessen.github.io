@@ -13,7 +13,7 @@ const uglify = require('gulp-uglify');
 const gutil = require('gulp-util');
 
 const siteRoot = '_site';
-const sassFiles = '_scss/**/*.scss';
+const sassFiles = '_assets/scss/**/*.scss';
 const jsFiles = '_assets/js/*.js';
 const imageFiles = '_assets/img/**/*.{jpg,png,gif}';
 
