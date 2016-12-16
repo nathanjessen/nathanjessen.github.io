@@ -1,16 +1,9 @@
 /** Posts */
 
-.posts {
-  list-style: none;
-  padding-left: 0;
-}
+.posts {}
 
-.post {
-  margin-bottom: 20px;
-}
+.post {}
 
 .post__date {}
 
-.post__title {
-  font-size: 2rem;
-}
+.post__title {}

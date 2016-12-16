@@ -8,7 +8,7 @@
   margin-top: 70px;
 }
 
-.icon {
+.feature__icon {
   --icon-size: 100px;
   background: #3494E6;
   border-radius: 50%;
@@ -27,5 +27,7 @@
 }
 
 @media screen and (max-width:991px) {
-  .feature { margin-bottom: 30px; }
+  .feature {
+    margin-bottom: 30px;
+  }
 }

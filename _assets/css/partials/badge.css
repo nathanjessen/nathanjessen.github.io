@@ -13,8 +13,8 @@
   vertical-align: baseline;
   background-color: #999;
   border-radius: 10px;
-}
 
-.badge:empty {
-  display: none;
+  &:empty {
+    display: none;
+  }
 }

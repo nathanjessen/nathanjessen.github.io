@@ -1,17 +1,17 @@
-<section class="latest-posts section-padding-small">
+<section class="latest-posts section-padding">
   <div class="container-fluid">
-    <h2 class="heading-underline text-center">Posts</h2>
+    <h2 class="text-center">Posts</h2>
 
-    <ul class="posts">
+    <ul class="posts list-unstyled">
       {% for post in site.posts %}
-      <li itemscope itemtype="http://schema.org/BlogPosting" class="post">
-        <a href="{{ site.BASE_PATH }}{{ post.url }}" itemprop="url">
-          <div class="p-wrap">
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="post__date left-slide"
-            itemprop="datePublished">{{ post.date | date_to_string }}</time>
-            <p itemprop="name headline" class="post__title left-slide">{{ post.title }}</p>
-          </div>
-        </a>
+      <li itemscope itemtype="http://schema.org/BlogPosting" class="post mb-30 left-slide">
+        <div class="p-wrap">
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="post__date"
+          itemprop="datePublished">{{ post.date | date_to_string }}</time>
+          <p itemprop="name headline" class="post__title h2">
+            <a href="{{ site.BASE_PATH }}{{ post.url }}" itemprop="url">{{ post.title }}</a>
+          </p>
+        </div>
       </li>
       {% endfor %}
     </ul>
