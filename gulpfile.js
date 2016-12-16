@@ -1,29 +1,36 @@
 const child = require('child_process');
 const browserSync = require('browser-sync').create();
+const atImport = require('postcss-import');
+const nested = require('postcss-nested');
+const mqpacker = require('css-mqpacker');
 
 const gulp = require('gulp');
-const prefix = require('gulp-autoprefixer');
+const prefix = require('autoprefixer');
 const concat = require('gulp-concat');
+const cssnano = require('gulp-cssnano');
 const imagemin = require('gulp-imagemin');
-const cleanCSS = require('gulp-clean-css');
 const notify = require('gulp-notify');
+const postcss = require('gulp-postcss');
 const rename = require('gulp-rename');
-const sass = require('gulp-sass');
 const uglify = require('gulp-uglify');
 const gutil = require('gulp-util');
 
 const siteRoot = '_site';
-const sassFiles = '_assets/scss/**/*.scss';
+const cssFiles = '_assets/css/*.css';
 const jsFiles = '_assets/js/*.js';
 const imageFiles = '_assets/img/**/*.{jpg,png,gif}';
 
-// Sass
-gulp.task('sass', function () {
-  gulp.src(sassFiles)
-    .pipe(sass())
-    .pipe(prefix('> 5%'))
-    .pipe(cleanCSS())
-    .pipe(rename('main.min.css'))
+// CSS
+gulp.task('css', function () {
+  var processors = [
+    atImport(),
+    nested(),
+    mqpacker(),
+    prefix('> 5%')
+  ];
+  return gulp.src(cssFiles)
+    .pipe(postcss(processors))
+    .pipe(cssnano())
     .pipe(notify('css optimized'))
     .pipe(gulp.dest('assets/css'));
 });
@@ -53,7 +60,7 @@ gulp.task('vendor-css', function () {
     '_assets/vendors/reveal/css/theme/beige.css'
   ])
   .pipe(concat('reveal.beige.css'))
-  .pipe(cleanCSS())
+  .pipe(cssnano())
   .pipe(gulp.dest('assets/css'));
 });
 
@@ -95,10 +102,10 @@ gulp.task('serve', () => {
   });
 
   // Watch
-  gulp.watch(sassFiles, ['sass']);
+  gulp.watch(cssFiles, ['css']);
   gulp.watch(jsFiles, ['scripts']);
   gulp.watch(imageFiles, ['imagemin']);
 });
 
 // Default
-gulp.task('default', ['vendor-css', 'vendor-js', 'scripts', 'sass', 'jekyll', 'serve']);
+gulp.task('default', ['vendor-css', 'vendor-js', 'scripts', 'css', 'jekyll', 'serve']);

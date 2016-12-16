@@ -9,7 +9,7 @@ description:      "Portfolio of Nathan Jessen"
 # port:             4502
 destination:      ./_site
 include:          ["_pages"]
-exclude:          ["vendor","CNAME","README.md","LICENSE.md","node_modules",".sass-cache","package.json","Gemfile","Gemfile.lock","gulpfile.js","*.sublime-project","*.sublime-workspace"]
+exclude:          ["vendor","CNAME","README.md","LICENSE.md","node_modules","package.json","Gemfile","Gemfile.lock","gulpfile.js","*.sublime-project","*.sublime-workspace"]
 
 
 permalink:        ":year/:month/:title/"
@@ -22,11 +22,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 timezone:         "America/Chicago"
-
-
-sass:
-  style: compressed
-  sass_dir: _assets/scss
 
 collections:
   projects:

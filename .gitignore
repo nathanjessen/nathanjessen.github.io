@@ -34,7 +34,6 @@ validation-status.json
 validation-report.json
 
 # Folders to ignore
-.sass-cache
 node_modules
 .bundle
 vendor
