@@ -1,21 +1,18 @@
 /** Hero */
 
 .hero {
-  padding: 10rem 0;
-  /*background: #3494E6;*/
-  /*background: radial-gradient(
-    circle at top,
-    #EC6EAD,
-    #3494E6
-  );*/
+  padding: 12rem 0;
+  background: var(--brand-primary);
+  background: radial-gradient(
+    circle at bottom,
+    var(--white-off),
+    var(--brand-primary)
+  );
+  border-bottom: 1px solid #dedede;
 }
 
 .hero h1 {
-  letter-spacing: 4px;
-}
-
-.hero h1 span {
-  color: #a1a9b0;
+  letter-spacing: 3px;
 }
 
 .hero h2 {
