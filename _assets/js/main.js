@@ -17,12 +17,4 @@ $(document).ready(function(){
     }
   });
 
-  /***************** Featured work animations ******************/
-  $(".img").mouseenter(function(){
-    $(this).addClass("hover");
-  })
-  .mouseleave(function(){
-    $(this).removeClass("hover");
-  });
-
 });
