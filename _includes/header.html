@@ -3,12 +3,12 @@
     <hgroup class="header__hgroup col-xs-12 col-md-6">
       <a href="{{ site.BASE_PATH }}" title="Back to Homepage">
         <h1 class="header__title">{{ site.title }}</h1>
-        <h3 class="header__role">Front-end Architect</h3>
       </a>
     </hgroup>
 
     <nav class="top-nav col-xs-12 col-md-6">
       <a href="{{ site.base_url }}projects/" {% if page.slug == "projects" %} class="active"{% endif %}>Projects</a>
+      <a href="{{ site.base_url }}about/" {% if page.slug == "about" %} class="active"{% endif %}>About</a>
     </nav>
   </header>
 </div>

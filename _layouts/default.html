@@ -4,17 +4,12 @@
     {% include head.html %}
   </head>
   <body id="top" class="{{ page.slug }}">
-    <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en/">upgrade your browser</a>. Your experience won't be effected on this site but upgrading your browser is always a great idea!</p>
+    <!--[if lt IE 11]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en/">upgrade your browser</a>. Your overall experience won't be effected on this site but upgrading your browser is always a great idea!</p>
     <![endif]-->
 
-
-    {% unless page.slug == "homepage" %}
     {% include header.html %}
-    {% endunless %}
-
     {{ content }}
-
     {% include footer.html %}
 
     {% comment %}
