@@ -1,6 +1,7 @@
-/* ==========================================================================
-Font Stack
-========================================================================== */
+/**
+Global
+*/
+
 html {
   font-size: 16px;
 }
@@ -10,37 +11,21 @@ body {
   font-size: 1rem;
 }
 
-/* ==========================================================================
-Tables
-========================================================================== */
-
-/* * Remove most spacing between table cells. */
-
+/** Remove most spacing between table cells. */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* ==========================================================================
-Global Styles
-========================================================================== */
-
 a {
   color: #353535;
   transition: all 0.5s;
-}
 
-a:hover,
-a:focus {
-  color: #3dc9b3;
-  text-decoration: none;
-}
-
-p {
-  color: #8c9398;
-  font-size: 14px;
-  line-height: 25px;
-  word-spacing: 1px;
+  &:hover,
+  &:focus {
+    color: #3dc9b3;
+    text-decoration: none;
+  }
 }
 
 h2 {
@@ -48,14 +33,14 @@ h2 {
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
-}
 
-h2::after {
-  border: solid 2px #3dc9b3;
-  content: " ";
-  display: block;
-  margin: 25px auto;
-  width: 35px;
+  &::after {
+    border: solid 2px #3dc9b3;
+    content: " ";
+    display: block;
+    margin: 25px auto;
+    width: 35px;
+  }
 }
 
 .section-padding {
@@ -74,29 +59,24 @@ h2::after {
   background-color: #fff
 }
 
-.dark-box {
-  background: #f3f5f8;
-  box-shadow: 0px 3px 0px 0px #f0f2f4;
-}
-
 .light-box {
   background-color: #fff;
   box-shadow: 0px 3px 0px 0px #f0f2f4;
   padding: 20px 0;
-}
 
-.light-box:hover,
-.light-box:focus {
-  box-shadow: 0px 3px 0px 0px #3dc9b3;
+  &:hover,
+  &:focus {
+    box-shadow: 0px 3px 0px 0px #3dc9b3;
+  }
 }
 
 .box-hover {
   transition: all 500ms ease-in-out;
-}
 
-.box-hover:hover,
-.box-hover:focus {
-  transform: translate(0, -15px);
+  &:hover,
+  &:focus {
+    transform: translate(0, -15px);
+  }
 }
 
 .wrapper {
