@@ -1,18 +1,13 @@
 /** Footer */
 
 .site-footer {
-  background-color: #000;
+  background-color: #222;
   color: #fff;
-  padding: 40px 0 30px;
+  padding-bottom: 3rem;
+  padding-top: 1.5rem;
 }
 
 .credit {
   margin-bottom: 0;
-  text-align: right;
-}
-
-@media screen and (max-width:991px) {
-  .credit {
-    text-align: center;
-  }
+  text-align: center;
 }

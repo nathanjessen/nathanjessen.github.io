@@ -1,14 +1,9 @@
 /** Hero */
 
 .hero {
-  padding: 12rem 0;
   background: var(--brand-primary);
-  background: radial-gradient(
-    circle at bottom,
-    var(--white-off),
-    var(--brand-primary)
-  );
-  border-bottom: 1px solid #dedede;
+  color: #fafafa;
+  padding: 10rem 0;
 }
 
 .hero h1 {

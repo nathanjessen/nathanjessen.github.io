@@ -20,14 +20,13 @@ permalink: /projects/
 
           <div class="col-sm-8">
             <p><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></p>
-            <p>Client: {{ project.client }}</p>
-            <p>Employer: {{ project.company }}</p>
-            <p>Project Launch:
+            <p>{{ project.client }}</p>
+            <p>
               <time datetime="{{ project.date | date_to_xmlschema }}" class="date left-slide">
                 {{ project.date | date_to_string }}
               </time>
             </p>
-            <p>Tech Stack: {{ project.tech }}</p>
+            <p>{{ project.tech }}</p>
             {% comment %}<p>{{ project.short-description }}</p>{% endcomment %}
           </div>
         </li>

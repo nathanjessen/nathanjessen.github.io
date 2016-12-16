@@ -6,6 +6,10 @@
   margin-bottom: 20px;
 }
 
+.card + .card {
+  margin-top: 1rem;
+}
+
 .card-body {
   padding: 15px;
 }
