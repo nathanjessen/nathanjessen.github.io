@@ -1,8 +1,10 @@
-/**
-Projects
-*/
+/** Projects */
 
 .projects {
   list-style-type: none;
   padding-left: 0;
+}
+
+.project {
+  margin-bottom: 20px;
 }
