@@ -1,9 +1,21 @@
-/**
-Features
-*/
+/** Features */
+
+.features {
+  background-color: #efefef;
+}
 
 .features-wrapper {
   margin-top: 70px;
+}
+
+h1.arrow {
+  background: url('../img/h1-bg.png') no-repeat center bottom;
+  color: #353535;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .shadow {
@@ -24,4 +36,8 @@ Features
   text-align: center;
   vertical-align: middle;
   width: 175px;
+}
+
+@media screen and (max-width:991px) {
+  .feature { margin-bottom: 30px; }
 }

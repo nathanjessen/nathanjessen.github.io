@@ -1,35 +1,52 @@
+/** Utilities */
+
 .text-left {
-  text-align: left;
+  text-align: left !important;
 }
+
 .text-right {
-  text-align: right;
+  text-align: right !important;
 }
+
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
+
 .text-justify {
-  text-align: justify;
+  text-align: justify !important;
 }
+
 .center-block {
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
+
 .pull-right {
   float: right !important;
 }
+
 .pull-left {
   float: left !important;
 }
+
 .hide {
   display: none !important;
 }
+
 .show {
   display: block !important;
 }
+
 .invisible {
   visibility: hidden;
 }
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -37,13 +54,11 @@
   background-color: transparent;
   border: 0;
 }
-.hidden {
-  display: none !important;
-  visibility: hidden !important;
-}
+
 .affix {
   position: fixed;
 }
+
 .sr-only {
   position: absolute;
   width: 1px;

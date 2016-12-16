@@ -1,6 +1,4 @@
-/**
-Footer
-*/
+/** Footer */
 
 footer {
   background-color: #242830;
@@ -36,4 +34,32 @@ footer p {
 
 .credit {
   text-align: right;
+}
+
+.social-btn {
+  background: #242830;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-size: 17px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+
+  &:hover,
+  &:focus {
+    background: #3dc9b3;
+    color: #fff;
+  }
+}
+
+.social {
+  margin-top: 25px
+}
+
+@media screen and (max-width:991px) {
+  .legals { text-align: center; margin: 0; padding: 0; }
+  .social-buttons { margin-bottom: 10px; }
+  .social-buttons, .credit { text-align: center; }
 }

@@ -1,6 +1,4 @@
-/**
-Headings
-*/
+/** Headings */
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -58,19 +56,4 @@ h6, .h6 {
 .display-4 {
   font-size: 3.5rem;
   font-weight: 300;
-}
-
-h2 {
-  color: #353535;
-  font-size: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-
-  &::after {
-    border: solid 2px #3dc9b3;
-    content: " ";
-    display: block;
-    margin: 25px auto;
-    width: 35px;
-  }
 }

@@ -1,0 +1,35 @@
+/** Media */
+
+/**
+<figure class="ratio-16-9">
+  <img src="sample.jpg" alt="Sample image">
+</figure>
+*/
+
+img {
+  vertical-align: middle;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.ratio-16-9 {
+  /*background: #ddd url(placeholder.svg) no-repeat center center;*/
+  padding-bottom: calc($height / width) * 100%;
+  position: relative;
+
+  img,
+  video,
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,25 @@
+/** Root: CSS Variables */
+
+:root {
+  /* 1. Colors */
+  --white: #fff;
+  --white-off: #e0e0e0;
+  --gray-light: #f3f0f0;
+  --gray: #444;
+  --gray-dark: #333;
+
+  --brand-primary: #22A7F0;
+  --brand-secondary: #36D7B7;
+
+  --body-bg: #fff;
+
+  /* 2. Links */
+  --link-color: #0275d8;
+  --link-color-hover: #014c8c;
+
+  /* Buttons */
+  --button-bg: #ddd;
+  --button-bg-hover: #ccc;
+  --button-color: #000;
+  --button-color-hover: #000;
+}
