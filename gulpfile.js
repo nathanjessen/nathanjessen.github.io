@@ -17,6 +17,7 @@ const gutil = require('gulp-util');
 
 const siteRoot = '_site';
 const cssFiles = '_assets/css/*.css';
+const cssSourceFiles = '_assets/css/**/*.css';
 const jsFiles = '_assets/js/*.js';
 const imageFiles = '_assets/img/**/*.{jpg,png,gif}';
 
@@ -102,7 +103,7 @@ gulp.task('serve', () => {
   });
 
   // Watch
-  gulp.watch(cssFiles, ['css']);
+  gulp.watch(cssSourceFiles, ['css']);
   gulp.watch(jsFiles, ['scripts']);
   gulp.watch(imageFiles, ['imagemin']);
 });
