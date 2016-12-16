@@ -1,25 +1,27 @@
-@charset "UTF-8";
 /**
- * Primary CSS file
- */
-
-/**
-Variables
-@import "partials/root.css";
+Main CSS
 */
+@charset "UTF-8";
 
 /**
 Vendor Libraries
 */
 @import "partials/normalize.css";
-@import "partials/bootstrap.css";
-@import "partials/bootstrap-theme.css";
 @import "partials/flexboxgrid.css";
+
+
+/*! Primary CSS file */
+/**
+Variables
+*/
+@import "partials/root.css";
 
 /**
 Components
 */
 @import "partials/global.css";
+@import "partials/headings.css";
+@import "partials/misc.css";
 @import "partials/hero.css";
 @import "partials/header.css";
 @import "partials/intro.css";
@@ -27,6 +29,9 @@ Components
 @import "partials/swag.css";
 @import "partials/portfolio.css";
 @import "partials/projects.css";
+@import "partials/thumbnail.css";
+@import "partials/card.css";
+@import "partials/badge.css";
 @import "partials/subscribe.css";
 @import "partials/cta.css";
 @import "partials/contact.css";
@@ -42,3 +47,8 @@ Theme
 @import "partials/syntax.css";
 @import "partials/animations.css";
 @import "partials/fontello.css";
+
+/**
+Misc
+*/
+@import "partials/utilities.css";

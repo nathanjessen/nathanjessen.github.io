@@ -1,0 +1,14 @@
+/**
+CSS Variables
+*/
+
+:root {
+  --white: #fff;
+  --white-off: #e0e0e0;
+  --gray-light: #f3f0f0;
+  --gray: #444;
+  --gray-dark: #333;
+
+  --link-color: var(--gray);
+  --link-color-hover: var(--blue-flat);
+}

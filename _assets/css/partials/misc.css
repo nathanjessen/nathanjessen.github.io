@@ -1,0 +1,46 @@
+/**
+Misc
+*/
+.section-padding {
+  padding: 90px 0 100px
+}
+
+.section-padding-small {
+  padding: 30px 0 50px;
+}
+
+.dark-bg {
+  background: #f3f5f8
+}
+
+.light-bg {
+  background-color: #fff
+}
+
+.light-box {
+  background-color: #fff;
+  box-shadow: 0px 3px 0px 0px #f0f2f4;
+  padding: 20px 0;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 3px 0px 0px #3dc9b3;
+  }
+}
+
+.box-hover {
+  transition: all 500ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    transform: translate(0, -15px);
+  }
+}
+
+.wrapper {
+  height: 650px
+}
+
+.inner {
+  padding-top: 85px
+}
