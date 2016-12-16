@@ -68,7 +68,7 @@ gulp.task('imagemin', function () {
 
 // Jekyll
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['serve',
+  const jekyll = child.spawn('jekyll', ['build',
     '--watch',
     '--incremental',
     '--drafts'
