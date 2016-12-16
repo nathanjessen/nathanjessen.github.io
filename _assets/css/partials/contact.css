@@ -17,29 +17,29 @@ Contact
   text-align: center;
   top: -26px;
   width: 50px;
-}
 
-.up-btn:hover,
-.up-btn:focus {
-  background: rgba(61, 201, 179, 1);
-  color: #fff;
+  &:hover,
+  &:focus {
+    background: rgba(61, 201, 179, 1);
+    color: #fff;
+  }
 }
 
 .contact-details {
   margin-top: 70px;
-}
 
-.contact-details h2 {
-  font-size: 20px;
-}
+  h2 {
+    font-size: 20px;
+  }
 
-.contact-details h2 span {
-  color: #3dc9b3;
-  display: block;
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-top: 15px;
-  text-transform: uppercase;
+  h2 span {
+    color: #3dc9b3;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
 }
 
 .contact-wrap {
@@ -56,12 +56,12 @@ Contact
   line-height: 40px;
   text-align: center;
   width: 40px;
-}
 
-.social-btn:hover,
-.social-btn:focus {
-  background: #3dc9b3;
-  color: #fff;
+  &:hover,
+  &:focus {
+    background: #3dc9b3;
+    color: #fff;
+  }
 }
 
 .social {

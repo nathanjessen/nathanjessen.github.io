@@ -1,6 +1,6 @@
-/* ==========================================================================
+/**
 Portfolio
-========================================================================== */
+*/
 
 .featured {
   margin-bottom: 30px;
@@ -14,18 +14,18 @@ Portfolio
   overflow: hidden;
   position: relative;
   z-index: 1;
-}
 
-.effects .img:nth-child(n) {
-  margin-right: 5px;
-}
+  &:nth-child(n) {
+    margin-right: 5px;
+  }
 
-.effects .img:first-child {
-  margin-left: -15px;
-}
+  &:first-child {
+    margin-left: -15px;
+  }
 
-.effects .img:last-child {
-  margin-right: 0
+  &:last-child {
+    margin-right: 0
+  }
 }
 
 .effects .img img {
@@ -59,10 +59,10 @@ a.close-overlay {
   top: 0;
   width: 45px;
   z-index: 100;
-}
 
-a.close-overlay.hidden {
-  display: none;
+  &.hidden {
+    display: none;
+  }
 }
 
 a.expand {

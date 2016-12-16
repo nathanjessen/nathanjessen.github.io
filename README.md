@@ -8,7 +8,7 @@ Uses a modified version of the template [Halcyon Days](http://tympanus.net/codro
 
 - [Github Pages](http://pages.github.com/)
 - [Jekyll](http://jekyllrb.com/)
-- [Sass](http://sass-lang.com/)
+- [PostCSS](http://postcss.org/)
 
 
 ## Issues

@@ -1,0 +1,18 @@
+/**
+Posts
+*/
+
+.posts {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.post__date {}
+
+.post__title {
+  font-size: 2rem;
+}

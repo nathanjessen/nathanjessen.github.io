@@ -1,0 +1,88 @@
+/**
+Global
+*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+/** Remove most spacing between table cells. */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: #353535;
+  transition: all 0.5s;
+
+  &:hover,
+  &:focus {
+    color: #3dc9b3;
+    text-decoration: none;
+  }
+}
+
+h2 {
+  color: #353535;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &::after {
+    border: solid 2px #3dc9b3;
+    content: " ";
+    display: block;
+    margin: 25px auto;
+    width: 35px;
+  }
+}
+
+.section-padding {
+  padding: 90px 0 100px
+}
+
+.section-padding-small {
+  padding: 30px 0 50px;
+}
+
+.dark-bg {
+  background: #f3f5f8
+}
+
+.light-bg {
+  background-color: #fff
+}
+
+.light-box {
+  background-color: #fff;
+  box-shadow: 0px 3px 0px 0px #f0f2f4;
+  padding: 20px 0;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 3px 0px 0px #3dc9b3;
+  }
+}
+
+.box-hover {
+  transition: all 500ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    transform: translate(0, -15px);
+  }
+}
+
+.wrapper {
+  height: 650px
+}
+
+.inner {
+  padding-top: 85px
+}

@@ -15,10 +15,10 @@ CTA
   letter-spacing: 1px;
   padding: 25px 40px;
   text-transform: uppercase;
-}
 
-.ignite-btn:hover,
-.ignite-btn:focus {
-  border: solid 1px #3dc9b3;
-  color: #3dc9b3;
+  &:hover,
+  &:focus {
+    border: 1px solid currentColor;
+    color: #3dc9b3;
+  }
 }
