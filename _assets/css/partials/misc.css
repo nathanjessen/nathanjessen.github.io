@@ -1,13 +1,13 @@
 /** Misc */
 
 .heading-underline {
-  color: #353535;
+  color: #3494E6;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
 
   &::after {
-    border: solid 2px #3dc9b3;
+    border: solid 2px #3494E6;
     content: " ";
     display: block;
     margin: 25px auto;
