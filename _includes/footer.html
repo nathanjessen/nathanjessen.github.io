@@ -1,21 +1,12 @@
 <footer class="site-footer" role="contentinfo">
   <div class="container-fluid">
-    <div class="row center-xs start-md">
-      {% comment %}
-      <div class="col-md-6">
-        <ul class="legals">
-          <li><a href="#">Terms &amp; Conditions</a></li>
-          <li><a href="#">Legals</a></li>
-        </ul>
-      </div>
-      {% endcomment %}
-
-      <div class="col-xs-12 col-md-6">
+    <div class="row center-xs">
+      <div class="col-xs-12">
         {% include nav-social.html %}
       </div>
 
-      <div class="col-xs-12 col-md-6 credit">
-        <p>Powered by Jekyll - &copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+      <div class="col-xs-12">
+        <p class="credit">&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
       </div>
     </div>
   </div>

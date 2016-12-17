@@ -1,44 +1,38 @@
 @charset "UTF-8";
-/**
- * Primary CSS file
- */
 
-/**
-Variables
-@import "partials/root.css";
-*/
+/** Vendor Libraries */
+@import "vendor/normalize.css";
+@import "vendor/flexboxgrid.css";
 
-/**
-Vendor Libraries
-*/
-@import "partials/normalize.css";
-@import "partials/bootstrap.css";
-@import "partials/bootstrap-theme.css";
-@import "partials/flexboxgrid.css";
+/*! CSS Framework */
+@import "framework/root.css";
+@import "framework/base.css";
+@import "framework/links.css";
+@import "framework/backgrounds.css";
+@import "framework/buttons.css";
+@import "framework/headings.css";
+@import "framework/lists.css";
+@import "framework/media.css";
+@import "framework/card.css";
+@import "framework/margin.css";
+@import "framework/padding.css";
+@import "framework/utilities.css";
 
-/**
-Components
-*/
+/*! Main CSS */
+/** Components */
 @import "partials/global.css";
-@import "partials/hero.css";
-@import "partials/header.css";
-@import "partials/intro.css";
-@import "partials/features.css";
-@import "partials/swag.css";
-@import "partials/portfolio.css";
-@import "partials/projects.css";
-@import "partials/subscribe.css";
-@import "partials/cta.css";
-@import "partials/contact.css";
-@import "partials/footer.css";
-@import "partials/posts.css";
-@import "partials/queries.css";
-
-
-/**
-Theme
-*/
-@import "partials/highlights.css";
-@import "partials/syntax.css";
 @import "partials/animations.css";
+@import "partials/badge.css";
+@import "partials/cta.css";
+@import "partials/features.css";
 @import "partials/fontello.css";
+@import "partials/footer.css";
+@import "partials/header.css";
+@import "partials/hero.css";
+@import "partials/highlights.css";
+@import "partials/misc.css";
+@import "partials/posts.css";
+@import "partials/projects.css";
+@import "partials/social.css";
+@import "partials/syntax.css";
+@import "partials/theme.css";

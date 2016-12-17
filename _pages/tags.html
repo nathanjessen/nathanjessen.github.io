@@ -37,11 +37,11 @@ permalink: /tags/
       <div class="col-md-8">
         {% for tag in site.tags %}
 
-          <div class="panel panel-default" id="{{ tag[0] }}-ref">
-            <div class="panel-heading">
-              <h3 class="panel-title">Posts tagged  with {{ tag[0] }}</h3>
+          <div class="card" id="{{ tag[0] }}-ref">
+            <div class="card-heading">
+              <h3 class="card-title">Posts tagged  with {{ tag[0] }}</h3>
             </div>
-            <div class="panel-body">
+            <div class="card-body">
               <ul class="list-unstyled">
                 {% assign pages_list = tag[1] %}
                 {% for node in pages_list %}

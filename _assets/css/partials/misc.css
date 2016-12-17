@@ -1,0 +1,25 @@
+/** Misc */
+
+.heading-underline {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &::after {
+    border: solid 2px #3494E6;
+    content: " ";
+    display: block;
+    margin: 25px auto;
+    width: 35px;
+  }
+}
+
+.section-padding {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+.section-padding-small {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}

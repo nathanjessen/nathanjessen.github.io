@@ -1,39 +1,13 @@
-/**
-Footer
-*/
+/** Footer */
 
-footer {
-  background-color: #242830;
-  padding: 40px 0 30px;
-}
-
-footer a {
-  color: #a1a9b0;
-}
-
-footer p {
+.site-footer {
+  background-color: #222;
   color: #fff;
-}
-
-.legals {
-  color: #fff;
-  line-height: 25px;
-  list-style: none;
-  text-align: left;
-}
-
-.legals li {
-  display: inline-block;
-
-  &::after {
-    content: " |";
-  }
-
-  &:last-child::after {
-    content: "";
-  }
+  padding-bottom: 3rem;
+  padding-top: 1.5rem;
 }
 
 .credit {
-  text-align: right;
+  margin-bottom: 0;
+  text-align: center;
 }

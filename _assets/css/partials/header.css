@@ -1,9 +1,7 @@
-/**
-Header
-*/
+/** Header */
 
 .header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
@@ -24,11 +22,8 @@ Header
   margin-top: 0;
 }
 
-.top-nav {
-  a:hover,
-  a:focus {
-    text-decoration: none;
-  }
+.top-nav a {
+  margin-left: .75rem;
 }
 
 @media screen and (max-width:991px) {

@@ -1,0 +1,73 @@
+---
+layout: default
+title: About
+slug: about
+permalink: /about/
+---
+
+<section class="section-padding-small">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <div class="card card-primary text-left">
+          <div class="card-body">
+            <img src="{{ site.BASE_PATH }}/assets/img/hiking.jpg" alt="Nathan Jessen" width="400" height="400" class="img-responsive mb-20">
+            <p>Heylo! I am Nathan Jessen, a Front-end Architect based in {{ site.location }}. When I'm away from the computer, I enjoy hiking, running, biking, reading, and playing poker.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+        <div class="card card-primary">
+          <div class="card-body">
+            <h2 class="heading-underline text-center">Experience</h2>
+            <p>Web Developer at <a href="https://www.vml.com/" target="_blank">VML</a> &dash; 2012 - Current</p>
+          </div>
+        </div>
+
+        <div class="card card-primary">
+          <div class="card-body">
+            <h2 class="heading-underline text-center">Education</h2>
+            <p>B.S. in Computer Science</p>
+            <p>Mathematics minor</p>
+            <p>Database Systems Management minor</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+        <div class="card card-primary">
+          <div class="card-body">
+            <h2 class="heading-underline text-center">Technologies</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Preprocessors (Sass, Less, Stylus)</li>
+              <li>Build tools (PostCSS, Gulp, Grunt)</li>
+              <li>JavaScript (Vanilla, AngularJS, jQuery)</li>
+              <li>Version Control (Git, SVN)</li>
+            </ul>
+          </div>
+        </div>
+
+        {% comment %}
+        <div class="card card-primary">
+          <div class="card-body">
+            <h2 class="heading-underline text-center">CV</h2>
+            <p><a href="#none">Download my CV</a></p>
+          </div>
+        </div>
+        {% endcomment %}
+
+        {% if site.email %}
+        <div class="card card-primary">
+          <div class="card-body">
+            <h2 class="heading-underline text-center">Contact</h2>
+            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
