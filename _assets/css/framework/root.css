@@ -4,7 +4,7 @@
   /* 1. Colors */
   --white: #fff;
   --white-off: #efefef;
-  --gray-light: #f3f0f0;
+  --gray-light: #f4f4f4;
   --gray: #444;
   --gray-dark: #333;
 
@@ -12,6 +12,7 @@
   --brand-secondary: #36D7B7;
 
   --body-bg: #fff;
+  --border-color: #ddd;
 
   /* 2. Links */
   --link-color: #3494E6;

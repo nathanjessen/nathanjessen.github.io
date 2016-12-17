@@ -1,8 +1,6 @@
 /** Features */
 
-.features {
-  background-color: #f4f4f4;
-}
+.features {}
 
 .feature__icon {
   --icon-size: 100px;

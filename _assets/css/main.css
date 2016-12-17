@@ -8,6 +8,7 @@
 @import "framework/root.css";
 @import "framework/base.css";
 @import "framework/links.css";
+@import "framework/backgrounds.css";
 @import "framework/buttons.css";
 @import "framework/headings.css";
 @import "framework/lists.css";
@@ -22,7 +23,6 @@
 @import "partials/global.css";
 @import "partials/animations.css";
 @import "partials/badge.css";
-@import "partials/about.css";
 @import "partials/cta.css";
 @import "partials/features.css";
 @import "partials/fontello.css";

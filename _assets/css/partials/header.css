@@ -1,7 +1,7 @@
 /** Header */
 
 .header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 1rem;
   padding-top: 1rem;
 }

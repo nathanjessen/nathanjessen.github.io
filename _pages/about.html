@@ -9,71 +9,60 @@ permalink: /about/
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-md-4">
-        <div class="card about-card text-left">
+        <div class="card card-primary text-left">
           <div class="card-body">
-            <img src="none.jpg" alt="Self portrait with a cool CSS filter" width="200" height="230">
-            <p>Heylo! I am Nathan Jessen, a Front-end Architect based in Las Vegas. I love minimal design, clean code, and high performance web sites. Specialized in CSS development, I always try to enhance the developer experience through Styleguide driven development and well-architected code bases. I also try to enhance the user experience using smooth animations, simple navigation, and beautiful designs. I'm continually learning new things and enjoy speaking to/with others who are also passionate of their craft.</p>
-
-            <ol>
-              <li>I try to find time to develop my own projects on the side and contribute to open-source projects on GitHub.</li>
-              <li>Passion for problem-solving and developing new ways to approach an issue</li>
-              <li>Able to balance thinking about the big picture and the small details</li>
-              <li>Curiosity when code doesn't work. Willingness to digging to the root of an issue to fix it rather than piling on temporary hacks</li>
-              <li>Comfortable asking superiors, clients, or peers for additional information to ensure expectations and requirements are understood</li>
-              <li>Willing to experiment with new technologies and approaching a project or task in a new way</li>
-              <li>Empathetic to the client and user of a website. I will constantly ask myself if what I'm building is valuable to the client and its users or if something needs altered to better meet their needs and expectations</li>
-              <li>Able to switch gears when the scope of a project changes unexpectedly or time sensitive issues arise</li>
-              <li>Value my own set of problem-solving abilities and best practices instead of always following set rules and practices that may be out of date</li>
-              <li>High level of communication after several years working remote</li>
-            </ol>
+            <img src="{{ site.BASE_PATH }}/assets/img/hiking.jpg" alt="Nathan Jessen" width="400" height="400" class="img-responsive mb-20">
+            <p>Heylo! I am Nathan Jessen, a Front-end Architect based in {{ site.location }}. When I'm away from the computer, I enjoy hiking, running, biking, reading, and playing poker.</p>
           </div>
         </div>
       </div>
 
       <div class="col-xs-12 col-md-4">
-        <div class="card about-card">
+        <div class="card card-primary">
           <div class="card-body">
             <h2 class="heading-underline text-center">Experience</h2>
-            <p>I'm currently a Web Developer at VML.</p>
+            <p>Web Developer at <a href="https://www.vml.com/" target="_blank">VML</a> &dash; 2012 - Current</p>
           </div>
         </div>
 
-        <div class="card about-card">
+        <div class="card card-primary">
           <div class="card-body">
-            <h2 class="heading-underline">Education</h2>
-            <p>In 2011 I graduated with a Bachelor's degree in Computer Science with a minor in Mathematics and Database Systems Management.</p>
+            <h2 class="heading-underline text-center">Education</h2>
+            <p>B.S. in Computer Science</p>
+            <p>Mathematics minor</p>
+            <p>Database Systems Management minor</p>
           </div>
         </div>
-
-        {% if site.location %}
-        <div class="card about-card">
-          <div class="card-body">
-            <h2 class="heading-underline">Location</h2>
-            <p>{{ site.location }}</p>
-          </div>
-        </div>
-        {% endif %}
       </div>
 
       <div class="col-xs-12 col-md-4">
-        <div class="card about-card">
+        <div class="card card-primary">
           <div class="card-body">
-            <h2 class="heading-underline">Tech Stack &amp; Languages</h2>
-            <p>Sass, Stylus, Grunt, Gulp</p>
+            <h2 class="heading-underline text-center">Technologies</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Preprocessors (Sass, Less, Stylus)</li>
+              <li>Build tools (PostCSS, Gulp, Grunt)</li>
+              <li>JavaScript (Vanilla, AngularJS, jQuery)</li>
+              <li>Version Control (Git, SVN)</li>
+            </ul>
           </div>
         </div>
 
-        <div class="card about-card">
+        {% comment %}
+        <div class="card card-primary">
           <div class="card-body">
-            <h2 class="heading-underline">CV</h2>
+            <h2 class="heading-underline text-center">CV</h2>
             <p><a href="#none">Download my CV</a></p>
           </div>
         </div>
+        {% endcomment %}
 
         {% if site.email %}
-        <div class="card about-card">
+        <div class="card card-primary">
           <div class="card-body">
-            <h2 class="heading-underline">Email</h2>
+            <h2 class="heading-underline text-center">Contact</h2>
             <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
           </div>
         </div>
