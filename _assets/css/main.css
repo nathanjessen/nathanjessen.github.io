@@ -3,6 +3,9 @@
 /** Vendor Libraries */
 @import "vendor/normalize.css";
 @import "vendor/flexboxgrid.css";
+@import "vendor/fontello.css";
+@import "vendor/highlights.css";
+@import "vendor/syntax.css";
 
 /*! CSS Framework */
 @import "framework/root.css";
@@ -20,19 +23,14 @@
 
 /*! Main CSS */
 /** Components */
-@import "partials/global.css";
-@import "partials/animations.css";
 @import "partials/badge.css";
 @import "partials/cta.css";
 @import "partials/features.css";
-@import "partials/fontello.css";
 @import "partials/footer.css";
 @import "partials/header.css";
 @import "partials/hero.css";
-@import "partials/highlights.css";
 @import "partials/misc.css";
 @import "partials/posts.css";
 @import "partials/projects.css";
 @import "partials/social.css";
-@import "partials/syntax.css";
 @import "partials/theme.css";

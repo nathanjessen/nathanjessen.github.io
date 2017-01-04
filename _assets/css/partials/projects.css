@@ -6,5 +6,9 @@
 }
 
 .project {
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
+}
+
+.project__img {
+  margin-bottom: 1rem;
 }

@@ -14,17 +14,17 @@ permalink: /projects/
         <li class="card card-primary project {% cycle 'project--odd', 'project--even' %}">
           <div class="card-body">
             <div class="row">
-              <div class="col-sm-4">
+              <div class="col-xs-12 col-sm-4">
                 <a href="{{ project.link }}" target="_blank">
-                  <img src="{{ site.base_url }}assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}" class="img-responsive">
+                  <img src="{{ site.base_url }}assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}" class="img-responsive project__img">
                 </a>
               </div>
 
-              <div class="col-sm-8">
+              <div class="col-xs-12 col-sm-8">
                 <p><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></p>
                 <p>{{ project.client }}</p>
                 <p>
-                  <time datetime="{{ project.date | date_to_xmlschema }}" class="date left-slide">
+                  <time datetime="{{ project.date | date_to_xmlschema }}" class="date">
                     {{ project.date | date_to_string }}
                   </time>
                 </p>

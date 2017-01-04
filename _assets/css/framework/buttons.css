@@ -5,7 +5,7 @@ button {
   background-color: var(--button-bg);
   color: var(--button-color);
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.5em 1em;
 
   &:hover {

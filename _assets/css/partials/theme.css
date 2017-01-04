@@ -1,5 +1,10 @@
 /** Theme */
 
 :root {
+  /* Framework Overrides */
   --body-bg: #fafafa;
+  --text-color: #373a3c;
+  --font-stack: "Varela Round", var(--font-stack-sans-serif);
+
+  /* Custom Vars */
 }

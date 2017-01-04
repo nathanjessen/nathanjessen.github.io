@@ -4,7 +4,7 @@
 
     <ul class="posts list-unstyled">
       {% for post in site.posts %}
-      <li itemscope itemtype="http://schema.org/BlogPosting" class="post mb-30 left-slide">
+      <li itemscope itemtype="http://schema.org/BlogPosting" class="post mb-30">
         <div class="p-wrap">
           <time datetime="{{ post.date | date_to_xmlschema }}" class="post__date"
           itemprop="datePublished">{{ post.date | date_to_string }}</time>

@@ -1,7 +1,12 @@
 /** Root: CSS Variables */
 
 :root {
-  /* 1. Colors */
+  /* Fonts */
+  --font-stack-serif: Georgia, "Times New Roman", Times, serif;
+  --font-stack-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Colors */
   --white: #fff;
   --white-off: #efefef;
   --gray-light: #f4f4f4;
@@ -12,9 +17,10 @@
   --brand-secondary: #36D7B7;
 
   --body-bg: #fff;
+  --text-color: #000;
   --border-color: #ddd;
 
-  /* 2. Links */
+  /* Links */
   --link-color: #3494E6;
   --link-color-hover: #004e92;
 
@@ -23,4 +29,11 @@
   --button-bg-hover: #ccc;
   --button-color: #000;
   --button-color-hover: #000;
+
+  /* Mark */
+  --mark-bg: #ff0;
+  --mark-color: #000;
+
+  /* Forms */
+  /* Tables */
 }
