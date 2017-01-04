@@ -76,7 +76,9 @@ gulp.task('imagemin', function () {
 
 // Jekyll
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['build',
+  var jekyllCmd = (process.platform === "win32" ? "jekyll.bat" : "jekyll");
+
+  const jekyll = child.spawn(jekyllCmd, ['build',
     '--watch',
     '--incremental',
     '--drafts'
