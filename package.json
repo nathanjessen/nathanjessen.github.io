@@ -10,6 +10,9 @@
   },
   "author": "Nathan Jessen",
   "license": "The MIT License (MIT)",
+  "scripts": {
+    "start": "gulp"
+  },
   "devDependencies": {
     "autoprefixer": "^6.5.4",
     "browser-sync": "^2.18.5",
