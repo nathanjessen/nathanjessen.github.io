@@ -1,11 +1,17 @@
-const child = require('child_process');
-const browserSync = require('browser-sync').create();
-const atImport = require('postcss-import');
-const nested = require('postcss-nested');
-const mqpacker = require('css-mqpacker');
+// Config
+const siteRoot = '_site';
+const cssFiles = '_assets/css/*.css';
+const cssSourceFiles = '_assets/css/**/*.css';
+const jsFiles = '_assets/js/*.js';
+const imageFiles = '_assets/img/**/*.{jpg,png,gif}';
 
-const gulp = require('gulp');
+// Plugins
 const prefix = require('autoprefixer');
+const browserSync = require('browser-sync').create();
+const child = require('child_process');
+const mqpacker = require('css-mqpacker');
+const glob = require('glob');
+const gulp = require('gulp');
 const concat = require('gulp-concat');
 const cssnano = require('gulp-cssnano');
 const imagemin = require('gulp-imagemin');
@@ -13,13 +19,10 @@ const notify = require('gulp-notify');
 const postcss = require('gulp-postcss');
 const rename = require('gulp-rename');
 const uglify = require('gulp-uglify');
+const uncss = require('gulp-uncss');
 const gutil = require('gulp-util');
-
-const siteRoot = '_site';
-const cssFiles = '_assets/css/*.css';
-const cssSourceFiles = '_assets/css/**/*.css';
-const jsFiles = '_assets/js/*.js';
-const imageFiles = '_assets/img/**/*.{jpg,png,gif}';
+const atImport = require('postcss-import');
+const nested = require('postcss-nested');
 
 // CSS
 gulp.task('css', function () {
@@ -31,6 +34,14 @@ gulp.task('css', function () {
   ];
   return gulp.src(cssFiles)
     .pipe(postcss(processors))
+    .pipe(uncss({
+      html: glob.sync('_site/**/*.html'),
+      ignore: [
+          /(#|\.)(is-)/,
+          /(#|\.)(has-)/,
+          /(#|\.)(js-)/
+     ]
+    }))
     .pipe(cssnano())
     .pipe(notify('css optimized'))
     .pipe(gulp.dest('assets/css'));
