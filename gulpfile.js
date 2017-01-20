@@ -9,7 +9,6 @@ const imageFiles = '_assets/img/**/*.{jpg,png,gif}';
 const prefix = require('autoprefixer');
 const browserSync = require('browser-sync').create();
 const child = require('child_process');
-const mqpacker = require('css-mqpacker');
 const glob = require('glob');
 const gulp = require('gulp');
 const concat = require('gulp-concat');
@@ -29,7 +28,6 @@ gulp.task('css', function () {
   var processors = [
     atImport(),
     nested(),
-    mqpacker(),
     prefix('> 5%')
   ];
   return gulp.src(cssFiles)
