@@ -5,41 +5,45 @@ slug: about
 permalink: /about/
 ---
 
-<section class="section-padding-small">
+<section class="pv5">
   <div class="container-fluid">
+    <h2 class="f2 mt0">About</h2>
+
     <div class="row">
       <div class="col-xs-12 col-md-4">
-        <div class="card card-primary text-left">
-          <div class="card-body">
-            <img src="{{ site.BASE_PATH }}/assets/img/hiking.jpg" alt="Nathan Jessen" width="400" height="400" class="img-responsive mb-20">
-            <p>Heylo! I am Nathan Jessen, a Front-end Architect based in {{ site.location }}. When I'm away from the computer, I enjoy hiking, running, biking, reading, and playing poker.</p>
+        <div class="bg-white ba b--black-10 mb3 tl">
+          <div class="pa3">
+            <img src="{{ site.BASE_PATH }}/assets/img/hiking.jpg" alt="Nathan Jessen" width="400" height="400" class="img-responsive">
+            <p class="lh-copy">Heylo! I am Nathan Jessen, a Front-end Architect based in {{ site.location }}. When I'm away from the computer, I enjoy hiking, running, biking, reading, and playing poker.</p>
           </div>
         </div>
       </div>
 
       <div class="col-xs-12 col-md-4">
-        <div class="card card-primary">
-          <div class="card-body">
-            <h2 class="heading-underline text-center">Experience</h2>
-            <p>Web Developer at <a href="https://www.vml.com/" target="_blank">VML</a> &dash; 2012 - Current</p>
+        <div class="bg-white ba b--black-10 mb3">
+          <div class="pa3">
+            <h2 class="heading-underline tc">Experience</h2>
+            <p>Web Developer at <a href="https://www.vml.com/" class="link blue hover-dark-blue" target="_blank">VML</a> &dash; 2012 - Current</p>
           </div>
         </div>
 
-        <div class="card card-primary">
-          <div class="card-body">
-            <h2 class="heading-underline text-center">Education</h2>
-            <p>B.S. in Computer Science</p>
-            <p>Mathematics minor</p>
-            <p>Database Systems Management minor</p>
+        <div class="bg-white ba b--black-10 mb3">
+          <div class="pa3">
+            <h2 class="heading-underline tc">Education</h2>
+            <ul class="list pl0 lh-copy">
+              <li>B.S. in Computer Science</li>
+              <li>Minor in Mathematics</li>
+              <li>Minor in Database Systems Management</li>
+            </ul>
           </div>
         </div>
       </div>
 
       <div class="col-xs-12 col-md-4">
-        <div class="card card-primary">
-          <div class="card-body">
-            <h2 class="heading-underline text-center">Technologies</h2>
-            <ul>
+        <div class="bg-white ba b--black-10 mb3">
+          <div class="pa3">
+            <h2 class="heading-underline tc">Technologies</h2>
+            <ul class="list pl0 lh-copy">
               <li>HTML</li>
               <li>CSS</li>
               <li>Preprocessors (Sass, Less, Stylus)</li>
@@ -51,19 +55,19 @@ permalink: /about/
         </div>
 
         {% comment %}
-        <div class="card card-primary">
-          <div class="card-body">
-            <h2 class="heading-underline text-center">CV</h2>
-            <p><a href="#none">Download my CV</a></p>
+        <div class="bg-white ba b--black-10 mb3">
+          <div class="pa3">
+            <h2 class="heading-underline tc">CV</h2>
+            <p><a href="#none" class="link blue hover-dark-blue">Download my CV</a></p>
           </div>
         </div>
         {% endcomment %}
 
         {% if site.email %}
-        <div class="card card-primary">
-          <div class="card-body">
-            <h2 class="heading-underline text-center">Contact</h2>
-            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        <div class="bg-white ba b--black-10 mb3">
+          <div class="pa3">
+            <h2 class="heading-underline tc">Contact</h2>
+            <p><a href="mailto:{{ site.email }}" class="link blue hover-dark-blue">{{ site.email }}</a></p>
           </div>
         </div>
         {% endif %}

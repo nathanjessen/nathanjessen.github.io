@@ -5,24 +5,24 @@ slug: projects
 permalink: /projects/
 ---
 
-<section class="section-padding">
+<section class="pv5">
   <div class="container-fluid">
-    <h2 class="mb-30 mt-0">Projects</h2>
+    <h2 class="f2 mt0">Projects</h2>
 
-    <ul class="projects">
+    <ul class="list pl0">
       {% for project in site.projects reversed %}
-        <li class="card card-primary project {% cycle 'project--odd', 'project--even' %}">
-          <div class="card-body">
+        <li class="bg-white ba b--black-10 mb3 {% cycle 'project--odd', 'project--even' %}">
+          <div class="pa3">
             <div class="row">
               <div class="col-xs-12 col-sm-4">
                 <a href="{{ project.link }}" target="_blank">
-                  <img src="{{ site.base_url }}assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}" class="img-responsive project__img">
+                  <img src="{{ site.base_url }}assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}" class="img-responsive mb3 mb0-ns">
                 </a>
               </div>
 
               <div class="col-xs-12 col-sm-8">
-                <p><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></p>
-                <p>{{ project.client }}</p>
+                <h3 class="f3 mt0"><a href="{{ project.link }}" class="link blue hover-dark-blue f3" target="_blank">{{ project.title }}</a></h3>
+                <p>Client: {{ project.client }}</p>
                 <p>
                   <time datetime="{{ project.date | date_to_xmlschema }}" class="date">
                     {{ project.date | date_to_string }}

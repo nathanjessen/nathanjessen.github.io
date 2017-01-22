@@ -2,39 +2,40 @@
 layout: default
 ---
 
-<section class="section-padding-small">
+<section class="pv4">
   <div class="container-fluid">
-    <article class="row single-content" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="col-md-8">
-        <div class="feat">
-          <h5 class="page-date">
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-              {{ page.date | date_to_long_string }}
-            </time>
-          </h5>
-        </div>
-        <h1 class="page-title" itemprop="name headline">{{ page.title }}</h1>
-        <div itemprop="articleBody">
+    <article class="row" itemscope itemtype="http://schema.org/BlogPosting">
+      <div class="col-xs-12 col-md-8">
+        <h5 class="f5 fw6 mt0 mb2">
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ page.date | date_to_long_string }}
+          </time>
+        </h5>
+
+        <h1 class="f2 mt0 mb4" itemprop="name headline">{{ page.title }}</h1>
+
+        <div class="lh-copy" itemprop="articleBody">
           {{ content }}
         </div>
-        <div id="share" class="feat">
-          <a href="http://twitter.com/share" class="popup">
+
+        <div class="mv2">
+          <a href="http://twitter.com/share" class="link blue hover-dark-blue">
             <span class="icon-twitter"></span>
           </a>
         </div>
 
-        <ul class="pager">
+        <ul class="list pl0 mt3 cf">
           {% if page.previous %}
-            <li class="previous">
-              <a rel="prev" href="{{ site.BASE_PATH }}{{ page.previous.url }}" id="prev">
-                &larr; <span class="nav-title nav-title-prev">Older</span>
+            <li class="fl">
+              <a href="{{ site.BASE_PATH }}{{ page.previous.url }}" rel="prev" class="link blue hover-dark-blue">
+                &larr; <span class="f3 fw3 v-mid">Older</span>
               </a>
             </li>
           {% endif %}
           {% if page.next %}
-            <li class="next">
-              <a rel="next" href="{{ site.BASE_PATH }}{{ page.next.url }}" id="next">
-                <span class="nav-title nav-title-next">Newer</span> &rarr;
+            <li class="fr">
+              <a href="{{ site.BASE_PATH }}{{ page.next.url }}" rel="next" class="link blue hover-dark-blue">
+                <span class="f3 fw3 v-mid">Newer</span> &rarr;
               </a>
             </li>
           {% endif %}

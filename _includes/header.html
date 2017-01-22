@@ -1,15 +1,15 @@
-<header class="header">
+<header class="pv3 bb b--black-10">
   <div class="container-fluid">
     <div class="row center-xs start-md middle-xs">
-      <hgroup class="header__hgroup col-xs-12 col-md-6">
-        <a href="{{ site.BASE_PATH }}" title="Back to Homepage">
-          <h1 class="header__title">NJ</h1>
+      <hgroup class="col-xs-12 col-md-6">
+        <a href="{{ site.BASE_PATH }}" class="link blue hover-dark-blue" title="Back to Homepage">
+          <h1 class="f2 mv0 ttu">NJ</h1>
         </a>
       </hgroup>
 
-      <nav class="top-nav col-xs-12 col-md-6">
-        <a href="{{ site.base_url }}projects/" {% if page.slug == "projects" %} class="active"{% endif %}>Projects</a>
-        <a href="{{ site.base_url }}about/" {% if page.slug == "about" %} class="active"{% endif %}>About</a>
+      <nav class="mt4 mt0-l tr-l col-xs-12 col-md-6">
+        <a href="{{ site.base_url }}projects/" class="link blue hover-dark-blue ml3 {% if page.slug == 'projects' %}active{% endif %}">Projects</a>
+        <a href="{{ site.base_url }}about/" class="link blue hover-dark-blue ml3 {% if page.slug == 'about' %}active{% endif %}">About</a>
       </nav>
     </div>
   </div>
