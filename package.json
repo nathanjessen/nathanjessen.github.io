@@ -11,7 +11,8 @@
   "author": "Nathan Jessen",
   "license": "The MIT License (MIT)",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "refresh": "rm -fr node_modules && yarn"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.4",
