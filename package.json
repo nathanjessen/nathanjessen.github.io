@@ -10,10 +10,14 @@
   },
   "author": "Nathan Jessen",
   "license": "The MIT License (MIT)",
+  "scripts": {
+    "start": "gulp",
+    "refresh": "rm -fr node_modules && yarn"
+  },
   "devDependencies": {
     "autoprefixer": "^6.5.4",
     "browser-sync": "^2.18.5",
-    "css-mqpacker": "^5.0.1",
+    "glob": "^7.1.1",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",
@@ -22,9 +26,14 @@
     "gulp-postcss": "^6.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0",
+    "gulp-uncss": "^1.0.6",
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.11",
     "postcss-import": "^9.0.0",
     "postcss-nested": "^1.0.0"
+  },
+  "dependencies": {
+    "flexboxgrid": "~6.3.1",
+    "tachyons": "~4.6.1"
   }
 }

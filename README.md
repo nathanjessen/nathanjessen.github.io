@@ -1,6 +1,6 @@
 # NathanJessen.github.io
 
-My personal website and blog.
+My personal website and blog. The site uses my own CSS framework called [Critical CSS](https://github.com/nathanjessen/critical-css) and some additional styling that is specific to the portfolio.
 
 
 ## Technologies used:
