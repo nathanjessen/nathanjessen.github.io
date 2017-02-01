@@ -19,9 +19,9 @@
   (function() {
 
     /* check if font was previously used */
-    if (sessionStorage.getItem('webfonts-loaded')) {
+    if (sessionStorage.getItem('has-webfonts-loaded')) {
       // font is cached, add class to document
-      document.documentElement.classList.add('webfonts-loaded');
+      document.documentElement.classList.add('has-webfonts-loaded');
       return;
     }
 
@@ -44,9 +44,9 @@
     RalewayFamily
       .load()
       .then(function() {
-        document.documentElement.classList.add('webfonts-loaded');
+        document.documentElement.classList.add('has-webfonts-loaded');
         // set mark on storage for future page views
-        sessionStorage.setItem('webfonts-loaded', true);
+        sessionStorage.setItem('has-webfonts-loaded', true);
       });
   })();
 </script>
