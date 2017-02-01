@@ -21,12 +21,16 @@ const uglify = require('gulp-uglify');
 const uncss = require('gulp-uncss');
 const gutil = require('gulp-util');
 const atImport = require('postcss-import');
+const importUrl = require('postcss-import-url');
 const nested = require('postcss-nested');
 
 // CSS
 gulp.task('css', function () {
   var processors = [
     atImport(),
+    importUrl({
+      modernBrowser: true
+    }),
     nested(),
     prefix('> 5%')
   ];
