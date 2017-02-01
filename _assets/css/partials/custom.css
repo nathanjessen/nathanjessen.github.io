@@ -1,5 +1,9 @@
 /** Misc */
 
+.webfonts-loaded body {
+  font-family: 'Raleway';
+}
+
 .heading-underline {
   font-size: 1rem;
   font-weight: 600;

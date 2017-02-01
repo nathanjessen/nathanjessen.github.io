@@ -30,6 +30,7 @@
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.11",
     "postcss-import": "^9.0.0",
+    "postcss-import-url": "^2.2.0",
     "postcss-nested": "^1.0.0"
   },
   "dependencies": {
