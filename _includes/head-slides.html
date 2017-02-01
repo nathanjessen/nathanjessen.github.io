@@ -7,8 +7,15 @@
   {{ page.title }} | {{ site.title }}
 </title>
 
-<link href="{{ site.base_url }}assets/css/reveal.beige.css" rel="stylesheet">
-<script src="{{ site.base_url }}assets/js/reveal.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" media="all" href="{{ site.base_url }}assets/css/webslides.css">
+
+{% comment %}
+<!-- Android -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#357edd">
+{% endcomment %}
 
 {% comment %} Google Analytics {% endcomment %}
 {% if site.ga_tracking_id and site.ga_domain %}

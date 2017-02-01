@@ -1,0 +1,166 @@
+---
+layout: slides
+title: Sass Intermediate Concepts Part 2
+slug: sass-intermediate-concepts-part-2
+permalink: /slides/sass-intermediate-concepts-part-2/
+---
+
+<section class="content-center">
+  <h2>Sass Intermediate Concepts Part 2</h2>
+  <hr>
+  <p>An introduction to the sass maps, control directives and functions</p>
+</section>
+
+<section class="wrap size-50">
+  <h2>Control Directives</h2>
+  <hr>
+  <p>@if</p>
+  <p>@for</p>
+  <p>@each</p>
+  <p>@while</p>
+</section>
+
+<section class="wrap size-50">
+  <h2>@if</h2>
+  <hr>
+  <p>Example: https://github.com/csswizardry/inuit.css-web-template</p>
+  <pre>
+    <code>
+      @if $use-arrows == true{
+        .arrow{
+          position:relative;
+        }
+      }
+      @else {
+        .other{
+          position: absolute;
+        }
+      }
+    </code>
+  </pre>
+</section>
+
+<!-- <section class="wrap size-50">
+  <h2>@for</h2>
+  <hr>
+  <p>Example: https://github.com/csswizardry/inuit.css-web-template</p>
+  <pre>
+    <code>
+      @for $i from 1 through 10 {
+        @if
+        .arrow-#{$i}{
+          content: #{$i};
+        }
+      }
+    </code>
+  </pre>
+</section> -->
+
+<!-- <section class="wrap size-50">
+  <h2>@each</h2>
+  <hr>
+  <pre>
+    <code>
+      .btn {
+        @each $modifier, $color in $brand-colors {
+          &--#{$modifier} {
+            background: darken($color, 15);
+
+            &:active,
+            &:hover {
+              background: darken($color, 24);
+            }
+          }
+        }
+      }
+    </code>
+  </pre>
+</section>
+
+<section class="wrap size-50">
+  <h2>More Resources</h2>
+  <hr>
+  <p><a href="http://thesassway.com/intermediate/if-for-each-while">http://thesassway.com/intermediate/if-for-each-while</a></p>
+</section> -->
+
+<section class="wrap size-50">
+  <h2>Functions</h2>
+  <hr>
+  <pre>
+    <code>
+      @function padding-function($a, $b){
+        @return $a + $b;
+      }
+      .module {
+        padding: padding-function(10px, 5px);
+      }
+    </code>
+  </pre>
+  <p><a href="http://hugogiraudel.com/2013/08/12/sass-functions/">Sass Functions by Hugo Giraudel</a></p>
+</section>
+
+<!--
+<section class="wrap size-50">
+  <h2>Sass Maps</h2>
+  <hr>
+  <pre>
+    <code>
+      $theme: (
+        background: smoke,
+        color: #bada55
+      );
+    </code>
+  </pre>
+</section>
+
+<section class="wrap size-50">
+  <h2>Retrieving Values</h2>
+  <hr>
+  <pre>
+    <code>
+      $theme: (
+        background: smoke,
+        color: #bada55
+      );
+      .test {
+        background: map-get($theme, background);
+        color: map-get($theme, color);
+      }
+    </code>
+  </pre>
+</section>
+
+<section class="wrap size-50">
+  <h2>Adding Values to Map</h2>
+  <hr>
+  <pre>
+    <code>
+      $theme: (
+        background: smoke,
+        color: #bada55
+      );
+      $theme-font: (
+        font-family: Arial;
+        font-size: 20px;
+      );
+      map-merge($theme, $theme-font);
+    </code>
+  </pre>
+</section>
+
+<section class="wrap size-50">
+  <h2>Removing Values from Map</h2>
+  <hr>
+  <pre>
+    <code>
+      $theme: (
+        background: smoke,
+        color: #bada55
+        font-family: Arial;
+        font-size: 20px;
+      )
+      map-remove($theme, font-size);
+    </code>
+  </pre>
+</section>
+ -->
