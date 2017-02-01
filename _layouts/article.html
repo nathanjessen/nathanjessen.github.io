@@ -4,7 +4,7 @@ layout: default
 
 <section class="pv4">
   <div class="container-fluid">
-    <article class="row" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="row article" itemscope itemtype="http://schema.org/BlogPosting">
       <div class="col-xs-12 col-md-8">
         <h5 class="f5 fw6 mt0 mb2">
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -19,7 +19,7 @@ layout: default
         </div>
 
         <div class="mv2">
-          <a href="http://twitter.com/share" class="link blue hover-dark-blue">
+          <a href="http://twitter.com/share">
             <span class="icon-twitter"></span>
           </a>
         </div>
@@ -27,14 +27,14 @@ layout: default
         <ul class="list pl0 mt3 cf">
           {% if page.previous %}
             <li class="fl">
-              <a href="{{ site.BASE_PATH }}{{ page.previous.url }}" rel="prev" class="link blue hover-dark-blue">
+              <a href="{{ site.BASE_PATH }}{{ page.previous.url }}" rel="prev">
                 &larr; <span class="f3 fw3 v-mid">Older</span>
               </a>
             </li>
           {% endif %}
           {% if page.next %}
             <li class="fr">
-              <a href="{{ site.BASE_PATH }}{{ page.next.url }}" rel="next" class="link blue hover-dark-blue">
+              <a href="{{ site.BASE_PATH }}{{ page.next.url }}" rel="next">
                 <span class="f3 fw3 v-mid">Newer</span> &rarr;
               </a>
             </li>

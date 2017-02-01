@@ -4,6 +4,25 @@
   font-family: 'Raleway';
 }
 
+.article a {
+  color: #357edd;
+  text-decoration: none;
+
+  &,
+  &:active,
+  &:focus,
+  &:hover,
+  &:link,
+  &:visited {
+    transition: color .15s ease-in;
+  }
+
+  &:focus,
+  &:hover {
+    color: #00449e;
+  }
+}
+
 .heading-underline {
   font-size: 1rem;
   font-weight: 600;
