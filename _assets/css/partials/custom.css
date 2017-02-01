@@ -1,5 +1,9 @@
 /** Misc */
 
+.webfonts-loaded body {
+  font-family: 'Raleway';
+}
+
 .article a {
   color: #357edd;
   text-decoration: none;
