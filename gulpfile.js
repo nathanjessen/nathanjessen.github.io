@@ -60,9 +60,9 @@ gulp.task('scripts', function () {
 // Vendor JS
 gulp.task('vendor-js', function () {
   gulp.src([
-      '_assets/vendors/reveal/js/reveal.js'
+      '_assets/vendors/webslides/js/webslides-lite.js'
     ])
-    .pipe(concat('reveal.min.js'))
+    .pipe(concat('webslides-lite.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('assets/js'));
 });
@@ -70,10 +70,11 @@ gulp.task('vendor-js', function () {
 // Vendor CSS
 gulp.task('vendor-css', function () {
   gulp.src([
-    '_assets/vendors/reveal/css/reveal.css',
-    '_assets/vendors/reveal/css/theme/beige.css'
+    '_assets/vendors/webslides/css/base.css',
+    '_assets/vendors/webslides/css/colors.css',
+    '_assets/vendors/webslides/css/svg-icons.css'
   ])
-  .pipe(concat('reveal.beige.css'))
+  .pipe(concat('webslides.css'))
   .pipe(cssnano())
   .pipe(gulp.dest('assets/css'));
 });

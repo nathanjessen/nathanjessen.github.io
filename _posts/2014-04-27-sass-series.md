@@ -13,5 +13,5 @@ Below are links to slides I'm using as an outline for my talks at Afternoon Tea,
 
 * [Sass Best Practices, Techniques, Tools, and Resources](/slides/sass-best-practices-techniques-tools-resources/)
 * [CSS Methodologies](/slides/css-methodologies/)
-* [Sass Intermediate Concepts]()
+* [Sass Intermediate Concepts](/slides/sass-intermediate-concepts/)
 * [Sass Intermediate Concepts Part 2](/slides/sass-intermediate-concepts-part-2/)
