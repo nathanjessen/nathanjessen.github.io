@@ -1,40 +1,34 @@
 ---
-layout: default
+layout: page
 title: Projects
 slug: projects
 permalink: /projects/
 ---
 
-<section class="pv5">
-  <div class="container-fluid">
-    <h2 class="f2 mt0">Projects</h2>
-
-    <ul class="list pl0">
-      {% for project in site.projects reversed %}
-        <li class="bg-white ba b--black-10 mb3 {% cycle 'project--odd', 'project--even' %}">
-          <div class="pa3">
-            <div class="row">
-              <div class="col-xs-12 col-sm-4">
-                <a href="{{ project.link }}" target="_blank">
-                  <img src="{{ site.base_url }}assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}" class="img-responsive mb3 mb0-ns">
-                </a>
-              </div>
-
-              <div class="col-xs-12 col-sm-8">
-                <h3 class="f3 mt0"><a href="{{ project.link }}" class="link blue hover-dark-blue f3" target="_blank">{{ project.title }}</a></h3>
-                <p>Client: {{ project.client }}</p>
-                <p>
-                  <time datetime="{{ project.date | date_to_xmlschema }}" class="date">
-                    {{ project.date | date_to_string }}
-                  </time>
-                </p>
-                <p>{{ project.tech }}</p>
-                {% comment %}<p>{{ project.short-description }}</p>{% endcomment %}
-              </div>
-            </div>
+<ul class="list pl0">
+  {% for project in site.projects reversed %}
+    <li class="bg-white ba b--black-10 mb3 {% cycle 'project--odd', 'project--even' %}">
+      <div class="pa3">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <a href="{{ project.link }}" target="_blank">
+              <img src="{{ site.base_url }}assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}" class="img-responsive mb3 mb0-ns">
+            </a>
           </div>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
+
+          <div class="col-xs-12 col-sm-8">
+            <h3 class="f3 mt0"><a href="{{ project.link }}" class="link blue hover-dark-blue f3" target="_blank">{{ project.title }}</a></h3>
+            <p>Client: {{ project.client }}</p>
+            <p>
+              <time datetime="{{ project.date | date_to_xmlschema }}" class="date">
+                {{ project.date | date_to_string }}
+              </time>
+            </p>
+            <p>{{ project.tech }}</p>
+            {% comment %}<p>{{ project.short-description }}</p>{% endcomment %}
+          </div>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
