@@ -1,77 +1,65 @@
 ---
-layout: default
+layout: page
 title: About
 slug: about
 permalink: /about/
 ---
 
-<section class="pv5">
-  <div class="container-fluid">
-    <h2 class="f2 mt0">About</h2>
-
-    <div class="row">
-      <div class="col-xs-12 col-md-4">
-        <div class="bg-white ba b--black-10 mb3 tl">
-          <div class="pa3">
-            <img src="{{ site.BASE_PATH }}/assets/img/hiking.jpg" alt="Nathan Jessen" width="400" height="400" class="img-responsive">
-            <p class="lh-copy">Heylo! I am Nathan Jessen, a Front-end Architect based in {{ site.location }}. When I'm away from the computer, I enjoy hiking, running, biking, reading, and playing poker.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-md-4">
-        <div class="bg-white ba b--black-10 mb3">
-          <div class="pa3">
-            <h2 class="heading-underline tc">Experience</h2>
-            <p>Web Developer at <a href="https://www.vml.com/" class="link blue hover-dark-blue" target="_blank">VML</a> &dash; 2012 - Current</p>
-          </div>
-        </div>
-
-        <div class="bg-white ba b--black-10 mb3">
-          <div class="pa3">
-            <h2 class="heading-underline tc">Education</h2>
-            <ul class="list pl0 lh-copy">
-              <li>B.S. in Computer Science</li>
-              <li>Minor in Mathematics</li>
-              <li>Minor in Database Systems Management</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-md-4">
-        <div class="bg-white ba b--black-10 mb3">
-          <div class="pa3">
-            <h2 class="heading-underline tc">Technologies</h2>
-            <ul class="list pl0 lh-copy">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Preprocessors (Sass, Less, Stylus)</li>
-              <li>Build tools (PostCSS, Gulp, Grunt)</li>
-              <li>JavaScript (Vanilla, AngularJS, jQuery)</li>
-              <li>Version Control (Git, SVN)</li>
-            </ul>
-          </div>
-        </div>
-
-        {% comment %}
-        <div class="bg-white ba b--black-10 mb3">
-          <div class="pa3">
-            <h2 class="heading-underline tc">CV</h2>
-            <p><a href="#none" class="link blue hover-dark-blue">Download my CV</a></p>
-          </div>
-        </div>
-        {% endcomment %}
-
-        {% if site.email %}
-        <div class="bg-white ba b--black-10 mb3">
-          <div class="pa3">
-            <h2 class="heading-underline tc">Contact</h2>
-            <p><a href="mailto:{{ site.email }}" class="link blue hover-dark-blue">{{ site.email }}</a></p>
-          </div>
-        </div>
-        {% endif %}
+<div class="row">
+  <div class="col-xs-12 col-md-4">
+    <div class="bg-white ba b--black-10 mb3 tl">
+      <div class="pa3">
+        <h2 class="heading-underline tc">About Me</h2>
+        <p class="lh-copy">Heylo! I am <span class="fw6">Nathan Jessen</span>, a front-end web developer specializing in HTML and CSS. I live in the beautiful city of <span class="fw6">{{ site.location }}</span>. In my off hours I can be found hiking, running, reading, playing poker, or a plethora of other things.</p>
+        <img src="{{ site.BASE_PATH }}/assets/img/hiking.jpg" alt="Nathan Jessen" width="400" height="400" class="img-responsive">
       </div>
     </div>
   </div>
-</section>
+
+  <div class="col-xs-12 col-md-4">
+    <div class="bg-white ba b--black-10 mb3">
+      <div class="pa3">
+        <h2 class="heading-underline tc">Experience</h2>
+        <p><span class="fw6">Web Developer</span> at <a href="https://www.vml.com/" class="link blue hover-dark-blue" target="_blank">VML</a> &dash; 2012 - Current</p>
+      </div>
+    </div>
+
+    <div class="bg-white ba b--black-10 mb3">
+      <div class="pa3">
+        <h2 class="heading-underline tc">Education</h2>
+        <ul class="list pl0 lh-copy">
+          <li><span class="fw6">B.S. in Computer Science</span></li>
+          <li>Minor in Mathematics</li>
+          <li>Minor in Database Systems Management</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-md-4">
+    <div class="bg-white ba b--black-10 mb3">
+      <div class="pa3">
+        <h2 class="heading-underline tc">Technologies</h2>
+        <ul class="lh-copy">
+          <li><span class="fw6">HTML</span></li>
+          <li><span class="fw6">CSS</span></li>
+          <li>Preprocessors (<span class="fw6">Sass</span>, Less, Stylus)</li>
+          <li>Build tools (<span class="fw6">PostCSS</span>, Gulp, Grunt)</li>
+          <li>JavaScript (<span class="fw6">Vanilla</span>, AngularJS, jQuery)</li>
+          <li>Version Control (<span class="fw6">Git</span>, SVN)</li>
+          <li>CMS (AEM 5/6, WordPress, Drupal)</li>
+          <li>Template Engines (<span class="fw6">Liquid</span>, Handlebars, Nunjucks, Jade)</li>
+        </ul>
+      </div>
+    </div>
+
+    {% if site.email %}
+    <div class="bg-white ba b--black-10 mb3">
+      <div class="pa3">
+        <h2 class="heading-underline tc">Contact</h2>
+        <p><a href="mailto:{{ site.email }}" class="link blue hover-dark-blue">{{ site.email }}</a></p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
