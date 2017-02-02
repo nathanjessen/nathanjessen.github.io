@@ -1,65 +1,58 @@
 ---
-layout: default
+layout: page
 title: Tags
 header: Posts By Tag
 group: navigation
 permalink: /tags/
 ---
 
-
-<section class="pv5">
-  <div class="container-fluid">
-    <h2 class="f2 mt0">Tags</h2>
-
-    <div class="row single-content">
-      <div class="col-xs-12 col-sm-3">
-        <ul class="list pl0 lh-copy">
-          {% assign tags_list = site.tags %}
-           {% if tags_list.first[0] == null %}
-            {% for tag in tags_list %}
-                <li class="mb3">
-                    <a href="#{{ tag }}-ref" class="link blue hover-dark-blue">
-                      {{ tag | capitalize }} <span class="f6 bg-dark-blue white pv1 ph3 br-pill fr">{{ site.tags[tag].size }}</span>
-                   </a>
-                </li>
-            {% endfor %}
-          {% else %}
-            {% for tag in tags_list %}
-                <li class="mb3">
-                    <a href="#{{ tag[0] }}-ref" class="link blue hover-dark-blue">
-                        {{ tag[0] | capitalize }} <span class="f6 bg-dark-blue white pv1 ph3 br-pill fr">{{ tag[1].size }}</span>
-                    </a>
-                </li>
-            {% endfor %}
-          {% endif %}
-          {% assign tags_list = nil %}
-        </ul>
-      </div>
-
-      <div class="col-xs-12 col-sm-9 col-md-8 col-md-offset-1">
-        {% for tag in site.tags %}
-
-          <div class="bg-white ba b--black-10 mb3" id="{{ tag[0] }}-ref">
-            <div class="pa3">
-              <h3 class="f3 lh-solid mv0">{{ tag[0] }}</h3>
-            </div>
-            <div class="pa3">
-              <ul class="list pl0 mv0">
-                {% assign pages_list = tag[1] %}
-                {% for node in pages_list %}
-                  {% if node.title != null %}
-                    {% if group == null or group == node.group %}
-                      <li class="lh-copy"><a href="{{ site.BASE_PATH }}{{node.url}}" class="link blue hover-dark-blue">{{node.title}}</a> <span class="mid-gray">- {{ node.date | date: "%B %d, %Y" }}</span></li>
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-                {% assign pages_list = nil %}
-              </ul>
-            </div>
-          </div>
-
+<div class="row single-content">
+  <div class="col-xs-12 col-sm-3">
+    <ul class="list pl0 lh-copy">
+      {% assign tags_list = site.tags %}
+       {% if tags_list.first[0] == null %}
+        {% for tag in tags_list %}
+            <li class="mb3">
+                <a href="#{{ tag }}-ref" class="link blue hover-dark-blue">
+                  {{ tag | capitalize }} <span class="f6 bg-dark-blue white pv1 ph3 br-pill fr">{{ site.tags[tag].size }}</span>
+               </a>
+            </li>
         {% endfor %}
-      </div>
-    </div>
+      {% else %}
+        {% for tag in tags_list %}
+            <li class="mb3">
+                <a href="#{{ tag[0] }}-ref" class="link blue hover-dark-blue">
+                    {{ tag[0] | capitalize }} <span class="f6 bg-dark-blue white pv1 ph3 br-pill fr">{{ tag[1].size }}</span>
+                </a>
+            </li>
+        {% endfor %}
+      {% endif %}
+      {% assign tags_list = nil %}
+    </ul>
   </div>
-</section>
+
+  <div class="col-xs-12 col-sm-9 col-md-8 col-md-offset-1">
+    {% for tag in site.tags %}
+
+      <div class="bg-white ba b--black-10 mb3" id="{{ tag[0] }}-ref">
+        <div class="pa3">
+          <h3 class="f3 lh-solid mv0">{{ tag[0] }}</h3>
+        </div>
+        <div class="pa3">
+          <ul class="list pl0 mv0">
+            {% assign pages_list = tag[1] %}
+            {% for node in pages_list %}
+              {% if node.title != null %}
+                {% if group == null or group == node.group %}
+                  <li class="lh-copy"><a href="{{ site.BASE_PATH }}{{node.url}}" class="link blue hover-dark-blue">{{node.title}}</a> <span class="mid-gray">- {{ node.date | date: "%B %d, %Y" }}</span></li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+            {% assign pages_list = nil %}
+          </ul>
+        </div>
+      </div>
+
+    {% endfor %}
+  </div>
+</div>
