@@ -5,8 +5,8 @@
   border: 1px solid #eee;
   border-radius: 3px;
   color: SlateGrey;
-  font-size: 80%;
-  margin: 60px 40px 40px;
+  font-size: 90%;
+  margin: 30px 20px;
   overflow: scroll;
   padding: 10px 25px;
 }
@@ -16,7 +16,7 @@
 }
 
 .highlight code span {
-  font-size: 85%;
+  font-size: 95%;
   line-height: 150%;
 }
 
@@ -48,7 +48,6 @@
 /* Viewport width < 920px */
 
 @media only screen and (max-width : 919px) {
-  .highlight { margin: 30px 40px 40px; }
   .highlight code.html::before,
   .highlight code.css::before,
   .highlight code.js::before {
@@ -60,6 +59,6 @@
 
 @media only screen and (max-width : 479px) {
 
-  .highlight { margin: 30px 20px 40px; padding: 10px 5px; }
+  .highlight { margin: 20px; padding: 10px 5px; }
 
 }

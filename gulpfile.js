@@ -39,6 +39,7 @@ gulp.task('css', function () {
     .pipe(uncss({
       html: glob.sync('_site/**/*.html'),
       ignore: [
+          /(#|\.)(highlight)/,
           /(#|\.)(is-)/,
           /(#|\.)(has-)/,
           /(#|\.)(js-)/
