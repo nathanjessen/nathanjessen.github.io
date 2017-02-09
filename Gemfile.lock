@@ -196,9 +196,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll
-  kramdown
-  rouge
 
 BUNDLED WITH
    1.14.3
