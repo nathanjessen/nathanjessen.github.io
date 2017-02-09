@@ -1,10 +1,9 @@
 ---
-layout: article
 title: Flexbox and Foundation 6 Grid
 published: true
 fullview: true
-categories: [development]
-tags: [CSS3, RWD, Foundation, Flexbox]
+categories: [Article]
+tags: [CSS, RWD, Foundation, Flexbox]
 description: Foundation 6 will use a flexbox grid layout but we will need to provide a fallback grid layout to support IE8 and IE9.
 ---
 

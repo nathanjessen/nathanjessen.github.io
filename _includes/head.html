@@ -5,14 +5,14 @@
 
 <title>
   {% if page.title == "Homepage" %}
-    {{ site.description }}
+    {{ site.github.description }}
   {% else if %}
     {{ page.title }} | {{ site.title }}
   {% endif %}
 </title>
 
-<link href="{{ site.base_url }}assets/css/main.css" rel="stylesheet">
-<link href="{{ site.BASE_PATH }}/{{ site.rss_path }}" rel="alternate" title="{{ site.title }} - {{ site.author }}" type="application/atom+xml" />
+<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/{{ site.rss_path }}" rel="alternate" title="{{ site.title }} - {{ site.author }}" type="application/atom+xml" />
 
 <!-- Font Face Observer for better webfont performance -->
 <script>
