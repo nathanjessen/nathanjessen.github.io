@@ -3,6 +3,9 @@ language: ruby
 rvm:
   - 2.2
 
+node_js:
+  - "6"
+
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
