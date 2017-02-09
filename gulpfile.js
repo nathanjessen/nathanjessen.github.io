@@ -90,7 +90,7 @@ gulp.task('imagemin', function () {
 });
 
 // Jekyll
-gulp.task('jekyll', () => {
+gulp.task('jekyll', function () {
   var jekyllCmd = (process.platform === "win32" ? "jekyll.bat" : "jekyll");
 
   const jekyll = child.spawn(jekyllCmd, ['build',
@@ -110,7 +110,7 @@ gulp.task('jekyll', () => {
 });
 
 // BrowserSync
-gulp.task('serve', () => {
+gulp.task('serve', function () {
   browserSync.init({
     files: [siteRoot + '/**'],
     port: 4000,
