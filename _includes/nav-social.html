@@ -1,26 +1,29 @@
 <nav class="social-buttons">
-  {% if site.githubs %}<a href="{{ site.githubs }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
+  {% if site.githubs.username %}<a href="https://github.com/{{ site.githubs.username }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
     <i class="icon-github-circled"></i><span class="sr-only">GitHub</span>
   </a>{% endif %}
-  {% if site.twitter %}<a href="{{ site.twitter }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
+  {% if site.codepen.username %}<a href="http://codepen.io/{{ site.codepen.username }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
+    <i class="icon-codepen-circled"></i><span class="sr-only">CodePen</span>
+  </a>{% endif %}
+  {% if site.twitter.username %}<a href="https://twitter.com/{{ site.twitter.username }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
     <i class="icon-twitter"></i><span class="sr-only">Twitter</span>
   </a>{% endif %}
-  {% if site.medium %}<a href="{{ site.medium }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
+  {% if site.medium.username %}<a href="https://medium.com/{{ site.medium.username }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
     <i class="icon-medium"></i><span class="sr-only">Medium</span>
   </a>{% endif %}
-  {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
+  {% if site.linkedin.username %}<a href="https://www.linkedin.com/in/{{ site.linkedin.username }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
     <i class="icon-linkedin"></i><span class="sr-only">LinkedIn</span>
   </a>{% endif %}
-  {% if site.gplus %}<a href="{{ site.gplus }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
+  {% if site.gplus.username %}<a href="https://plus.google.com/+{{ site.gplus.username }}/posts" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
     <i class="icon-gplus"></i><span class="sr-only">Google Plus</span>
   </a>{% endif %}
-  {% if site.instagram %}<a href="{{ site.instagram }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
+  {% if site.instagram.username %}<a href="https://www.instagram.com/{{ site.instagram.username }}/" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
     <i class="icon-instagram"></i><span class="sr-only">Instagram</span>
   </a>{% endif %}
-  {% if site.dribbble %}<a href="{{ site.dribbble }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
+  {% if site.dribbble.username %}<a href="https://dribbble.com/{{ site.dribbble.username }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
     <i class="icon-dribbble"></i><span class="sr-only">Dribbble</span>
   </a>{% endif %}
-  {% if site.angellist %}<a href="{{ site.angellist }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
+  {% if site.angellist.username %}<a href="https://angel.co/{{ site.angellist.username }}" target="_blank" class="bg-dark-gray hover-bg-blue white social-btn">
     <i class="icon-angellist"></i><span class="sr-only">AngelList</span>
   </a>{% endif %}
 </nav>

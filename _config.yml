@@ -45,6 +45,8 @@ exclude:
 ####################
 # whitelist: []
 gems:
+  - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-sitemap
 
 
@@ -132,6 +134,7 @@ profile: false
 # Custom vars
 locale: "en-US"
 title: "Nathan Jessen"
+description: "Blog and Portfolio of Nathan Jessen"
 categories_path: categories.html
 tags_path: tags.html
 rss_path: atom.xml
@@ -142,6 +145,7 @@ rss_path: atom.xml
 ####################
 
 author: "Nathan Jessen"
+# logo:
 
 # Contact
 email: "nathan.jessen@gmail.com"
@@ -152,8 +156,31 @@ ga_domain: nathanjessen.github.io
 ga_tracking_id: UA-42437510-1
 
 # Social
-githubs: "https://github.com/nathanjessen"
-linkedin: "https://www.linkedin.com/in/njessen"
-gplus: "//plus.google.com/+NathanJessen/posts"
-twitter: "https://twitter.com/nathanjessen"
-codepen: "http://codepen.io/njessen"
+githubs:
+  username: "nathanjessen"
+codepen:
+  username: "njessen"
+twitter:
+  username: "nathanjessen"
+# medium:
+#   username: "@nathanjessen"
+linkedin:
+  username: "njessen"
+gplus:
+  username: "NathanJessen"
+# instagram:
+#   username:
+# dribbble:
+#   username:
+# angellist:
+#   username: "nathanjessen"
+
+# jekyll-seo-tag - social profiles
+social:
+  links:
+    - https://github.com/nathanjessen"
+    - http://codepen.io/njessen"
+    - https://twitter.com/nathanjessen"
+    - https://medium.com/@nathanjessen"
+    - https://www.linkedin.com/in/njessen"
+    - https://plus.google.com/+NathanJessen/posts"
