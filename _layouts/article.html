@@ -27,14 +27,14 @@ layout: default
         <ul class="list pl0 mt3 cf">
           {% if page.previous %}
             <li class="fl">
-              <a href="{{ site.BASE_PATH }}{{ page.previous.url }}" rel="prev">
+              <a href="{{ page.previous.url }}" rel="prev">
                 &larr; <span class="f3 fw3 v-mid">Older</span>
               </a>
             </li>
           {% endif %}
           {% if page.next %}
             <li class="fr">
-              <a href="{{ site.BASE_PATH }}{{ page.next.url }}" rel="next">
+              <a href="{{ page.next.url }}" rel="next">
                 <span class="f3 fw3 v-mid">Newer</span> &rarr;
               </a>
             </li>
