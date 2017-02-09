@@ -1,14 +1,19 @@
 language: ruby
+
 rvm:
   - 2.2
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - JEKYLL_ENV=production
 
 branches:
   only:
     - "master"
 
 before_script:
-  - npm install
-  - gulp
+  - yarn
 
 script:
   - npm run travis
@@ -17,7 +22,7 @@ notifications:
   email:
    - nathan.jessen@gmail.com
 
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-    - JEKYLL_ENV=production
+cache:
+  yarn: true
+  directories:
+    - node_modules
