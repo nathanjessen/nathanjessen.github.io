@@ -2,19 +2,24 @@
 
   Developer: Nathan Jessen
   Contact: nathan.jessen [at] gmail.com
+  GitHub: nathanjessen
   Twitter: @nathanjessen
-
 
 # TECHNOLOGY COLOPHON
 
-  HTML5, CSS3, PostCSS
+  Github Pages
   Jekyll
-  github-pages
-
+  Gulp
+  PostCSS
+  Yarn
+  EditorConfig
+  Tachyons
+  WebSlides
+  Google Fonts
+  Font Face Observer
+  Fontello
 
 # SITE
 
-  Last update: 2014/09/29
   Language: English
   Doctype: HTML5
-  IDE: Sublime Text 3, GitHub for Mac

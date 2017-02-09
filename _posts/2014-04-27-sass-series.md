@@ -1,9 +1,8 @@
 ---
-layout: article
 title: Sass Series
 published: true
 fullview: true
-categories: [development]
+categories: [Talk]
 tags: [Sass, CSS]
 description: Sass talks given at Afternoon Tea
 ---

@@ -1,9 +1,8 @@
 ---
-layout: article
 title: First Impressions of Jekyll
 published: true
 fullview: true
-categories: [development]
+categories: [Article]
 tags: [Jekyll, CMS, Static Site Generator]
 description: Thoughts on Jekyll
 ---

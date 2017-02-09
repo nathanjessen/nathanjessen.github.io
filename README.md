@@ -16,6 +16,16 @@ My personal website and blog.
 - [Font Face Observer](https://fontfaceobserver.com/)
 - [Fontello](http://fontello.com/)
 
+## Posts
+
+Posts will fall into one of several categories.
+
+- Article
+- Talk
+- Tip
+- Tutorial
+- Video
+
 ## Issues
 
 If you discover a bug, [report it here](https://github.com/nathanjessen/nathanjessen.github.com/issues) or even better, edit and send a pull-request with the fix.

@@ -1,9 +1,8 @@
 ---
-layout: article
 title: An Introduction to BEM
 published: true
 fullview: true
-categories: [development]
+categories: [Article]
 tags: [CSS, BEM]
 description: An Introduction to the BEM methodology.
 ---
