@@ -15,9 +15,9 @@ branches:
   only:
     - "master"
 
-before_script:
-  - npm install -g yarn
-  - yarn
+# before_script:
+#   - npm install -g yarn
+#   - yarn
 
 script:
   - npm run travis
