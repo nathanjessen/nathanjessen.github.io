@@ -1,7 +1,6 @@
 ---
 title: "Sprint.com"
 client: "Sprint"
-short-description: "A complete rework of Sprint's website."
 date: 2016/12/01
 tech: "AEM/CQ6, AngularJS, Sass, Gulp"
 link: https://www.sprint.com
@@ -9,6 +8,4 @@ thumbnail: 720x400.gif
 company: VML
 ---
 
-## Sprint.com
-
-Description here
+A complete rebuild of Sprint's upper and lower funnel.
