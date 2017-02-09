@@ -7,4 +7,7 @@
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
 {% include font-face-observer.html %}
-{% include analytics.html %}
+
+{% if jekyll.environment == "production" %}
+  {% include analytics.html %}
+{% endif %}

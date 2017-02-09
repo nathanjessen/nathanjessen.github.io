@@ -90,17 +90,15 @@ defaults:
       layout: "page"
   -
     scope:
-      path: "_slides"
+      path: "slides"
     values:
       layout: "slides"
-      permalink: "/slides/:slug/"
   -
     scope:
       path: "_projects"
       type: "projects"
     values:
       layout: "page"
-      permalink: "/projects/:path/"
 # liquid:
 #   error_mode: warn
 
@@ -158,8 +156,8 @@ ga_tracking_id: UA-42437510-1
 # Social
 githubs:
   username: "nathanjessen"
-codepen:
-  username: "njessen"
+# codepen:
+#   username: "njessen"
 twitter:
   username: "nathanjessen"
 # medium:
