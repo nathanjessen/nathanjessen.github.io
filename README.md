@@ -20,11 +20,11 @@ My personal website and blog.
 
 Posts will fall into one of several categories.
 
-- Article
-- Talk
-- Tip
-- Tutorial
-- Video
+- Articles
+- Talks
+- Tips
+- Tutorials
+- Videos
 
 ## Issues
 

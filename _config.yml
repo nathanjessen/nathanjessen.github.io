@@ -68,7 +68,7 @@ gems:
 ####################
 # Outputting
 ####################
-permalink: "categories/:categories/:title/"
+permalink: ":categories/:title/"
 # paginate_path: /page:num
 timezone: "America/Los_Angeles"
 # quiet: false
