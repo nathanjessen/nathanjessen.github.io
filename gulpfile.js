@@ -126,4 +126,7 @@ gulp.task('serve', () => {
 });
 
 // Default
-gulp.task('default', ['vendor-css', 'vendor-js', 'scripts', 'css', 'jekyll', 'serve']);
+gulp.task('default', ['vendor-css', 'vendor-js', 'scripts', 'css']);
+
+// Development
+gulp.task('develop', ['vendor-css', 'vendor-js', 'scripts', 'css', 'jekyll', 'serve']);

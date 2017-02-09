@@ -1,0 +1,23 @@
+language: ruby
+rvm:
+  - 2.2
+
+branches:
+  only:
+    - "master"
+
+before_script:
+  - npm install
+  - gulp
+
+script:
+  - npm run travis
+
+notifications:
+  email:
+   - nathan.jessen@gmail.com
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - JEKYLL_ENV=production

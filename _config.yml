@@ -20,6 +20,7 @@ include:
   - "_pages"
 exclude:
   - "node_modules"
+  - "vendor"
   - "*.sublime-project"
   - "*.sublime-workspace"
   - "Gemfile"
