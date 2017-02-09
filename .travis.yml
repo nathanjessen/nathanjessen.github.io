@@ -13,6 +13,7 @@ branches:
     - "master"
 
 before_script:
+  - npm install -g yarn
   - yarn
 
 script:
