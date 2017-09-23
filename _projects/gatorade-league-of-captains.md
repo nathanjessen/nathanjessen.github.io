@@ -1,9 +1,10 @@
 ---
-title: "League of Captains"
-client: "Gatorade"
+title: League of Captains
+client: Gatorade
 date: 2014/07/21
-tech: "Jade, Stylus, Backbone, Grunt"
+tech: Jade, Stylus, Backbone, Grunt
 link: http://leagueofcaptains.gatorade.com/
 thumbnail: gatorade-efficacy.png
 company: VML
+published: false
 ---

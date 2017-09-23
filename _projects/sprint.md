@@ -1,10 +1,10 @@
 ---
-title: "Sprint.com"
-client: "Sprint"
+title: Sprint
+client: Sprint
 date: 2016/12/01
-tech: "AEM/CQ6, AngularJS, Sass, Gulp"
+tech: AEM/CQ6, AngularJS, Sass, Gulp
 link: https://www.sprint.com
-thumbnail: 720x400.gif
+thumbnail: sprint.png
 company: VML
 ---
 
