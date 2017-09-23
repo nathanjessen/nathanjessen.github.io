@@ -3,29 +3,18 @@ title: Projects
 permalink: /projects/
 ---
 
-<ul class="list pl0">
+<ul class="list pl0 row">
   {% for project in site.projects reversed %}
-    <li class="bg-white ba b--black-10 mb3 {% cycle 'project--odd', 'project--even' %}">
-      <div class="pa3">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <a href="{{ project.link }}" target="_blank">
-              <img src="{{ site.base_url }}/assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}" class="img-responsive mb3 mb0-ns">
-            </a>
-          </div>
+    {% unless project.published == false %}
+    <li class="col-xs-12 col-sm-6 mb5">
+      <div class="pv3 {% cycle 'pr3-l', 'pl3-l' %}"">
+        <h3 class="f3 mt0"><a href="{{ project.link }}" class="link primary hover-dark-primary f3" target="_blank">{{ project.title }}</a></h3>
 
-          <div class="col-xs-12 col-sm-8">
-            <h3 class="f3 mt0"><a href="{{ project.link }}" class="link blue hover-dark-blue f3" target="_blank">{{ project.title }}</a></h3>
-            <p>Client: {{ project.client }}</p>
-            <p>
-              <time datetime="{{ project.date | date_to_xmlschema }}" class="date">
-                {{ project.date | date_to_string }}
-              </time>
-            </p>
-            <p>{{ project.tech }}</p>
-          </div>
-        </div>
+        <a href="{{ project.link }}" target="_blank">
+          <img src="{{ site.base_url }}/assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}" class="img-responsive mb3 mb0-ns grow">
+        </a>
       </div>
     </li>
+    {% endunless %}
   {% endfor %}
 </ul>

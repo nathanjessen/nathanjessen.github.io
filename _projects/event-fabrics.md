@@ -1,9 +1,10 @@
 ---
-title: "eVent Fabrics"
-client: "GE"
+title: eVent Fabrics
+client: GE
 date: 2013/01/15
-tech: "WordPress"
+tech: WordPress
 link: http://eventfabrics.com/
 thumbnail: event-fabrics.png
 company: VML
+published: false
 ---

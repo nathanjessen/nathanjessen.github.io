@@ -4,25 +4,22 @@ permalink: /about/
 ---
 
 <div class="row">
-  <div class="col-xs-12 col-md-4">
-    <div class="bg-white ba b--black-10 mb3 tl">
-      <div class="pa3">
-        <h2 class="heading-underline tc">About Me</h2>
-        <p class="lh-copy">Heylo! I am <span class="fw6">Nathan Jessen</span>, a front-end web developer specializing in HTML and CSS. I live in the beautiful city of <span class="fw6">{{ site.location }}</span>. In my off hours I can be found hiking, running, reading, playing poker, or a plethora of other things.</p>
-        <img src="{{ site.baseurl }}/assets/img/hiking.jpg" alt="Nathan Jessen" width="400" height="400" class="img-responsive">
-      </div>
+  <div class="col-xs-12 col-md-8">
+    <div class="mb3 tl">
+      <p class="lh-copy">Hello! I am <span class="fw6">Nathan Jessen</span>, a front-end web developer specializing in HTML and CSS. I live in the beautiful city of <span class="fw6">{{ site.location }}</span>. In my off hours I can be found hiking, running, reading, playing poker, or a plethora of other things.</p>
+      <img src="{{ site.baseurl }}/assets/img/hiking.jpg" alt="Nathan Jessen" width="400" height="400" class="img-responsive">
     </div>
   </div>
 
   <div class="col-xs-12 col-md-4">
-    <div class="bg-white ba b--black-10 mb3">
+    <div class="ba b--black-10 mb3">
       <div class="pa3">
         <h2 class="heading-underline tc">Experience</h2>
-        <p><span class="fw6">Web Developer</span> at <a href="https://www.vml.com/" class="link blue hover-dark-blue" target="_blank">VML</a> &dash; 2012 - Current</p>
+        <p><span class="fw6">Web Developer</span> at <a href="https://www.vml.com/" class="link primary hover-dark-primary" target="_blank">VML</a> &dash; 2012 - Current</p>
       </div>
     </div>
 
-    <div class="bg-white ba b--black-10 mb3">
+    <div class="ba b--black-10 mb3">
       <div class="pa3">
         <h2 class="heading-underline tc">Education</h2>
         <ul class="list pl0 lh-copy">
@@ -32,10 +29,8 @@ permalink: /about/
         </ul>
       </div>
     </div>
-  </div>
 
-  <div class="col-xs-12 col-md-4">
-    <div class="bg-white ba b--black-10 mb3">
+    <div class="ba b--black-10 mb3">
       <div class="pa3">
         <h2 class="heading-underline tc">Technologies</h2>
         <ul class="lh-copy">
@@ -50,14 +45,5 @@ permalink: /about/
         </ul>
       </div>
     </div>
-
-    {% if site.email %}
-    <div class="bg-white ba b--black-10 mb3">
-      <div class="pa3">
-        <h2 class="heading-underline tc">Contact</h2>
-        <p><a href="mailto:{{ site.email }}" class="link blue hover-dark-blue">{{ site.email }}</a></p>
-      </div>
-    </div>
-    {% endif %}
   </div>
 </div>

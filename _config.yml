@@ -20,6 +20,7 @@ include:
   - "_pages"
 exclude:
   - "node_modules"
+  - "vendor"
   - "*.sublime-project"
   - "*.sublime-workspace"
   - "Gemfile"
@@ -35,7 +36,7 @@ exclude:
 # Filtering Content
 ####################
 # show_drafts: null
-# limit_posts: 0
+# limit_posts: 10
 # future: false
 # unpublished: false
 
@@ -73,7 +74,6 @@ gems:
 permalink: ":categories/:title/"
 # paginate_path: /page:num
 timezone: "America/Los_Angeles"
-# quiet: false
 verbose: false
 defaults:
   -
@@ -99,26 +99,12 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-# liquid:
-#   error_mode: warn
 
 
 ####################
-# Markdown Processors
+# Markdown Processor
 ####################
-# rdiscount:
-#   extensions: []
-# redcarpet:
-#   extensions: []
 kramdown:
-  # auto_ids: true
-  # footnote_nr: 1
-  # entity_output: as_char
-  # toc_levels: 1..6
-  # smart_quotes: lsquo,rsquo,ldquo,rdquo
-  # input: GFM
-  # hard_wrap: false
-  # footnote_nr: 1
   syntax_highlighter: rouge
 
 
