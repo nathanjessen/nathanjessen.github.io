@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://nathanjessen@github.com/nathanjessen/nathanjessen.github.io.git"
   },
-  "license": "The MIT License (MIT)",
+  "license": "MIT",
   "scripts": {
     "refresh": "rimraf node_modules && yarn",
     "start": "gulp preview",
