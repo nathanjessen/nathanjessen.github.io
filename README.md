@@ -14,7 +14,6 @@ My personal website and blog.
 - [WebSlides](https://webslides.tv/)
 - [Google Fonts](https://fonts.google.com/)
 - [Font Face Observer](https://fontfaceobserver.com/)
-- [Fontello](http://fontello.com/)
 
 ## Posts
 

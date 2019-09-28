@@ -17,7 +17,6 @@
   WebSlides
   Google Fonts
   Font Face Observer
-  Fontello
 
 # SITE
 
