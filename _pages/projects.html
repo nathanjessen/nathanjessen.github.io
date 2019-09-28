@@ -3,18 +3,35 @@ title: Projects
 permalink: /projects/
 ---
 
-<ul class="list pl0 row">
-  {% for project in site.projects reversed %}
-    {% unless project.published == false %}
-    <li class="col-xs-12 col-sm-6 mb5">
-      <div class="pv3 {% cycle 'pr3-l', 'pl3-l' %}"">
-        <h3 class="f3 mt0"><a href="{{ project.link }}" class="link primary hover-dark-primary f3" target="_blank">{{ project.title }}</a></h3>
+<h3 class="f3 near-black mt0">Agency work</h3>
+<p class="f4">Over the years at <a href="https://www.vmlyr.com" class="link primary fw5">VMLY&amp;R</a>, I've had the
+  opportunity to work with some amazing clients on a wide variety of projects.</p>
 
-        <a href="{{ project.link }}" target="_blank">
-          <img src="{{ site.base_url }}/assets/img/portfolio/{{ project.thumbnail }}" alt="{{ project.title }}" class="img-responsive mb3 mb0-ns grow">
-        </a>
-      </div>
-    </li>
-    {% endunless %}
+<ul class="list pl0">
+  {% for project in site.projects reversed %}
+  {% unless project.company != 'VMLYR' %}
+  <li class="mb3 relative">
+    <a href="{{ project.link }}" class="db link bg-white hover-bg-dark-white primary f3 h-100 pa4 {{project.class}}" target="_blank">
+      <h3 class="f3 mv0 tc">{{ project.client }}</h3>
+      <h4 class="f5 fw5 mt2 mb0 tc">{{ project.title }}</h4>
+    </a>
+  </li>
+  {% endunless %}
+  {% endfor %}
+</ul>
+
+<h3 class="f3 near-black mt0">Side projects</h3>
+<p class="f4">Occasionally, I'll take on freelance work.</p>
+
+<ul class="list pl0">
+  {% for project in site.projects reversed %}
+  {% unless project.company != 'Freelance' %}
+  <li class="mb3 relative">
+    <a href="{{ project.link }}" class="db link bg-white hover-bg-dark-white primary f3 h-100 ph3 pv5 {{project.class}}" target="_blank">
+      <h3 class="f3 mv0 tc">{{ project.client }}</h3>
+      <h4 class="f5 fw5 mt2 mb0 tc">{{ project.title }}</h4>
+    </a>
+  </li>
+  {% endunless %}
   {% endfor %}
 </ul>

@@ -9,19 +9,19 @@ permalink: /tags/
       {% assign tags_list = site.tags %}
        {% if tags_list.first[0] == null %}
         {% for tag in tags_list %}
-            <li class="mb3">
-              <a href="#{{ tag | slugify }}-ref" class="link primary hover-dark-primary">
-                  {{ tag }} <span class="f6 bg-dark-primary white pv1 ph3 br-pill fr">{{ site.tags[tag].size }}</span>
-              </a>
-            </li>
+          <li class="mb2">
+            <a href="#{{ tag | slugify }}-ref" class="link primary flex justify-between">
+              <span>{{ tag }}</span> <span class="f6">{{ site.tags[tag].size }}</span>
+            </a>
+          </li>
         {% endfor %}
       {% else %}
         {% for tag in tags_list %}
-            <li class="mb3">
-              <a href="#{{ tag[0] | slugify }}-ref" class="link primary hover-dark-primary">
-                  {{ tag[0] }} <span class="f6 bg-dark-primary white pv1 ph3 br-pill fr">{{ tag[1].size }}</span>
-              </a>
-            </li>
+          <li class="mb2">
+            <a href="#{{ tag[0] | slugify }}-ref" class="link primary flex justify-between">
+              <span>{{ tag[0] }}</span> <span class="f6">{{ tag[1].size }}</span>
+            </a>
+          </li>
         {% endfor %}
       {% endif %}
       {% assign tags_list = nil %}
@@ -31,7 +31,7 @@ permalink: /tags/
   <div class="col-xs-12 col-sm-9 col-md-8 col-md-offset-1">
     {% for tag in site.tags %}
 
-      <div class="bg-white ba b--black-10 mb3" id="{{ tag[0] | slugify }}-ref">
+      <div class="ba b--black-10 mb3" id="{{ tag[0] | slugify }}-ref">
         <div class="pa3">
           <h3 class="f3 lh-solid mv0">{{ tag[0] }}</h3>
         </div>
@@ -41,7 +41,7 @@ permalink: /tags/
             {% for node in pages_list %}
               {% if node.title != null %}
                 {% if group == null or group == node.group %}
-                  <li class="lh-copy"><a href="{{node.url}}" class="link primary hover-dark-primary">{{node.title}}</a> <span class="mid-gray">- {{ node.date | date: "%B %d, %Y" }}</span></li>
+                  <li class="lh-copy"><a href="{{node.url}}" class="link primary">{{node.title}}</a> <span class="mid-gray">- {{ node.date | date: "%B %d, %Y" }}</span></li>
                 {% endif %}
               {% endif %}
             {% endfor %}
