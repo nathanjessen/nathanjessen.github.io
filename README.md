@@ -15,6 +15,10 @@ My personal website and blog.
 - [Google Fonts](https://fonts.google.com/)
 - [Font Face Observer](https://fontfaceobserver.com/)
 
+## Design Inspiration
+
+Inspiration for the design of this site was taken from [https://jeremenichelli.io/](Jeremias Menichelli).
+
 ## Posts
 
 Posts will fall into one of several categories.

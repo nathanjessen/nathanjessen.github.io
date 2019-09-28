@@ -16,11 +16,6 @@
     "preview": "gulp preview",
     "publish": "gulp publish"
   },
-  "engines": {
-    "node": "7.4.0",
-    "npm": "4.0.5",
-    "yarn": "0.19.1"
-  },
   "devDependencies": {
     "autoprefixer": "^6.5.4",
     "browser-sync": "^2.18.5",
