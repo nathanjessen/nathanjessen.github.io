@@ -17,7 +17,7 @@ My personal website and blog.
 
 ## Design Inspiration
 
-Inspiration for the design of this site was taken from [https://jeremenichelli.io/](Jeremias Menichelli).
+Inspiration for the design of this site was taken from [https://jeremenichelli.io](Jeremias Menichelli).
 
 ## Posts
 
