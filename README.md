@@ -25,8 +25,6 @@ Posts will fall into one of several categories.
 
 - Articles
 - Talks
-- Tips
-- Tutorials
 - Videos
 
 ## Issues
