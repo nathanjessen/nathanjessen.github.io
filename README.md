@@ -13,7 +13,6 @@ My personal website and blog.
 - [Tachyons](http://tachyons.io/)
 - [WebSlides](https://webslides.tv/)
 - [Google Fonts](https://fonts.google.com/)
-- [Font Face Observer](https://fontfaceobserver.com/)
 
 ## Design Inspiration
 
