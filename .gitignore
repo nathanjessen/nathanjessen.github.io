@@ -35,3 +35,5 @@ vendor
 .jekyll-metadata
 .jekyll-cache
 .sass-cache
+package-lock.json
+yarn.lock
