@@ -12,6 +12,28 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+# Custom vars
+locale: "en-US"
+title: "Nathan Jessen"
+email: nathan.jessen@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  "Blog and Portfolio of Nathan Jessen"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+categories_path: categories.html
+tags_path: tags.html
+rss_path: atom.xml
+github_username:  nathanjessen
+
+# Contact
+location: "Las Vegas, NV"
+
 ####################
 # Where things are
 ####################
@@ -73,7 +95,6 @@ plugins:
 # detach: false
 # port: 4000
 # host: 127.0.0.1
-# baseurl: ""
 # show_dir_listing: false
 
 ####################
@@ -117,24 +138,12 @@ kramdown:
 # Liquid profiler - Generate a Liquid rendering profile to help you identify performance bottlenecks.
 profile: false
 
-# Custom vars
-locale: "en-US"
-title: "Nathan Jessen"
-description: "Blog and Portfolio of Nathan Jessen"
-categories_path: categories.html
-tags_path: tags.html
-rss_path: atom.xml
-
 ####################
 # Personal Information
 ####################
 
 author: "Nathan Jessen"
 # logo:
-
-# Contact
-email: "nathan.jessen@gmail.com"
-location: "Las Vegas, NV"
 
 # Google Analytics
 ga_domain: nathanjessen.github.io
