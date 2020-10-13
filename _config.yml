@@ -19,7 +19,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # Custom vars
-locale: "en-US"
+lang: "en-US"
 title: "Nathan Jessen"
 email: nathan.jessen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -30,9 +30,16 @@ categories_path: categories.html
 tags_path: tags.html
 rss_path: atom.xml
 github_username:  nathanjessen
+twitter_username: natejessen
+logo: /assets/images/wasp.png
 
-# Contact
-location: "Las Vegas, NV"
+header_pages:
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Projects
+  url: /projects/
 
 # Build settings
 # theme: minima
@@ -87,12 +94,17 @@ include:
 #   - vendor/ruby/
 
 exclude:
-  - "vendor"
-  - "gulpfile.js"
-  - "package.json"
-  - "LICENSE.md"
-  - "README.md"
-  - "yarn.lock"
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.babel.js
+  - LICENSE.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - src
+  - tailwind.config.js
+  - vendor
 
 ####################
 # Filtering Content
@@ -121,7 +133,7 @@ exclude:
 ####################
 permalink: ":categories/:title/"
 # paginate_path: /page:num
-timezone: "America/Los_Angeles"
+timezone: "America/Denver"
 verbose: false
 defaults:
   - scope:
@@ -134,10 +146,6 @@ defaults:
       scope: "pages"
     values:
       layout: "page"
-  - scope:
-      path: "slides"
-    values:
-      layout: "slides"
   - scope:
       path: "_projects"
       type: "projects"
