@@ -6,5 +6,5 @@ tech: Assemble, Sass, Grunt
 link: http://www.nonstoplove.com/
 company: VMLYR
 published: false
-class: southwest
+class: bg-blue-600
 ---

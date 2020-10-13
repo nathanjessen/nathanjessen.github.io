@@ -72,9 +72,9 @@ The 2nd element inside the search component is the `.search__addon` element. Thi
 
 Here is a list of resources that go more in-depth to help learn the BEM methodology.
 
-- [BEM Key concepts](https://en.bem.info/methodology/key-concepts/)
-- [BEM 101](https://css-tricks.com/bem-101/)
-- [getbem.com/introduction](http://getbem.com/introduction/)
-- [A New Front-End Methodology: BEM](https://www.smashingmagazine.com/2012/04/a-new-front-end-methodology-bem/)
-- [MindBEMding - getting your head ‘round BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
-- [Introduction to BEM Methodology](https://www.toptal.com/css/introduction-to-bem-methodology)
+* [BEM Key concepts](https://en.bem.info/methodology/key-concepts/)
+* [BEM 101](https://css-tricks.com/bem-101/)
+* [getbem.com/introduction](http://getbem.com/introduction/)
+* [A New Front-End Methodology: BEM](https://www.smashingmagazine.com/2012/04/a-new-front-end-methodology-bem/)
+* [MindBEMding - getting your head ‘round BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+* [Introduction to BEM Methodology](https://www.toptal.com/css/introduction-to-bem-methodology)

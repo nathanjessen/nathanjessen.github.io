@@ -6,5 +6,5 @@ tech: "Jade, Stylus, Backbone, Grunt, Sitefinity"
 link: http://www.gatorade.com/sweat-it-get-it
 company: VMLYR
 published: false
-class: gatorade
+class: bg-orange-500
 ---

@@ -5,5 +5,5 @@ date: 2013/11/10
 tech: "Adobe CQ5"
 link: http://www.haveweseenyourcatlately.com/Home.html
 company: VMLYR
-class: bivi
+class: bg-blue-400
 ---

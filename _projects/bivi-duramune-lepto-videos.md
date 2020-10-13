@@ -6,5 +6,5 @@ tech: Bootstrap modal
 link: http://www.duramunelepto.com/lepto_videos.html
 company: VMLYR
 published: false
-class: bivi
+class: bg-blue-400
 ---

@@ -6,5 +6,5 @@ tech: WordPress
 link: http://eventfabrics.com/
 company: VMLYR
 published: false
-class: ge
+class: bg-red-400
 ---

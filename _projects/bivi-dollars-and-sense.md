@@ -6,5 +6,5 @@ tech: HTML5, Grunt, SASS
 link: http://www.bividollarsandsense.com
 company: VMLYR
 published: false
-class: bivi
+class: bg-blue-400
 ---

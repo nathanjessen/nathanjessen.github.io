@@ -6,5 +6,5 @@ tech: Jade, Stylus, Backbone, Grunt
 link: http://leagueofcaptains.gatorade.com/
 company: VMLYR
 published: false
-class: gatorade
+class: bg-orange-500
 ---

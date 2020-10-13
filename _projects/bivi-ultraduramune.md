@@ -6,5 +6,5 @@ tech: Adobe CQ5, Handlebars, SASS, Grunt
 link: http://www.biviultraduramune.com
 company: VMLYR
 published: false
-class: bivi
+class: bg-blue-400
 ---

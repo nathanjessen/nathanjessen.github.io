@@ -11,7 +11,7 @@ For the last hour of every Wednesday at [VMLY&R](http://www.vmlyr.com), a group 
 
 Recently, I received recognition from coworkers as being one of the agency's CSS and Sass experts. My supervisor asked me to prepare a series of CSS/Sass talks for Afternoon Tea and I happily obliged. Below are links to slides I'm using as an outline for the talk.
 
-- [CSS Methodologies]({{ site.baseurl }}{% link slides/css-methodologies.html %})
-- [Sass Best Practices, Techniques, Tools, and Resources]({{ site.baseurl }}{% link slides/sass-best-practices-techniques-tools-resources.html %})
-- [Sass Intermediate Concepts]({{ site.baseurl }}{% link slides/sass-intermediate-concepts.html %})
-- [Sass Intermediate Concepts Part 2]({{ site.baseurl }}{% link slides/sass-intermediate-concepts-part-2.html %})
+* [CSS Methodologies](https://nathanjessen.com/slides/css-methodologies/)
+* [Sass Best Practices, Techniques, Tools, and Resources](https://nathanjessen.com/slides/sass-best-practices-techniques-tools-resources/)
+* [Sass Intermediate Concepts](https://nathanjessen.com/slides/sass-intermediate-concepts/)
+* [Sass Intermediate Concepts Part 2](https://nathanjessen.com/slides/sass-intermediate-concepts-part-2/)
