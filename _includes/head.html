@@ -1,14 +1,15 @@
+{% comment %}
 {% seo %}
 {% feed_meta %}
+{% endcomment %}
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="author" content="{{ site.author }}">
 <meta name="theme-color" content="#357edd">
-<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-<link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
-
-{% include font-face-observer.html %}
+<link href="{{ "/assets/css/style.css" | absolute_url }}" rel="stylesheet">
+<link rel="icon" href="{{ "/favicon.ico" | absolute_url }}" type="image/x-icon">
+<title>{{site.title}}</title>
 
 {% if jekyll.environment == "production" %}
   {% include analytics.html %}
