@@ -34,12 +34,9 @@ twitter_username: natejessen
 logo: /assets/images/wasp.png
 
 header_pages:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Projects
-  url: /projects/
+  - _pages/index.html
+  - _pages/about.html
+  - _pages/projects.html
 
 # Build settings
 # theme: minima
