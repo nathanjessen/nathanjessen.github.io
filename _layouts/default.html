@@ -3,14 +3,13 @@
   <head>
     {% include head.html %}
   </head>
-  <body class="{{ page.slug }} sans-serif black-90">
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
+  <body class="{{ page.slug }} h-screen flex flex-col bg-gray-100">
+    {% include navbar.html %}
 
-    {% comment %} JS and analytics only {% endcomment %}
-    {% comment %}
-    <script src="{{ site.base_url }}/assets/js/main.min.js"></script>
-    {% endcomment %}
+    <main class="flex-grow">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
   </body>
 </html>
