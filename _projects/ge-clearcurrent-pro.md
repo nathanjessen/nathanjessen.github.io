@@ -6,5 +6,5 @@ tech: Skeleton framework, YouTube API
 link: http://www.clearcurrentpro.com
 company: VMLYR
 published: false
-class: ge
+class: bg-green-400
 ---

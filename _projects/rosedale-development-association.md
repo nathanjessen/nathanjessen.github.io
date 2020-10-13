@@ -6,7 +6,7 @@ tech: WordPress
 link: http://rosedale.org
 company: Freelance
 published: false
-class: rosedale
+class: bg-green-400
 ---
 
 WordPress Twenty Twelve Child Theme developed at Coders 4 Charities 2013

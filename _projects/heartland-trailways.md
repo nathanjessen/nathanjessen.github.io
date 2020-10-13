@@ -6,5 +6,5 @@ tech: WordPress
 link: http://www.heartlandtrailways.com
 company: Freelance
 published: false
-class: heartland
+class: bg-red-500
 ---

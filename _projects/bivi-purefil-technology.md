@@ -6,5 +6,5 @@ tech: Adobe CQ5
 link: http://www.bivipurefil.com
 company: VMLYR
 published: false
-class: bivi
+class: bg-blue-400
 ---
