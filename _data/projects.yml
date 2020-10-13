@@ -1,0 +1,138 @@
+- title: Dollars and Sense
+  client: Boehringer Ingelheim
+  date: 2014/02/12
+  tech: HTML5, Grunt, SASS
+  link: http://www.bividollarsandsense.com
+  company: VMLYR
+  published: false
+  class: bg-blue-400
+
+- title: Duramune Lepto - Lepto Videos
+  client: Boehringer Ingelheim
+  date: 2013/03/20
+  tech: Bootstrap modal
+  link: http://www.duramunelepto.com/lepto_videos.html
+  company: VMLYR
+  published: false
+  class: bg-blue-400
+
+- title: "Epilepsy in Dogs"
+  client: "Boehringer Ingelheim"
+  date: 2012/11/21
+  tech: "Adobe CQ5"
+  link: http://www.epilepsyindogs.co.uk
+  company: VMLYR
+  class: bg-blue-400
+
+- title: "Have We Seen Your Cat Lately?"
+  client: "Boehringer Ingelheim"
+  date: 2013/11/10
+  tech: "Adobe CQ5"
+  link: http://www.haveweseenyourcatlately.com/Home.html
+  company: VMLYR
+  class: bg-blue-400
+
+- title: "ProZinc"
+  client: "Boehringer Ingelheim"
+  date: 2013/05/04
+  tech: "Adobe CQ5, Handlebars, Sass"
+  link: http://www.prozinc.us/
+  company: VMLYR
+  class: bg-blue-400
+
+- title: Purefil<sup>TM</sup> Technology
+  client: Boehringer Ingelheim
+  date: 2012/10/21
+  tech: Adobe CQ5
+  link: http://www.bivipurefil.com
+  company: VMLYR
+  published: false
+  class: bg-blue-400
+
+- title: UltraDuramune
+  client: Boehringer Ingelheim
+  date: 2014/05/02
+  tech: Adobe CQ5, Handlebars, SASS, Grunt
+  link: http://www.biviultraduramune.com
+  company: VMLYR
+  published: false
+  class: bg-blue-400
+
+- title: eVent Fabrics
+  client: GE
+  date: 2013/01/15
+  tech: WordPress
+  link: http://eventfabrics.com/
+  company: VMLYR
+  published: false
+  class: bg-red-400
+
+- title: League of Captains
+  client: Gatorade
+  date: 2014/07/21
+  tech: Jade, Stylus, Backbone, Grunt
+  link: http://leagueofcaptains.gatorade.com/
+  company: VMLYR
+  published: false
+  class: bg-orange-500
+
+- title: "Sweat It. Get It."
+  client: "Gatorade"
+  date: 2014/07/30
+  tech: "Jade, Stylus, Backbone, Grunt, Sitefinity"
+  link: http://www.gatorade.com/sweat-it-get-it
+  company: VMLYR
+  published: false
+  class: bg-orange-500
+
+- title: "GCR/TDS Tires & Service"
+  client: "Bridgestone & Firestone"
+  date: 2014/01/09
+  tech: "Adobe CQ5, Handlebars, LESS"
+  link: http://www.gcrtires.com
+  company: VMLYR
+  class: bg-red-500
+
+- title: ClearCurrent Pro
+  client: GE
+  date: 2012/11/15
+  tech: Skeleton framework, YouTube API
+  link: http://www.clearcurrentpro.com
+  company: VMLYR
+  published: false
+  class: bg-green-400
+
+- title: Heartland Trailways
+  client: Heartland Trailways
+  date: 2011/10/07
+  tech: WordPress
+  link: http://www.heartlandtrailways.com
+  company: Freelance
+  published: false
+  class: bg-red-500
+
+- title: Rosedale Development Association
+  client: Rosedale Development Association
+  date: 2013/03/14
+  tech: WordPress
+  link: http://rosedale.org
+  company: Freelance
+  published: false
+  class: bg-green-400
+
+- title: Nonstop Love
+  client: Southwest Airlines
+  date: 2014/06/14
+  tech: Assemble, Sass, Grunt
+  link: http://www.nonstoplove.com/
+  company: VMLYR
+  published: false
+  class: bg-blue-600
+
+- title: Sprint
+  client: Sprint
+  date: 2016/12/01
+  tech: AEM/CQ6, AngularJS, Sass, Gulp
+  link: https://www.sprint.com
+  company: VMLYR
+  class: bg-orange-400

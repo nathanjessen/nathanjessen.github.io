@@ -5,7 +5,8 @@ permalink: /projects/
 
 <div>
   <ul class="mt-3 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4">
-    {% for project in site.projects reversed %}
+    {% for project in site.data.projects reversed %}
+    {% unless project.published == false %}
     <li class="col-span-1 flex shadow-sm rounded-md">
       <div class="flex-shrink-0 flex items-center justify-center w-16 {{project.class}} text-white text-sm leading-5 font-medium rounded-l-md">
         RC
@@ -19,6 +20,7 @@ permalink: /projects/
         </div>
       </div>
     </li>
+    {% endunless %}
     {% endfor %}
   </ul>
 </div>
