@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ site.locale }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
     {% include head.html %}
   </head>
   <body class="{{ page.slug }} h-screen flex flex-col bg-gray-100">
     {% include navbar.html %}
 
-    <main class="flex-grow">
+    <main class="flex-grow" aria-label="Content">
       {{ content }}
     </main>
 
