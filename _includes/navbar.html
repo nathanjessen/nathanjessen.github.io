@@ -15,7 +15,7 @@
           {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- assign current = nil -%}
-          {%- if path.url == my_page.url -%}
+          {%- if page.url == my_page.url -%}
             {%- assign current = 'border-green-500 hover:border-green-600 text-gray-900 hover:text-gray-900 focus:border-green-700' -%}
           {%- endif -%}
           {%- if my_page.title -%}
@@ -55,7 +55,7 @@
       {%- for path in page_paths -%}
       {%- assign my_page = site.pages | where: "path", path | first -%}
       {%- assign current = nil -%}
-      {%- if path.url == my_page.url -%}
+      {%- if page.url == my_page.url -%}
         {%- assign current = 'border-green-500 text-green-700 bg-green-50 focus:text-green-800 focus:bg-green-100 focus:border-green-700' -%}
       {%- endif -%}
       {%- if my_page.title -%}
