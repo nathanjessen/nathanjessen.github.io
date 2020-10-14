@@ -2,9 +2,9 @@
 title: Using Jekyll and Prose
 published: true
 fullview: true
-categories: [Articles]
+category: Article
 tags: [Jekyll, CMS, Prose]
-description: How to use Jekyll
+excerpt: How to use Jekyll
 ---
 
 I recently began using Jekyll as a blog platform and wrote about my [First Impression of Jekyll]({% post_url 2013-10-07-first-impression-of-jekyll %}). All I want to do right now is experiment with Jekyll and continue converting my portfolio. Generally my technology stack at work is defined by Web Architects before I come on to a project. Being able to use Jekyll with Prose and Github is my escape from dull technologies and into something new and exciting.
