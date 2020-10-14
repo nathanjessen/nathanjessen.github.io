@@ -10,7 +10,9 @@
       {% else %}
       <li itemscope itemtype="http://schema.org/BlogPosting" class="mb4">
       {% endif %}
-        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished" class="f6 fw6 black-60">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished" class="f6 fw6 black-60">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </time>
         <p itemprop="name headline" class="f2 mv0">
           <a href="{{ post.url }}" itemprop="url" class="link primary hover-dark-primary">{{ post.title }}</a>
         </p>
