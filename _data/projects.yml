@@ -1,146 +1,11 @@
-- title: Dollars and Sense
-  client: Boehringer Ingelheim
-  date: 2014/02/12
-  tech: HTML5, Grunt, SASS
-  link: http://www.bividollarsandsense.com
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: Duramune Lepto
-  client: Boehringer Ingelheim
-  date: 2013/03/20
-  tech: Adobe CQ5, Bootstrap
-  link: http://www.duramunelepto.com
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: Epilepsy in Dogs
-  client: Boehringer Ingelheim
-  date: 2012/11/21
-  tech: Adobe CQ5
-  link: http://www.epilepsyindogs.co.uk
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: Have We Seen Your Cat Lately?
-  client: Boehringer Ingelheim
-  date: 2013/11/10
-  tech: Adobe CQ5
-  link: http://www.haveweseenyourcatlately.com/Home.html
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: ProZinc
-  client: Boehringer Ingelheim
-  date: 2013/05/04
-  tech: Adobe CQ5, Handlebars, Sass
-  link: http://www.prozinc.us
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: Purefil<sup>TM</sup> Technology
-  client: Boehringer Ingelheim
-  date: 2012/10/21
-  tech: Adobe CQ5
-  link: http://www.bivipurefil.com
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: UltraDuramune
-  client: Boehringer Ingelheim
-  date: 2014/05/02
-  tech: Adobe CQ5, Handlebars, SASS, Grunt
-  link: http://www.biviultraduramune.com
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: eVent Fabrics
-  client: GE
-  date: 2013/01/15
-  tech: WordPress
-  link: http://eventfabrics.com
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: League of Captains
-  client: Gatorade
-  date: 2014/07/21
-  tech: Jade, Stylus, Backbone, Grunt
-  link: http://leagueofcaptains.gatorade.com
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: Sweat It. Get It.
-  client: Gatorade
-  date: 2014/07/30
-  tech: Jade, Stylus, Backbone, Grunt, Sitefinity
-  link: http://www.gatorade.com/sweat-it-get-it
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: GCR/TDS Tires & Service
-  client: Bridgestone & Firestone
-  date: 2014/01/09
-  tech: Adobe CQ5, Handlebars, LESS
-  link: http://www.gcrtires.com
-  company: VML
-  abbrev: VML
-  available: true
-
-- title: ClearCurrent Pro
-  client: GE
-  date: 2012/11/15
-  tech: Skeleton framework, YouTube API
-  link: http://www.clearcurrentpro.com
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: Heartland Trailways
-  client: Heartland Trailways
-  date: 2011/10/07
-  tech: WordPress
-  link: http://www.heartlandtrailways.com
-  company: Freelance
-  abbrev: HT
-  available: false
-
-- title: Rosedale Development Association
-  client: Rosedale Development Association
-  date: 2013/03/14
-  tech: WordPress
-  link: http://rosedale.org
-  company: Freelance
-  abbrev: RDA
-  available: false
-
-- title: Nonstop Love
-  client: Southwest Airlines
-  date: 2014/06/14
-  tech: Assemble, Sass, Grunt
-  link: http://www.nonstoplove.com
-  company: VML
-  abbrev: VML
-  available: false
-
-- title: Sprint
-  client: Sprint
-  date: 2016/12/01
+- title: Estimāte
+  client: VML
+  date: 2019/09/01
   tech: AEM/CQ6, AngularJS, Sass, Gulp
-  link: https://www.sprint.com
+  link: https://estimate.vmlapps.com
   company: VML
   abbrev: VML
-  available: false
+  status: 0
 
 - title: Resource Allocation and Forecasting Tool
   client: VML
@@ -149,16 +14,52 @@
   link: https://raft.vmlapps.com
   company: VML
   abbrev: VML
-  available: false
+  status: 0
 
-- title: Estimāte
-  client: VML
-  date: 2019/09/01
+- title: Sprint
+  client: Sprint
+  date: 2016/12/01
   tech: AEM/CQ6, AngularJS, Sass, Gulp
-  link: https://estimate.vmlapps.com
+  link: https://www.sprint.com
   company: VML
   abbrev: VML
-  available: false
+  status: 2
+
+- title: Sweat It. Get It.
+  client: Gatorade
+  date: 2014/07/30
+  tech: Jade, Stylus, Backbone, Grunt, Sitefinity
+  link: http://www.gatorade.com/sweat-it-get-it
+  company: VML
+  abbrev: VML
+  status: 0
+
+- title: League of Captains
+  client: Gatorade
+  date: 2014/07/21
+  tech: Jade, Stylus, Backbone, Grunt
+  link: http://leagueofcaptains.gatorade.com
+  company: VML
+  abbrev: VML
+  status: 2
+
+- title: Nonstop Love
+  client: Southwest Airlines
+  date: 2014/06/14
+  tech: Assemble, Sass, Grunt
+  link: http://www.nonstoplove.com
+  company: VML
+  abbrev: VML
+  status: 0
+
+- title: UltraDuramune
+  client: Boehringer Ingelheim
+  date: 2014/05/02
+  tech: Adobe CQ5, Handlebars, SASS, Grunt
+  link: http://www.biviultraduramune.com
+  company: VML
+  abbrev: VML
+  status: 0
 
 - title: Edward Jones Careers
   client: Edward Jones
@@ -167,4 +68,103 @@
   link: https://careers.edwardjones.com
   company: VML
   abbrev: VML
-  available: false
+  status: 2
+
+- title: Dollars and Sense
+  client: Boehringer Ingelheim
+  date: 2014/02/12
+  tech: HTML5, Grunt, SASS
+  link: http://www.bividollarsandsense.com
+  company: VML
+  abbrev: VML
+  status: 2
+
+- title: GCR/TDS Tires & Service
+  client: Bridgestone & Firestone
+  date: 2014/01/09
+  tech: Adobe CQ5, Handlebars, LESS
+  link: http://www.gcrtires.com
+  company: VML
+  abbrev: VML
+  status: 1
+
+- title: Have We Seen Your Cat Lately?
+  client: Boehringer Ingelheim
+  date: 2013/11/10
+  tech: Adobe CQ5
+  link: http://www.haveweseenyourcatlately.com/Home.html
+  company: VML
+  abbrev: VML
+  status: 0
+
+- title: ProZinc
+  client: Boehringer Ingelheim
+  date: 2013/05/04
+  tech: Adobe CQ5, Handlebars, Sass
+  link: http://www.prozinc.us
+  company: VML
+  abbrev: VML
+  status: 2
+
+- title: Duramune Lepto
+  client: Boehringer Ingelheim
+  date: 2013/03/20
+  tech: Adobe CQ5, Bootstrap
+  link: http://www.duramunelepto.com
+  company: VML
+  abbrev: VML
+  status: 0
+
+- title: Rosedale Development Association
+  client: Rosedale Development Association
+  date: 2013/03/14
+  tech: WordPress
+  link: https://rosedale.org
+  company: Freelance
+  abbrev: RDA
+  status: 2
+
+- title: eVent Fabrics
+  client: GE
+  date: 2013/01/15
+  tech: WordPress
+  link: http://eventfabrics.com
+  company: VML
+  abbrev: VML
+  status: 2
+
+- title: Epilepsy in Dogs
+  client: Boehringer Ingelheim
+  date: 2012/11/21
+  tech: Adobe CQ5
+  link: http://www.epilepsyindogs.co.uk
+  company: VML
+  abbrev: VML
+  status: 2
+
+- title: ClearCurrent Pro
+  client: GE
+  date: 2012/11/15
+  tech: Skeleton framework, YouTube API
+  link: http://www.clearcurrentpro.com
+  company: VML
+  abbrev: VML
+  status: 0
+
+- title: Purefil<sup>TM</sup> Technology
+  client: Boehringer Ingelheim
+  date: 2012/10/21
+  tech: Adobe CQ5
+  link: http://www.bivipurefil.com
+  company: VML
+  abbrev: VML
+  status: 0
+
+- title: Heartland Trailways
+  client: Heartland Trailways
+  date: 2011/10/07
+  tech: WordPress
+  link: http://www.heartlandtrailways.com
+  company: Freelance
+  abbrev: HT
+  status: 2
