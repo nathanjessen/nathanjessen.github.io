@@ -135,19 +135,20 @@ ga_domain: nathanjessen.github.io
 ga_tracking_id: UA-42437510-1
 
 # Social
-github_username:  nathanjessen
-twitter_username: natejessen
-linkedin_username: njessen
-# codepen_username: njessen
-# medium_username:
-# instagram_username:
-# dribbble_username:
-# angellist_username:
+# facebook_url: https://facebook.com/
+github_url:  https://github.com/nathanjessen
+twitter_url: https://twitter.com/natejessen
+linkedin_url: https://www.linkedin.com/in/njessen/
+# codepen_url: https://codepen.io/njessen
+# medium_url: https://medium.com/@nathanjessen/about
+# instagram_url: https://www.instagram.com/nathanjessen
+# dribbble_url: https://dribbble.com/
+# angellist_url: https://angel.co/u/nathan-jessen
 
 # jekyll-seo-tag - social profiles
 social:
   links:
-    - https://github.com/nathanjessen"
-    - http://codepen.io/njessen"
-    - https://medium.com/@nathanjessen"
-    - https://www.linkedin.com/in/njessen"
+    - https://github.com/nathanjessen
+    # - https://codepen.io/njessen
+    # - https://medium.com/@nathanjessen/about
+    - https://www.linkedin.com/in/njessen/
