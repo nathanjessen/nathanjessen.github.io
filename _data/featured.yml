@@ -1,17 +1,17 @@
 - title: Uniswap Tokenlist
   img: assets/images/tokenlist.png
-  desc: An initiative to improve discoverability, reputation and trust in ERC20 token lists in a manner that is inclusive, transparent, and decentralized.
+  desc: An ERC20 token list validator and JSON file for displaying ethereum tokens in well-known UI's like Uniswap.
   source: https://github.com/nathanjessen/tokenlist
   url: https://nathanjessen.com/tokenlist/
 
-- title: Tokenlist Viewer with Uniswap Integration
-  img: assets/images/tokenlist.png
-  desc: In Progress
-  source: https://github.com/nathanjessen/tokenlist
-  url: https://nathanjessen.com/tokenlist/
-
-- title: OpenSea Market
+- title: OpenSea Integration
   img: assets/images/opensea.png
-  desc: In Progress
-  source: https://github.com/nathanjessen/tokenlist
-  url: https://nathanjessen.com/tokenlist/
+  desc: ReactJS integration for viewing and buying NFTs from OpenSea directly in OctoFi app.
+  source: https://github.com/nathanjessen/octofi-app-aquafarm/tree/octo-opensea
+  url: https://app.octo.fi/
+
+- title: Jekyll Theme
+  img: assets/images/blogtheme.png
+  desc: A blog theme for Jekyll built using Tailwindcss.
+  source: https://github.com/nathanjessen/blogtheme
+  url: https://nathanjessen.com/
