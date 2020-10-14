@@ -1,4 +1,4 @@
-<nav class="bg-white shadow mb-1">
+<nav class="bg-white shadow">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16">
       <div class="flex">
@@ -16,10 +16,10 @@
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- assign current = nil -%}
           {%- if page.url == my_page.url -%}
-            {%- assign current = 'border-green-500 hover:border-green-600 text-gray-900 hover:text-gray-900 focus:border-green-700' -%}
+            {%- assign current = 'border-green-600 hover:border-green-700 text-gray-900 hover:text-gray-900 focus:border-green-700' -%}
           {%- endif -%}
           {%- if my_page.title -%}
-            <a href="{{ my_page.url | relative_url }}" class="{% unless forloop.first %}ml-8{% endunless %} {{ current }} inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
+            <a href="{{ my_page.url | relative_url }}" class="{% unless forloop.first %}ml-8{% endunless %} {{ current }} inline-flex items-center px-1 pt-1 border-b-4 border-transparent text-sm font-medium leading-5 text-gray-600 hover:text-gray-800 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
               {{ my_page.title | escape }}
             </a>
           {%- endif -%}
