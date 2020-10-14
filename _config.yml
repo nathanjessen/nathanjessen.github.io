@@ -134,28 +134,15 @@ logo: /assets/images/wasp.png
 ga_domain: nathanjessen.github.io
 ga_tracking_id: UA-42437510-1
 
+# Social
 github_username:  nathanjessen
 twitter_username: natejessen
-
-# Social
-githubs:
-  username: nathanjessen
-# codepen:
-#   username: njessen
-# twitter:
-#   username:
-# medium:
-#   username: @nathanjessen
-linkedin:
-  username: njessen
-# gplus:
-#   username:
-# instagram:
-#   username:
-# dribbble:
-#   username:
-# angellist:
-#   username:
+linkedin_username: njessen
+# codepen_username: njessen
+# medium_username:
+# instagram_username:
+# dribbble_username:
+# angellist_username:
 
 # jekyll-seo-tag - social profiles
 social:
