@@ -32,7 +32,7 @@ plugins:
 
 # Build settings
 # theme: blogtheme
-remote_theme: "nathanjessen/blogtheme"
+# remote_theme: nathanjessen/blogtheme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
