@@ -2,10 +2,9 @@
 title: An Introduction to BEM
 category: Article
 tags: [CSS, BEM]
-excerpt: An Introduction to the BEM methodology.
 ---
 
-By now you've probably used BEM syntax on one of your projects or at least heard about others using it on theirs. BEM is a syntax for naming components with flexibility and ease of modification in mind. In my experience, (when used correctly) BEM syntax cuts down on the size of CSS files and does a great job in reducing specificity wars within the codebase. When used with other CSS best practices it can make components easier to maintain, to understand, and to develop.
+BEM is a syntax for naming components with flexibility and ease of modification in mind. Wwhen used correctly, BEM syntax cuts down on the size of CSS files and does a great job in reducing specificity wars within the codebase. When used with other CSS best practices it can make components easier to maintain, to understand, and to develop.
 
 ## What is a component?
 

@@ -2,7 +2,6 @@
 title: First Impressions of Jekyll
 category: Article
 tags: [Jekyll, CMS, Static]
-excerpt: Thoughts on Jekyll
 ---
 
 I spent tonight diving into [Jekyll](https://jekyllrb.com/) and [Liquid](http://shopify.github.io/liquid/) templates and I have to say, how in the heck did I not know about this before tonight??
