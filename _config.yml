@@ -16,10 +16,6 @@ header_pages:
   - _pages/projects.html
   - _pages/posts.html
 
-# Build settings
-# theme: blogtheme
-# remote_theme: nathanjessen/blogtheme
-
 ####################
 # Plugins
 ####################
@@ -29,6 +25,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
+
+# Build settings
+# theme: blogtheme
+remote_theme: nathanjessen/blogtheme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
