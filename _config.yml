@@ -16,6 +16,13 @@ header_pages:
   - _pages/projects.html
   - _pages/posts.html
 
+<<<<<<< HEAD
+=======
+# Build settings
+# theme: blogtheme
+# remote_theme: nathanjessen/blogtheme
+
+>>>>>>> Remove theme
 ####################
 # Plugins
 ####################
