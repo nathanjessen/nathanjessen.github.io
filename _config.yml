@@ -18,7 +18,7 @@ header_pages:
 
 # Build settings
 # theme: blogtheme
-# remote_theme: nathanjessen/blogtheme
+remote_theme: benbalter/retlab
 
 ####################
 # Plugins
