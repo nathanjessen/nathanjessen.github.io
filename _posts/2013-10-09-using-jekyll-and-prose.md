@@ -1,7 +1,5 @@
 ---
 title: Using Jekyll and Prose
-published: true
-fullview: true
 category: Article
 tags: [Jekyll, CMS, Prose]
 excerpt: How to use Jekyll

@@ -1,7 +1,5 @@
 ---
 title: An Introduction to BEM
-published: true
-fullview: true
 category: Article
 tags: [CSS, BEM]
 excerpt: An Introduction to the BEM methodology.

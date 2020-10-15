@@ -1,7 +1,5 @@
 ---
 title: First Impressions of Jekyll
-published: true
-fullview: true
 category: Article
 tags: [Jekyll, CMS, Static]
 excerpt: Thoughts on Jekyll

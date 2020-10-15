@@ -1,7 +1,5 @@
 ---
 title: Sass Series
-published: true
-fullview: true
 category: Talk
 tags: [Sass, CSS]
 excerpt: Sass talks given at Afternoon Tea
