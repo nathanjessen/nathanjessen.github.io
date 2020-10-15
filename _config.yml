@@ -17,7 +17,6 @@ header_pages:
   - _pages/posts.html
 
 # Build settings
-# theme: blogtheme
 remote_theme: nathanjessen/blogtheme
 
 ####################
