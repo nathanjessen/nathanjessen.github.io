@@ -17,13 +17,15 @@ header_pages:
   - _pages/posts.html
 
 # Build settings
-# theme: minima
+# theme: blogtheme
+remote_theme: nathanjessen/blogtheme
 
 ####################
 # Plugins
 ####################
 # whitelist: []
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
@@ -110,6 +112,10 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 ####################
 # Markdown Processor
