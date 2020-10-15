@@ -17,7 +17,7 @@ header_pages:
   - _pages/posts.html
 
 # Build settings
-remote_theme: nathanjessen/blogtheme
+remote_theme: nathanjessen/blogtheme@main
 
 ####################
 # Plugins
