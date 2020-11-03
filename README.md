@@ -71,3 +71,6 @@ gem cleanup blogtheme
 bundle
 bundle exec jekyll serve
 ```
+Local config
+
+`bundle exec jekyll serve --config _config.yml,_config_local.yml --verbose`
