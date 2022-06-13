@@ -2,7 +2,6 @@
 
   Developer: Nathan Jessen
   GitHub: nathanjessen
-  Twitter: @natejessen
 
 # TECHNOLOGY COLOPHON
 
