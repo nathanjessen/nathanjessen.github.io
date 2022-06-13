@@ -5,18 +5,17 @@
   "homepage": "http://nathanjessen.github.io",
   "main": "gulpfile.babel.js",
   "devDependencies": {
-    "@tailwindcss/ui": "^0.6.2",
-    "autoprefixer": "9.8.6",
+    "autoprefixer": "^10.4.7",
     "babel-preset-env": "1.7.0",
     "babel-register": "6.26.0",
-    "browser-sync": "2.26.12",
-    "cross-env": "7.0.2",
+    "browser-sync": "^2.27.10",
+    "cross-env": "^7.0.3",
     "cross-spawn": "7.0.3",
-    "cssnano": "4.1.10",
-    "gulp": "4.0.2",
-    "gulp-postcss": "8.0.0",
-    "postcss-import": "12.0.1",
-    "tailwindcss": "1.8.10"
+    "cssnano": "^5.1.11",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "postcss-import": "^14.1.0",
+    "tailwindcss": "^3.1.2"
   },
   "scripts": {
     "build:production": "cross-env NODE_ENV=production gulp",
@@ -33,6 +32,5 @@
     "url": "https://github.com/nathanjessen/nathanjessen.github.io/issues"
   },
   "author": "Nathan Jessen",
-  "license": "MIT",
-  "dependencies": {}
+  "license": "MIT"
 }
