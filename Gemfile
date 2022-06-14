@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.0"
 # gem "blogtheme", :git => "https://github.com/nathanjessen/blogtheme", :branch => "master"
+# gem "blogtheme", path: "/home/simple/www/blogtheme"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

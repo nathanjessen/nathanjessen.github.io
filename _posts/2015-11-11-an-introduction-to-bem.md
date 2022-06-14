@@ -16,7 +16,7 @@ BEM is an acronym for Block, Element, and Modifier. A **block** is an independen
 
 ## BEM Example
 
-Let's look at how I would create a button and a search component using the BEM syntax. I've put together this CodePen to show the results: [BEM Syntax Example](http://codepen.io/njessen/pen/epQXWJ).
+Let's look at how I would create a button and a search component using the BEM syntax. I've put together this CodePen to show the results: [BEM Syntax Example](http://codepen.io/njessen/pen/epQXWJ){:target="_blank"}{:rel="noopener noreferrer"}.
 
 ### Button block
 

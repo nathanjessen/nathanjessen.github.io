@@ -1,10 +1,12 @@
 {
   "name": "nathanjessen",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Personal website of web developer, Nathan Jessen",
   "homepage": "http://nathanjessen.github.io",
   "main": "gulpfile.babel.js",
   "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.2",
     "autoprefixer": "^10.4.7",
     "babel-preset-env": "1.7.0",
     "babel-register": "6.26.0",
@@ -15,7 +17,7 @@
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.1",
     "postcss-import": "^14.1.0",
-    "tailwindcss": "^3.1.2"
+    "tailwindcss": "^3.1.3"
   },
   "scripts": {
     "build:production": "cross-env NODE_ENV=production gulp",

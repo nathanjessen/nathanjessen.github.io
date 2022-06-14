@@ -4,5 +4,10 @@ layout: home
 permalink: /
 ---
 
-{% include featured-projects.html %}
+{% comment %}
+{% include recent-post-items.html %}
+{% endcomment %}
+{% include featured-items.html %}
+
+{% assign testimonial = site.data.testimonials | first %}
 {% include testimonial.html %}

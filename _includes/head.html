@@ -1,18 +1,17 @@
 <head>
-{% comment %}
-{% seo %}
-{% feed_meta %}
-{% endcomment %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#357edd">
+  <link type="text/plain" rel="author" href="{{ 'humans.txt' | absolute_url }}" />
+  <title>{{ site.title }}</title>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="author" content="{{ site.author }}">
-<meta name="theme-color" content="#357edd">
-<link href="{{ "/assets/css/style.css" | absolute_url }}" rel="stylesheet">
-<link rel="icon" href="{{ "/favicon.ico" | absolute_url }}" type="image/x-icon">
-<title>{{site.title}}</title>
+  <!-- <link rel="stylesheet" href="{{ '/assets/css/blogtheme.css' | absolute_url }}"> -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | absolute_url }}" type="image/x-icon">
 
-{% if jekyll.environment == "production" %}
+  {% if jekyll.environment == "production" %}
+  <link rel="preconnect" href="//www.google-analytics.com">
   {% include analytics.html %}
-{% endif %}
+  {% endif %}
 </head>
