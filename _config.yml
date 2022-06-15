@@ -12,9 +12,9 @@ rss_path: atom.xml
 
 header_pages:
   - _pages/index.html
-  - _pages/about.html
   - _pages/projects.html
   - _pages/posts.html
+  - _pages/ideal-position.html
 
 # Build settings
 # theme: blogtheme
@@ -160,6 +160,13 @@ social:
     - https://www.linkedin.com/in/njessen/
 
 # Customizable Content
+# recent_posts_title: Recent Posts
+# recent_posts_content: Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet.
 featured_title: Featured Projects
 featured_content: Take a look at some of the projects I've been working on.
+# services_title: Services
+# services_content: Nullam risus blandit ac aliquam justo ipsum.
+footer_content: "&copy; 2022 Nathan Jessen"
+
+# New Customizable Content
 attachment_list_title: Attachments
