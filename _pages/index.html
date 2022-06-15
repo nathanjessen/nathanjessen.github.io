@@ -4,19 +4,19 @@ layout: home
 permalink: /
 ---
 
-{% comment %}
-{% assign service_list = site.data.services %}
-{% include service-list.html %}
-{% assign recent_posts = site.posts %}
-{% include recent-post-items.html %}
-{% endcomment %}
+{%- comment -%}
+{%- assign service_list = site.data.services -%}
+{%- include service-list.html -%}
+{%- assign recent_posts = site.posts -%}
+{%- include recent-post-items.html -%}
+{%- endcomment -%}
 
-{% comment %}
-{% assign featured_items = site.data.projects | where: "featured", true %}
-{% endcomment %}
+{%- comment -%}
+{%- assign featured_items = site.data.projects | where: "featured", true -%}
+{%- endcomment -%}
 
-{% assign featured_items = site.data.featured %}
-{% include featured-items.html %}
+{%- assign featured_items = site.data.featured -%}
+{%- include featured-items.html -%}
 
-{% assign testimonial = site.data.testimonials | first %}
-{% include testimonial.html %}
+{%- assign testimonial = site.data.testimonials | first -%}
+{%- include testimonial.html -%}
