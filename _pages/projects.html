@@ -2,8 +2,5 @@
 title: Projects
 ---
 
-{% include projects-grid.html %}
-
-{% comment %}
-{% include projects-table.html %}
-{% endcomment %}
+{% assign project_list = site.data.projects %}
+{% include project-list.html %}

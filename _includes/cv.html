@@ -1,153 +1,65 @@
 <div class="bg-white shadow overflow-hidden sm:rounded-lg">
   <div class="px-4 py-5 border-b border-gray-200 sm:px-6">
     <h3 class="text-lg leading-6 font-medium text-gray-900">
-      Information
+      Ideal Position
     </h3>
-    <p class="mt-1 max-w-2xl text-sm leading-5 text-gray-500">
-      Personal details and application.
+    <p class="mt-1 max-w-2xl text-base leading-6 text-gray-500">
+      If you know of a position that meets the criteria below, please reach out.
     </p>
   </div>
   <div class="px-4 py-5 sm:px-6">
-    <dl class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2">
-      <div class="sm:col-span-1">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Full name
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          Nathan Jessen
-        </dd>
-      </div>
-      <div class="sm:col-span-1">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
+    <dl class="grid grid-cols-1 gap-y-6">
+      <div class="col-span-1">
+        <dt class="text-base leading-6 font-medium text-gray-500">
           Position
         </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
+        <dd class="mt-1 text-base leading-6 text-gray-900">
           Frontend Developer
         </dd>
       </div>
-      <div class="sm:col-span-1">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Technologies
+
+      <div class="col-span-1">
+        <dt class="text-base leading-6 font-medium text-gray-500">
+          Technology
         </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          HTML, CSS, Sass, PostCss, Gulp, Grunt, JavaScript, Vue, React
+        <dd class="mt-1 text-base leading-6 text-gray-900">
+          ReactJS, Typescript, Storybook, HTML, CSS
         </dd>
       </div>
-      <div class="sm:col-span-1">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Education
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          B.S. in Computer Science<br />
-          Minor in Mathematics<br />
-          Minor in Database Systems Management
-        </dd>
-      </div>
-      <!-- <div class="sm:col-span-1">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
+
+      <!-- <div class="col-span-1">
+        <dt class="text-base leading-6 font-medium text-gray-500">
           Salary expectation
         </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          $120,000
+        <dd class="mt-1 text-base leading-6 text-gray-900">
+          $120,000+
         </dd>
       </div> -->
-      <div class="sm:col-span-2">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Remote Experience
+
+      <div class="col-span-1">
+        <dt class="text-base leading-6 font-medium text-gray-500">
+          Responsibilities
         </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          <p>I've spent 5 years working remotely for an agency based in a different time zone.</p>
-          <p>I also spent 6 months travelling to other countries while continuing to work remote.</p>
-          <p>I spent a month working from the USA with a team that was based out of Australia.</p>
-        </dd>
-      </div>
-      <div class="sm:col-span-2">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Ideal Team
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          <ul>
-            <li>You're excited about implementing best practices and introduce tooling to help a growing team stay
+        <dd class="mt-1 text-base leading-6 text-gray-900">
+          <ul class="space-y-1">
+            <li>Implement best practices and introduce tooling to help a growing team stay
               consistent and efficient.</li>
-            <li>You’re always looking at new technologies and you push to innovate.</li>
-            <li>You're a small team of engineers who are eager to share your expertise in client-side development.</li>
-            <li>You're looking for someone to implement the design, modification, and maintenance of web applications
-              and user interfaces.</li>
-          </ul>
-        </dd>
-      </div>
-      <div class="sm:col-span-2">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          What I Offer
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          <ul>
-            <li>Collaborate with design team to implement solutions for our front-end</li>
+            <li>Collaborate with design team to implement solutions for the front-end</li>
             <li>Ensure the technical feasibility of UI/UX designs</li>
             <li>A user first mindset and strong sensibilities for UX and design</li>
             <li>Work across the organization to standardize the UI of the website</li>
-            <li>Implement and maintain a living style guide/pattern library in partnership with the design team</li>
+            <li>Implement and maintain Storybook documentation in partnership with the design team</li>
             <li>Work within pre-defined requirements and produce code that meet those requirements</li>
-            <li>Experience working within an established set of front-end standards</li>
             <li>Implement code that adheres to SEO principles and accessibility standards</li>
-            <li>Advocate for the best interest of the user across the organization</li>
-            <li>Oversee the technical aspects of the frontend and lead the direction of the frontend</li>
             <li>Implement semantic markup</li>
-            <li>Opinionated on Javascript and CSS best practices</li>
             <li>Perform cross-browser compatibility tests and iterate to work through bugs</li>
           </ul>
         </dd>
       </div>
-      <div class="sm:col-span-2">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Shared Responsibilities
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          <ul>
-            <li>Ideals consistent with the company's Core Values</li>
-            <li>Learn new technologies and share ideas</li>
-          </ul>
-        </dd>
+
+      <div class="col-span-1">
+        {% include attachment-list.html %}
       </div>
-      <!-- <div class="sm:col-span-2">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Attachments
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          <ul class="border border-gray-200 rounded-md">
-            <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm leading-5">
-              <div class="w-0 flex-1 flex items-center">
-                <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd" />
-                </svg>
-                <span class="ml-2 flex-1 w-0 truncate">
-                  resume_back_end_developer.pdf
-                </span>
-              </div>
-              <div class="ml-4 flex-shrink-0">
-                <a href="#" class="font-medium text-emerald-600 hover:text-emerald-500 transition duration-150 ease-in-out">
-                  Download
-                </a>
-              </div>
-            </li>
-            <li class="border-t border-gray-200 pl-3 pr-4 py-3 flex items-center justify-between text-sm leading-5">
-              <div class="w-0 flex-1 flex items-center">
-                <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd" />
-                </svg>
-                <span class="ml-2 flex-1 w-0 truncate">
-                  coverletter_back_end_developer.pdf
-                </span>
-              </div>
-              <div class="ml-4 flex-shrink-0">
-                <a href="#" class="font-medium text-emerald-600 hover:text-emerald-500 transition duration-150 ease-in-out">
-                  Download
-                </a>
-              </div>
-            </li>
-          </ul>
-        </dd>
-      </div> -->
     </dl>
   </div>
 </div>
