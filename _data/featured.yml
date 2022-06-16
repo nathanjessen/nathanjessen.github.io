@@ -15,3 +15,9 @@
   desc: An ERC20 token list validator and JSON file for displaying ethereum tokens in well-known UI's like Uniswap.
   source: https://github.com/nathanjessen/tokenlist
   url: https://nathanjessen.com/tokenlist/
+
+- title: Google I/O Extended Las Vegas
+  img: assets/images/google-io-extended.png
+  desc: Landing page built with Jekyll for the Google I/O Extended event in Las Vegas.
+  source: https://github.com/nathanjessen/ioextendedlv
+  url: https://nathanjessen.com/ioextendedlv/
