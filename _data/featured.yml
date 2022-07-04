@@ -1,3 +1,9 @@
+- title: Storybook Component Library
+  img: assets/images/storybook-hodo.png
+  desc: Storybook component library built in React for a Web3 NFT marketplace.
+  source: null
+  url: https://hodo-network.github.io/storybook-static/
+
 - title: OpenSea Integration
   img: assets/images/opensea.png
   desc: ReactJS + Web3 integration for viewing and buying NFTs from OpenSea directly in OctoFi app.
