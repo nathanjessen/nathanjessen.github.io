@@ -4,6 +4,12 @@
   source: null
   url: https://hodo-network.github.io/storybook-static/
 
+- title: Wordl
+  img: assets/images/wordl.png
+  desc: Word game recreated with React.
+  source: https://github.com/nathanjessen/wordl
+  url: https://nathanjessen.com/wordl/
+
 - title: OpenSea Integration
   img: assets/images/opensea.png
   desc: ReactJS + Web3 integration for viewing and buying NFTs from OpenSea directly in OctoFi app.
