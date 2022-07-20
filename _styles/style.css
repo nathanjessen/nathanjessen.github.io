@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .ldquo,
+  .rdquo {
+    @apply relative;
+  }
+
+  .ldquo:before,
+  .rdquo:after {
+    @apply text-primary text-3xl;
+  }
+
+  .ldquo:before {
+    content: open-quote;
+  }
+
+  .rdquo:after {
+    content: close-quote;
+  }
+}

@@ -3,7 +3,7 @@ lang: "en-US"
 title: "Nathan Jessen"
 email: nathan.jessen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  "Blog and Portfolio of Nathan Jessen"
+  "Portfolio of Nathan Jessen"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 categories_path: categories.html
@@ -13,7 +13,7 @@ rss_path: atom.xml
 header_pages:
   - _pages/index.html
   - _pages/projects.html
-  - _pages/posts.html
+  # - _pages/posts.html
   # - _pages/ideal-position.html
 
 # Build settings
@@ -134,7 +134,7 @@ profile: false
 ####################
 
 author: Nathan Jessen
-logo: null
+logo: false
 
 # Google Analytics
 ga_domain: nathanjessen.github.io
@@ -142,7 +142,7 @@ ga_tracking_id: UA-42437510-1
 
 # Social
 # facebook_url: https://facebook.com/
-github_url:  https://github.com/nathanjessen
+github_url: https://github.com/nathanjessen
 # twitter_url: https://twitter.com/
 linkedin_url: https://www.linkedin.com/in/njessen/
 # medium_url: https://medium.com/@nathanjessen/about
@@ -162,8 +162,8 @@ social:
 # Customizable Content
 # recent_posts_title: Recent Posts
 # recent_posts_content: Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet.
-featured_title: Featured Projects
-featured_content: Take a look at some of the projects I've been working on.
+featured_title: Portfolio
+featured_content: Featured Projects
 # services_title: Services
 # services_content: Nullam risus blandit ac aliquam justo ipsum.
 footer_content: "&copy; 2022 Nathan Jessen"

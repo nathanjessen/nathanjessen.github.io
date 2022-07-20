@@ -1,170 +1,170 @@
 - title: Estimāte
   client: VML
   date: 2019/09/01
-  tech: AEM/CQ6, AngularJS, Sass, Gulp
-  url: https://estimate.vmlapps.com
+  tech: [AngularJS, Sass, Gulp]
+  # url: https://estimate.vmlapps.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Resource Allocation and Forecasting Tool
   client: VML
   date: 2018/10/01
-  tech: Ember
-  url: https://raft.vmlapps.com
+  tech: [Vue, Ember, PHP]
+  # url: https://raft.vmlapps.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Sprint
   client: Sprint
   date: 2016/12/01
-  tech: AEM/CQ6, AngularJS, Sass, Gulp
-  url: https://www.sprint.com
+  tech: [AEM, AngularJS, Sass, Gulp]
+  # url: https://www.sprint.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Sweat It. Get It.
   client: Gatorade
   date: 2014/07/30
-  tech: Jade, Stylus, Backbone, Grunt, Sitefinity
-  url: http://www.gatorade.com/sweat-it-get-it
+  tech: [Jade, Stylus, Backbone, Grunt, Sitefinity]
+  # url: http://www.gatorade.com/sweat-it-get-it
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: League of Captains
   client: Gatorade
   date: 2014/07/21
-  tech: Jade, Stylus, Backbone, Grunt
-  url: http://leagueofcaptains.gatorade.com
+  tech: [Jade, Stylus, Backbone, Grunt]
+  # url: http://leagueofcaptains.gatorade.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Nonstop Love
   client: Southwest Airlines
   date: 2014/06/14
-  tech: Assemble, Sass, Grunt
-  url: http://www.nonstoplove.com
+  tech: [Assemble, Sass, Grunt]
+  # url: http://www.nonstoplove.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: UltraDuramune
   client: Boehringer Ingelheim
   date: 2014/05/02
-  tech: Adobe CQ5, Handlebars, SASS, Grunt
-  url: http://www.biviultraduramune.com
+  tech: [AEM, Handlebars, SASS, Grunt]
+  # url: http://www.biviultraduramune.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Edward Jones Careers
   client: Edward Jones
   date: 2014/05/01
-  tech: Adobe CQ5
-  url: https://careers.edwardjones.com
+  tech: [AEM]
+  # url: https://careers.edwardjones.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Dollars and Sense
   client: Boehringer Ingelheim
   date: 2014/02/12
-  tech: HTML5, Grunt, SASS
-  url: http://www.bividollarsandsense.com
+  tech: [HTML5, Grunt, SASS]
+  # url: http://www.bividollarsandsense.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: GCR/TDS Tires & Service
   client: Bridgestone & Firestone
   date: 2014/01/09
-  tech: Adobe CQ5, Handlebars, LESS
-  url: http://www.gcrtires.com
+  tech: [AEM, Handlebars, LESS]
+  # url: http://www.gcrtires.com
   company: VML
   status: 1
-  published: false
+  published: true
 
 - title: Have We Seen Your Cat Lately?
   client: Boehringer Ingelheim
   date: 2013/11/10
-  tech: Adobe CQ5
-  url: http://www.haveweseenyourcatlately.com/Home.html
+  tech: [AEM]
+  # url: http://www.haveweseenyourcatlately.com/Home.html
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: ProZinc
   client: Boehringer Ingelheim
   date: 2013/05/04
-  tech: Adobe CQ5, Handlebars, Sass
-  url: http://www.prozinc.us
+  tech: [AEM, Handlebars, Sass]
+  # url: http://www.prozinc.us
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Duramune Lepto
   client: Boehringer Ingelheim
   date: 2013/03/20
-  tech: Adobe CQ5, Bootstrap
-  url: http://www.duramunelepto.com
+  tech: [AEM, Bootstrap]
+  # url: http://www.duramunelepto.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Rosedale Development Association
   client: Rosedale Development Association
   date: 2013/03/14
-  tech: WordPress
-  url: https://rosedale.org
+  tech: [WordPress]
+  # url: https://rosedale.org
   company: Freelance
   status: 0
-  published: false
+  published: true
 
 - title: eVent Fabrics
   client: GE
   date: 2013/01/15
-  tech: WordPress
-  url: http://eventfabrics.com
+  tech: [WordPress]
+  # url: http://eventfabrics.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Epilepsy in Dogs
   client: Boehringer Ingelheim
   date: 2012/11/21
-  tech: Adobe CQ5
-  url: http://www.epilepsyindogs.co.uk
+  tech: [AEM]
+  # url: http://www.epilepsyindogs.co.uk
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: ClearCurrent Pro
   client: GE
   date: 2012/11/15
-  tech: Skeleton framework, YouTube API
-  url: http://www.clearcurrentpro.com
+  tech: [Skeleton, YouTube API]
+  # url: http://www.clearcurrentpro.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Purefil<sup>TM</sup> Technology
   client: Boehringer Ingelheim
   date: 2012/10/21
-  tech: Adobe CQ5
-  url: http://www.bivipurefil.com
+  tech: [AEM]
+  # url: http://www.bivipurefil.com
   company: VML
   status: 0
-  published: false
+  published: true
 
 - title: Heartland Trailways
   client: Heartland Trailways
   date: 2011/10/07
-  tech: WordPress
-  url: http://www.heartlandtrailways.com
+  tech: [WordPress]
+  # url: http://www.heartlandtrailways.com
   company: Freelance
   status: 0
-  published: false
+  published: true

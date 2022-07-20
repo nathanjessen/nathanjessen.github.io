@@ -2,15 +2,32 @@
 title: Projects
 ---
 
-{%- assign featured_items = site.data.featured -%}
-<ul class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
-  {%- for featured in featured_items -%}
-  {%- include featured-item.html -%}
-  {%- endfor -%}
-  {%- assign featured_items = nil -%}
-</ul>
+<div class="py-12">
+  <h2 class="text-xl md:text-2xl font-medium text-primary">
+    Projects
+  </h2>
+  <p class="text-3xl leading-tight tracking-wider uppercase text-white font-extrabold mt-2">
+    Recent Work
+  </p>
+  {%- assign featured_items = site.data.featured -%}
+  <ul class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3 mt-12">
+    {%- for featured in featured_items -%}
+    {%- include featured-item.html -%}
+    {%- endfor -%}
+    {%- assign featured_items = nil -%}
+  </ul>
+</div>
 
-{%- comment -%}
-{%- assign project_list = site.data.projects -%}
-{%- include project-list.html -%}
-{%- endcomment -%}
+<div class="py-12">
+  <h2 class="text-xl md:text-2xl font-medium text-primary">
+    Archive
+  </h2>
+  <p class="text-3xl leading-tight tracking-wider uppercase text-white font-extrabold mt-2">
+    Past Projects
+  </p>
+
+  <div class="mt-12">
+    {%- assign project_list = site.data.projects -%}
+    {%- include project-list.html -%}
+  </div>
+</div>
