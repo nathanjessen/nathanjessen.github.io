@@ -12,10 +12,10 @@ permalink: /
 {%- endcomment -%}
 
 {%- comment -%}
-{%- assign featured_items = site.data.projects | where: "featured", true -%}
+{%- assign featured_items = site.data.featured -%}
 {%- endcomment -%}
 
-{%- assign featured_items = site.data.featured -%}
+{%- assign featured_items = site.data.projects | where: "featured", true -%}
 {%- include featured-items.html -%}
 
 {%- assign testimonial = site.data.testimonials | first -%}

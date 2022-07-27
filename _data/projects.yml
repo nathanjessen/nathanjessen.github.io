@@ -1,170 +1,303 @@
+# - title:
+#   img: assets/images/
+#   desc:
+#   source:
+#   url:
+#   docs:
+#   tech: []
+#   company:
+#   client:
+#   # date: 2020/01/01
+#   archived: false
+#   featured: true
+
+- title: Storybook Component Library
+  img: assets/images/storybook-hodo.png
+  desc: React components for an NFT marketplace were built in isolation using Storybook.
+  source: https://github.com/Hodo-Network/hodo-network/tree/main/frontend
+  # url:
+  docs: https://hodo-network.github.io/storybook-static/
+  tech: [React, Storybook, Web3]
+  company: Freelance
+  client: null
+  # date: 2020/09/26
+  archived: false
+  featured: true
+
+- title: Wordle
+  img: assets/images/wordl.png
+  desc: Word game recreated with React.
+  source: https://github.com/nathanjessen/wordle
+  url: https://wordle.nathanjessen.com
+  docs: https://nathanjessen.com/wordle
+  tech: [React]
+  company: Freelance
+  client: null
+  # date: 2020/09/26
+  archived: false
+  featured: true
+
+- title: OpenSea Integration
+  img: assets/images/opensea.png
+  desc: ReactJS + Web3 integration for viewing and buying NFTs from OpenSea directly in OctoFi app.
+  source: https://github.com/OctoFi/octofi-app-aquafarm
+  url: https://app.octo.fi/
+  tech: [React, Redux, Web3]
+  company: Freelance
+  client: null
+  # date: 2020/09/26
+  archived: false
+  featured: true
+
+- title: Jekyll Theme
+  img: assets/images/blogtheme.png
+  desc: Clean minimalist theme for Jekyll using TailwindCSS.
+  source: https://github.com/nathanjessen/blogtheme
+  url: https://nathanjessen.com/
+  tech: [Jekyll, TailwindCSS]
+  company: Freelance
+  client: null
+  # date: 2020/09/26
+  archived: false
+
+- title: Uniswap Tokenlist
+  img: assets/images/tokenlist.png
+  desc: Create an ERC20 token list and validate the JSON schema to display tokens in well-known UI's like Uniswap.
+  source: https://github.com/nathanjessen/tokenlist-template
+  url: null
+  tech: [JSON, Ajv]
+  company: Freelance
+  client: null
+  date: 2020/09/26
+  archived: true
+
 - title: Estimāte
+  # img:
+  # desc:
+  # source:
+  # url: https://estimate.vmlapps.com
+  tech: [AngularJS, Sass, Gulp]
+  company: VML
   client: VML
   date: 2019/09/01
-  tech: [AngularJS, Sass, Gulp]
-  # url: https://estimate.vmlapps.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: Resource Allocation and Forecasting Tool
+  # img:
+  # desc:
+  # source:
+  # url: https://raft.vmlapps.com
+  tech: [Vue, Ember, PHP]
+  company: VML
   client: VML
   date: 2018/10/01
-  tech: [Vue, Ember, PHP]
-  # url: https://raft.vmlapps.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
+
+- title: Google I/O Extended Las Vegas
+  img: assets/images/google-io-extended.png
+  desc: Landing page for the Google I/O Extended event in Las Vegas.
+  source: https://github.com/nathanjessen/ioextendedlv
+  url: https://nathanjessen.com/ioextendedlv/
+  tech: [Jekyll, JavaScript]
+  company: Freelance
+  client: null
+  date: 2017/04/10
+  archived: true
 
 - title: Sprint
+  # img:
+  # desc:
+  # source:
+  # url: https://www.sprint.com
+  tech: [AEM, AngularJS, Sass, Gulp]
+  company: VML
   client: Sprint
   date: 2016/12/01
-  tech: [AEM, AngularJS, Sass, Gulp]
-  # url: https://www.sprint.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: Sweat It. Get It.
+  # img:
+  # desc:
+  # source:
+  # url: http://www.gatorade.com/sweat-it-get-it
+  tech: [Jade, Stylus, Backbone, Grunt, Sitefinity]
+  company: VML
   client: Gatorade
   date: 2014/07/30
-  tech: [Jade, Stylus, Backbone, Grunt, Sitefinity]
-  # url: http://www.gatorade.com/sweat-it-get-it
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: League of Captains
+  # img:
+  # desc:
+  # source:
+  # url: http://leagueofcaptains.gatorade.com
+  tech: [Jade, Stylus, Backbone, Grunt]
+  company: VML
   client: Gatorade
   date: 2014/07/21
-  tech: [Jade, Stylus, Backbone, Grunt]
-  # url: http://leagueofcaptains.gatorade.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: Nonstop Love
+  # img:
+  # desc:
+  # source:
+  # url: http://www.nonstoplove.com
+  tech: [Assemble, Sass, Grunt]
+  company: VML
   client: Southwest Airlines
   date: 2014/06/14
-  tech: [Assemble, Sass, Grunt]
-  # url: http://www.nonstoplove.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: UltraDuramune
+  # img:
+  # desc:
+  # source:
+  # url: http://www.biviultraduramune.com
+  tech: [AEM, Handlebars, SASS, Grunt]
+  company: VML
   client: Boehringer Ingelheim
   date: 2014/05/02
-  tech: [AEM, Handlebars, SASS, Grunt]
-  # url: http://www.biviultraduramune.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: Edward Jones Careers
+  # img:
+  # desc:
+  # source:
+  # url: https://careers.edwardjones.com
+  tech: [AEM]
+  company: VML
   client: Edward Jones
   date: 2014/05/01
-  tech: [AEM]
-  # url: https://careers.edwardjones.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: Dollars and Sense
+  # img:
+  # desc:
+  # source:
+  # url: http://www.bividollarsandsense.com
+  tech: [HTML5, Grunt, SASS]
+  company: VML
   client: Boehringer Ingelheim
   date: 2014/02/12
-  tech: [HTML5, Grunt, SASS]
-  # url: http://www.bividollarsandsense.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: GCR/TDS Tires & Service
+  # img:
+  # desc:
+  # source:
+  # url: http://www.gcrtires.com
+  tech: [AEM, Handlebars, LESS]
+  company: VML
   client: Bridgestone & Firestone
   date: 2014/01/09
-  tech: [AEM, Handlebars, LESS]
-  # url: http://www.gcrtires.com
-  company: VML
-  status: 1
-  published: true
+  archived: true
 
 - title: Have We Seen Your Cat Lately?
+  # img:
+  # desc:
+  # source:
+  # url: http://www.haveweseenyourcatlately.com/Home.html
+  tech: [AEM]
+  company: VML
   client: Boehringer Ingelheim
   date: 2013/11/10
-  tech: [AEM]
-  # url: http://www.haveweseenyourcatlately.com/Home.html
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: ProZinc
+  # img:
+  # desc:
+  # source:
+  # url: http://www.prozinc.us
+  tech: [AEM, Handlebars, Sass]
+  company: VML
   client: Boehringer Ingelheim
   date: 2013/05/04
-  tech: [AEM, Handlebars, Sass]
-  # url: http://www.prozinc.us
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: Duramune Lepto
+  # img:
+  # desc:
+  # source:
+  # url: http://www.duramunelepto.com
+  tech: [AEM, Bootstrap]
+  company: VML
   client: Boehringer Ingelheim
   date: 2013/03/20
-  tech: [AEM, Bootstrap]
-  # url: http://www.duramunelepto.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: Rosedale Development Association
+  # img:
+  # desc:
+  # source:
+  # url: https://rosedale.org
+  tech: [WordPress]
+  company: Freelance
   client: Rosedale Development Association
   date: 2013/03/14
-  tech: [WordPress]
-  # url: https://rosedale.org
-  company: Freelance
-  status: 0
-  published: true
+  archived: true
 
 - title: eVent Fabrics
+  # img:
+  # desc:
+  # source:
+  # url: http://eventfabrics.com
+  tech: [WordPress]
+  company: VML
   client: GE
   date: 2013/01/15
-  tech: [WordPress]
-  # url: http://eventfabrics.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: Epilepsy in Dogs
+  # img:
+  # desc:
+  # source:
+  # url: http://www.epilepsyindogs.co.uk
+  tech: [AEM]
+  company: VML
   client: Boehringer Ingelheim
   date: 2012/11/21
-  tech: [AEM]
-  # url: http://www.epilepsyindogs.co.uk
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: ClearCurrent Pro
+  # img:
+  # desc:
+  # source:
+  # url: http://www.clearcurrentpro.com
+  tech: [HTML, CSS, YouTube API]
+  company: VML
   client: GE
   date: 2012/11/15
-  tech: [Skeleton, YouTube API]
-  # url: http://www.clearcurrentpro.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: Purefil<sup>TM</sup> Technology
+  # img:
+  # desc:
+  # source:
+  # url: http://www.bivipurefil.com
+  tech: [AEM, CSS]
+  company: VML
   client: Boehringer Ingelheim
   date: 2012/10/21
-  tech: [AEM]
-  # url: http://www.bivipurefil.com
-  company: VML
-  status: 0
-  published: true
+  archived: true
 
 - title: Heartland Trailways
+  # img:
+  # desc:
+  # source:
+  # url: http://www.heartlandtrailways.com
+  tech: [WordPress, CSS]
+  company: Freelance
   client: Heartland Trailways
   date: 2011/10/07
-  tech: [WordPress]
-  # url: http://www.heartlandtrailways.com
-  company: Freelance
-  status: 0
-  published: true
+  archived: true
+
+- title: Knacktive
+  img: assets/images/knacktive.png
+  desc: The very first website I built as a student in a university-led marketing agency.
+  source: https://github.com/nathanjessen/knacktive
+  url: https://nathanjessen.com/knacktive/
+  tech: [HTML, CSS, jQuery, Adobe Dreamweaver]
+  company: Northwest Missouri State University
+  client: Knacktive
+  date: 2011/02/01
+  archived: false

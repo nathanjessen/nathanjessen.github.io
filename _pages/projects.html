@@ -9,7 +9,7 @@ title: Projects
   <p class="text-3xl leading-tight tracking-wider uppercase text-white font-extrabold mt-2">
     Recent Work
   </p>
-  {%- assign featured_items = site.data.featured -%}
+  {%- assign featured_items = site.data.projects | where: "featured", true -%}
   <ul class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3 mt-12">
     {%- for featured in featured_items -%}
     {%- include featured-item.html -%}
@@ -27,7 +27,7 @@ title: Projects
   </p>
 
   <div class="mt-12">
-    {%- assign project_list = site.data.projects -%}
+    {%- assign project_list = site.data.projects | where: "archived", true -%}
     {%- include project-list.html -%}
   </div>
 </div>
