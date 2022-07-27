@@ -64,7 +64,7 @@
   img: assets/images/tokenlist.png
   desc: Create an ERC20 token list and validate the JSON schema to display tokens in well-known UI's like Uniswap.
   source: https://github.com/nathanjessen/tokenlist-template
-  url: null
+  url: https://github.com/nathanjessen/tokenlist-template
   tech: [JSON, Ajv]
   company: Freelance
   client: null
@@ -73,7 +73,7 @@
 
 - title: Estimāte
   # img:
-  # desc:
+  desc: An internal tool for estimating the cost of a project proposal.
   # source:
   # url: https://estimate.vmlapps.com
   tech: [AngularJS, Sass, Gulp]
@@ -84,7 +84,7 @@
 
 - title: Resource Allocation and Forecasting Tool
   # img:
-  # desc:
+  desc: An internal tool for allocating team members to upcoming/current projects.
   # source:
   # url: https://raft.vmlapps.com
   tech: [Vue, Ember, PHP]
@@ -106,7 +106,7 @@
 
 - title: Sprint
   # img:
-  # desc:
+  desc: Complete website redesign including marketplace, shopping cart, and customer support.
   # source:
   # url: https://www.sprint.com
   tech: [AEM, AngularJS, Sass, Gulp]
@@ -117,7 +117,7 @@
 
 - title: Sweat It. Get It.
   # img:
-  # desc:
+  desc: Promotional landing page for an ad campaign.
   # source:
   # url: http://www.gatorade.com/sweat-it-get-it
   tech: [Jade, Stylus, Backbone, Grunt, Sitefinity]
@@ -128,7 +128,7 @@
 
 - title: League of Captains
   # img:
-  # desc:
+  desc: App with a comic book explorer interface for learning about a promotion.
   # source:
   # url: http://leagueofcaptains.gatorade.com
   tech: [Jade, Stylus, Backbone, Grunt]
@@ -139,7 +139,7 @@
 
 - title: Nonstop Love
   # img:
-  # desc:
+  desc: Landing page to promote a series of flight discounts.
   # source:
   # url: http://www.nonstoplove.com
   tech: [Assemble, Sass, Grunt]
@@ -150,7 +150,7 @@
 
 - title: UltraDuramune
   # img:
-  # desc:
+  desc: CSS theme for an AEM website.
   # source:
   # url: http://www.biviultraduramune.com
   tech: [AEM, Handlebars, SASS, Grunt]
@@ -161,7 +161,7 @@
 
 - title: Edward Jones Careers
   # img:
-  # desc:
+  desc: AEM website for a careers portal.
   # source:
   # url: https://careers.edwardjones.com
   tech: [AEM]
@@ -172,7 +172,7 @@
 
 - title: Dollars and Sense
   # img:
-  # desc:
+  desc: Landing page for a new company product.
   # source:
   # url: http://www.bividollarsandsense.com
   tech: [HTML5, Grunt, SASS]
@@ -183,9 +183,9 @@
 
 - title: GCR/TDS Tires & Service
   # img:
-  # desc:
+  desc: AEM components and a custom map for locating nearby stores.
   # source:
-  # url: http://www.gcrtires.com
+  url: http://www.gcrtires.com
   tech: [AEM, Handlebars, LESS]
   company: VML
   client: Bridgestone & Firestone
@@ -194,10 +194,10 @@
 
 - title: Have We Seen Your Cat Lately?
   # img:
-  # desc:
+  desc: CSS theme for an AEM website.
   # source:
   # url: http://www.haveweseenyourcatlately.com/Home.html
-  tech: [AEM]
+  tech: [AEM, Gulp]
   company: VML
   client: Boehringer Ingelheim
   date: 2013/11/10
@@ -205,7 +205,7 @@
 
 - title: ProZinc
   # img:
-  # desc:
+  desc: CSS theme for an AEM website.
   # source:
   # url: http://www.prozinc.us
   tech: [AEM, Handlebars, Sass]
@@ -216,7 +216,7 @@
 
 - title: Duramune Lepto
   # img:
-  # desc:
+  desc: CSS theme for an AEM website.
   # source:
   # url: http://www.duramunelepto.com
   tech: [AEM, Bootstrap]
@@ -227,7 +227,7 @@
 
 - title: Rosedale Development Association
   # img:
-  # desc:
+  desc: WordPress child theme for a community organization built at Coders 4 Charities event.
   # source:
   # url: https://rosedale.org
   tech: [WordPress]
@@ -238,7 +238,7 @@
 
 - title: eVent Fabrics
   # img:
-  # desc:
+  desc: WordPress child theme for an apparel company.
   # source:
   # url: http://eventfabrics.com
   tech: [WordPress]
@@ -249,7 +249,7 @@
 
 - title: Epilepsy in Dogs
   # img:
-  # desc:
+  desc: CSS theme for an AEM website.
   # source:
   # url: http://www.epilepsyindogs.co.uk
   tech: [AEM]
@@ -260,7 +260,7 @@
 
 - title: ClearCurrent Pro
   # img:
-  # desc:
+  desc: HTML landing page with a custom YouTube video player.
   # source:
   # url: http://www.clearcurrentpro.com
   tech: [HTML, CSS, YouTube API]
@@ -271,7 +271,7 @@
 
 - title: Purefil<sup>TM</sup> Technology
   # img:
-  # desc:
+  desc: CSS theme for an AEM website.
   # source:
   # url: http://www.bivipurefil.com
   tech: [AEM, CSS]
@@ -282,7 +282,7 @@
 
 - title: Heartland Trailways
   # img:
-  # desc:
+  desc: WordPress child theme for a charter bus company.
   # source:
   # url: http://www.heartlandtrailways.com
   tech: [WordPress, CSS]
@@ -293,10 +293,10 @@
 
 - title: Knacktive
   img: assets/images/knacktive.png
-  desc: The very first website I built as a student in a university-led marketing agency.
+  desc: The very first website I built as a student for a university-led marketing agency.
   source: https://github.com/nathanjessen/knacktive
   url: https://nathanjessen.com/knacktive/
-  tech: [HTML, CSS, jQuery, Adobe Dreamweaver]
+  tech: [HTML, CSS, jQuery, Dreamweaver]
   company: Northwest Missouri State University
   client: Knacktive
   date: 2011/02/01
