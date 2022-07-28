@@ -71,6 +71,18 @@
   date: 2020/09/26
   archived: true
 
+- title: Checking Account Recommender
+  # img:
+  desc: Find the best checking account for you using this questionnaire app.
+  # source:
+  url: https://www.firsthorizon.com/Products-and-Services/Banking/Checking-Accounts/Checking-Account-Recommender
+  tech: [Vue]
+  company: VML
+  client: First Horizon Bank
+  date: 2019/07/01
+  dateRange: 2019/07/01 - 2019/09/01
+  archived: true
+
 - title: Estimāte
   # img:
   desc: An internal tool for estimating the cost of a project proposal.
@@ -79,7 +91,8 @@
   tech: [AngularJS, Sass, Gulp]
   company: VML
   client: VML
-  date: 2019/09/01
+  date: 2018/10/01
+  dateRange: Feb 2018 - July 2019
   archived: true
 
 - title: Resource Allocation and Forecasting Tool
@@ -91,6 +104,19 @@
   company: VML
   client: VML
   date: 2018/10/01
+  dateRange: Feb 2018 - July 2019
+  archived: true
+
+- title: Bridgestone Dealer Portal
+  # img:
+  desc: Portal for Bridgestone product dealers.
+  # source:
+  # url:
+  tech: [AEM]
+  company: VML
+  client: Bridgestone
+  date: 2017/03/01
+  dateRange: March 2017 - February 2018
   archived: true
 
 - title: Google I/O Extended Las Vegas
@@ -112,12 +138,49 @@
   tech: [AEM, AngularJS, Sass, Gulp]
   company: VML
   client: Sprint
-  date: 2016/12/01
+  date: 2015/01/07
+  dateRange: Jan 2015 - March 2017
   archived: true
 
-- title: Sweat It. Get It.
+- title: JG Wentworth
   # img:
-  desc: Promotional landing page for an ad campaign.
+  desc:
+  # source:
+  # url:
+  tech: []
+  company: VML
+  client: JG Wentworth
+  date: 2014/11/01
+  dateRange: Nov 2014 - Jan 2015
+  archived: true
+
+- title: Mastercard
+  # img:
+  desc:
+  # source:
+  # url:
+  tech: []
+  company: VML
+  client: Mastercard
+  date: 2014/09/01
+  dateRange: Sept 2014 - Oct 2014
+  archived: true
+
+- title: PepsiCo Careers
+  # img:
+  desc:
+  # source:
+  # url:
+  tech: []
+  company: VML
+  client: PepsiCo Careers
+  date: 2014/08/01
+  dateRange: Aug 2014 - Sept 2014
+  archived: true
+
+- title: Gatorade Efficacy
+  # img:
+  desc: Promotional landing page for the Sweat It. Get It. ad campaign.
   # source:
   # url: http://www.gatorade.com/sweat-it-get-it
   tech: [Jade, Stylus, Backbone, Grunt, Sitefinity]
@@ -135,6 +198,7 @@
   company: VML
   client: Gatorade
   date: 2014/07/21
+  dateRange: June 2014 - July 2014
   archived: true
 
 - title: Nonstop Love
@@ -168,17 +232,30 @@
   company: VML
   client: Edward Jones
   date: 2014/05/01
+  dateRange: March 2014 - May 2014
+  archived: true
+
+- title: Taxonomy
+  # img:
+  desc: Parallax website discussing a new program and its benefits.
+  # source:
+  # url:
+  tech: [AEM, CSS]
+  company: VML
+  client: American Century Investments
+  date: 2014/02/01
   archived: true
 
 - title: Dollars and Sense
   # img:
-  desc: Landing page for a new company product.
+  desc: Landing page for a new product, BIVI Ultra Fel-O-Vax.
   # source:
   # url: http://www.bividollarsandsense.com
   tech: [HTML5, Grunt, SASS]
   company: VML
   client: Boehringer Ingelheim
   date: 2014/02/12
+  dateRange: Dec 2013 - Feb 2014
   archived: true
 
 - title: GCR/TDS Tires & Service
@@ -212,6 +289,7 @@
   company: VML
   client: Boehringer Ingelheim
   date: 2013/05/04
+  dateRange: Apr 2013 - May 2013
   archived: true
 
 - title: Duramune Lepto
@@ -245,6 +323,7 @@
   company: VML
   client: GE
   date: 2013/01/15
+  dateRange: Dec 2012 - Jan 2013
   archived: true
 
 - title: Epilepsy in Dogs
@@ -278,6 +357,7 @@
   company: VML
   client: Boehringer Ingelheim
   date: 2012/10/21
+  dateRange: Sept 2012 - Oct 2012
   archived: true
 
 - title: Heartland Trailways
