@@ -1,15 +1,4 @@
-# - title:
-#   img: assets/images/
-#   desc:
-#   source:
-#   url:
-#   docs:
-#   tech: []
-#   company:
-#   client:
-#   # date: 2020/01/01
-#   archived: false
-#   featured: true
+# title, img, desc, source, url, docs, tech[], company, client, date, dateRange, archived, featured
 
 - title: Storybook Component Library
   img: assets/images/storybook-hodo.png
@@ -19,8 +8,8 @@
   docs: https://hodo-network.github.io/storybook-static/
   tech: [React, Storybook, Web3]
   company: Freelance
-  client: null
-  # date: 2020/09/26
+  client: Hodo Network
+  date: 2021/01/20
   archived: false
   featured: true
 
@@ -33,7 +22,7 @@
   tech: [React]
   company: Freelance
   client: null
-  # date: 2020/09/26
+  date: 2022/07/04
   archived: false
   featured: true
 
@@ -44,8 +33,9 @@
   url: https://app.octo.fi/
   tech: [React, Redux, Web3]
   company: Freelance
-  client: null
-  # date: 2020/09/26
+  client: OctoFi
+  date: 2020/10/12
+  dateRange: 2020/02/01 - 2021/12/15
   archived: false
   featured: true
 
@@ -57,7 +47,7 @@
   tech: [Jekyll, TailwindCSS]
   company: Freelance
   client: null
-  # date: 2020/09/26
+  date: 2022/07/18
   archived: false
 
 - title: Uniswap Tokenlist
@@ -72,9 +62,7 @@
   archived: true
 
 - title: Checking Account Recommender
-  # img:
   desc: Find the best checking account for you using this questionnaire app.
-  # source:
   url: https://www.firsthorizon.com/Products-and-Services/Banking/Checking-Accounts/Checking-Account-Recommender
   tech: [Vue]
   company: VML
@@ -84,33 +72,27 @@
   archived: true
 
 - title: Estimāte
-  # img:
   desc: An internal tool for estimating the cost of a project proposal.
-  # source:
   # url: https://estimate.vmlapps.com
   tech: [AngularJS, Sass, Gulp]
   company: VML
-  client: VML
+  client: VMLY&R
   date: 2018/10/01
   dateRange: Feb 2018 - July 2019
   archived: true
 
 - title: Resource Allocation and Forecasting Tool
-  # img:
   desc: An internal tool for allocating team members to upcoming/current projects.
-  # source:
   # url: https://raft.vmlapps.com
   tech: [Vue, Ember, PHP]
   company: VML
-  client: VML
+  client: VMLY&R
   date: 2018/10/01
   dateRange: Feb 2018 - July 2019
   archived: true
 
 - title: Bridgestone Dealer Portal
-  # img:
-  desc: Portal for Bridgestone product dealers.
-  # source:
+  desc: Updates to a previous site built in AEM.
   # url:
   tech: [AEM]
   company: VML
@@ -131,11 +113,9 @@
   archived: true
 
 - title: Sprint
-  # img:
   desc: Complete website redesign including marketplace, shopping cart, and customer support.
-  # source:
   # url: https://www.sprint.com
-  tech: [AEM, AngularJS, Sass, Gulp]
+  tech: [AEM, AngularJS, Sass, Gulp, Sketch]
   company: VML
   client: Sprint
   date: 2015/01/07
@@ -143,11 +123,8 @@
   archived: true
 
 - title: JG Wentworth
-  # img:
-  desc:
-  # source:
-  # url:
-  tech: []
+  desc: Development of new page layouts and content banners.
+  tech: [HTML, CSS]
   company: VML
   client: JG Wentworth
   date: 2014/11/01
@@ -155,11 +132,8 @@
   archived: true
 
 - title: Mastercard
-  # img:
-  desc:
-  # source:
-  # url:
-  tech: []
+  desc: Development of informational banners and page heros.
+  tech: [HTML, CSS]
   company: VML
   client: Mastercard
   date: 2014/09/01
@@ -167,32 +141,26 @@
   archived: true
 
 - title: PepsiCo Careers
-  # img:
-  desc:
-  # source:
-  # url:
-  tech: []
+  desc: Fixed bugs and created new layout components for an existing careers portal.
+  url: https://www.pepsicojobs.com/main/
+  tech: [HTML, CSS]
   company: VML
-  client: PepsiCo Careers
+  client: PepsiCo
   date: 2014/08/01
   dateRange: Aug 2014 - Sept 2014
   archived: true
 
-- title: Gatorade Efficacy
-  # img:
+- title: Efficacy
   desc: Promotional landing page for the Sweat It. Get It. ad campaign.
-  # source:
   # url: http://www.gatorade.com/sweat-it-get-it
-  tech: [Jade, Stylus, Backbone, Grunt, Sitefinity]
+  tech: [Jade, Stylus, Backbone, Grunt]
   company: VML
   client: Gatorade
   date: 2014/07/30
   archived: true
 
 - title: League of Captains
-  # img:
-  desc: App with a comic book explorer interface for learning about a promotion.
-  # source:
+  desc: App with a comic book explorer interface for exploring the information of a marketing campaign.
   # url: http://leagueofcaptains.gatorade.com
   tech: [Jade, Stylus, Backbone, Grunt]
   company: VML
@@ -202,9 +170,7 @@
   archived: true
 
 - title: Nonstop Love
-  # img:
-  desc: Landing page to promote a series of flight discounts.
-  # source:
+  desc: Landing page for a series of flight discount promotions.
   # url: http://www.nonstoplove.com
   tech: [Assemble, Sass, Grunt]
   company: VML
@@ -213,9 +179,7 @@
   archived: true
 
 - title: UltraDuramune
-  # img:
-  desc: CSS theme for an AEM website.
-  # source:
+  desc: Created a CSS theme for an AEM website.
   # url: http://www.biviultraduramune.com
   tech: [AEM, Handlebars, SASS, Grunt]
   company: VML
@@ -224,11 +188,9 @@
   archived: true
 
 - title: Edward Jones Careers
-  # img:
-  desc: AEM website for a careers portal.
-  # source:
-  # url: https://careers.edwardjones.com
-  tech: [AEM]
+  desc: Developed the initial prototype for a careers portal.
+  url: https://careers.edwardjones.com/
+  tech: [HTML, CSS, JavaScript]
   company: VML
   client: Edward Jones
   date: 2014/05/01
@@ -236,10 +198,7 @@
   archived: true
 
 - title: Taxonomy
-  # img:
-  desc: Parallax website discussing a new program and its benefits.
-  # source:
-  # url:
+  desc: Internal informational website built in AEM.
   tech: [AEM, CSS]
   company: VML
   client: American Century Investments
@@ -247,9 +206,7 @@
   archived: true
 
 - title: Dollars and Sense
-  # img:
-  desc: Landing page for a new product, BIVI Ultra Fel-O-Vax.
-  # source:
+  desc: Landing page for a new veterinary product.
   # url: http://www.bividollarsandsense.com
   tech: [HTML5, Grunt, SASS]
   company: VML
@@ -258,114 +215,169 @@
   dateRange: Dec 2013 - Feb 2014
   archived: true
 
-- title: GCR/TDS Tires & Service
-  # img:
-  desc: AEM components and a custom map for locating nearby stores.
-  # source:
-  url: http://www.gcrtires.com
-  tech: [AEM, Handlebars, LESS]
+- title: COO / Dealer Portal
+  desc: Internal portals for Bridgestone managers and product dealers.
+  tech: [AEM, LESS, JavaScript]
   company: VML
   client: Bridgestone & Firestone
-  date: 2014/01/09
+  date: 2014/01/01
+  dateRange: Jan 2014 - Feb 2014
+  archived: true
+
+- title: GCR/TDS Tires & Service
+  desc: Developed AEM components for a custom map with search for locating nearby stores.
+  url: http://www.gcrtires.com
+  tech: [AEM, Handlebars, LESS, JavaScript]
+  company: VML
+  client: Bridgestone & Firestone
+  date: 2013/12/01
+  dateRange: Dec 2013 - Jan 2014
   archived: true
 
 - title: Have We Seen Your Cat Lately?
-  # img:
-  desc: CSS theme for an AEM website.
-  # source:
-  # url: http://www.haveweseenyourcatlately.com/Home.html
-  tech: [AEM, Gulp]
+  desc: Created a CSS theme for an AEM website.
+  # url: http://www.haveweseenyourcatlately.com/
+  tech: [AEM, CSS, Gulp, Photoshop]
   company: VML
   client: Boehringer Ingelheim
   date: 2013/11/10
   archived: true
 
+- title: Target Date
+  desc: Parallax website discussing a new program and its benefits.
+  tech: [AEM, CSS, JavaScript, Photoshop]
+  company: VML
+  client: American Century Investments
+  date: 2013/05/01
+  dateRange: May 2013 - Sep 2013
+  archived: true
+
 - title: ProZinc
-  # img:
-  desc: CSS theme for an AEM website.
-  # source:
+  desc: Created a CSS theme for an AEM website.
   # url: http://www.prozinc.us
-  tech: [AEM, Handlebars, Sass]
+  tech: [AEM, Handlebars, Sass, Photoshop]
   company: VML
   client: Boehringer Ingelheim
-  date: 2013/05/04
+  date: 2013/04/11
   dateRange: Apr 2013 - May 2013
   archived: true
 
+- title: Promotional Landing Page
+  desc: Built a landing page for a marketing campaign.
+  tech: [HTML, CSS, Photoshop]
+  company: VML
+  client: Schrader
+  date: 2013/04/01
+  archived: true
+
 - title: Duramune Lepto
-  # img:
-  desc: CSS theme for an AEM website.
-  # source:
+  desc: Created a custom video player for informational videos managed in AEM.
   # url: http://www.duramunelepto.com
-  tech: [AEM, Bootstrap]
+  tech: [AEM, JavaScript, Bootstrap]
   company: VML
   client: Boehringer Ingelheim
   date: 2013/03/20
   archived: true
 
 - title: Rosedale Development Association
-  # img:
-  desc: WordPress child theme for a community organization built at Coders 4 Charities event.
-  # source:
-  # url: https://rosedale.org
-  tech: [WordPress]
-  company: Freelance
+  desc: Moved a community organization website into WordPress with a child theme at a Coders 4 Charities event.
+  url: https://rosedale.org/
+  tech: [WordPress, CSS]
+  company: Volunteer
   client: Rosedale Development Association
   date: 2013/03/14
   archived: true
 
+- title: CardioDVM
+  desc: CSS updates and maintenance for an existing AEM website.
+  # url: http://www.cardiodvm.com
+  tech: [AEM, CSS]
+  company: VML
+  client: Boehringer Ingelheim
+  date: 2013/03/01
+  archived: true
+
+- title: Email Templates
+  desc: Built email templates used in a marketing campaign for tax preparation services and discounts.
+  tech: [HTML, CSS]
+  company: VML
+  client: H&R Block
+  date: 2013/01/01
+  dateRange: Jan 2013 - Mar 2013
+  archived: true
+
 - title: eVent Fabrics
-  # img:
-  desc: WordPress child theme for an apparel company.
-  # source:
+  desc: Developed a WordPress child theme for an apparel company.
   # url: http://eventfabrics.com
-  tech: [WordPress]
+  tech: [WordPress, Photoshop]
   company: VML
   client: GE
   date: 2013/01/15
   dateRange: Dec 2012 - Jan 2013
   archived: true
 
-- title: Epilepsy in Dogs
-  # img:
-  desc: CSS theme for an AEM website.
-  # source:
-  # url: http://www.epilepsyindogs.co.uk
-  tech: [AEM]
-  company: VML
-  client: Boehringer Ingelheim
-  date: 2012/11/21
-  archived: true
-
 - title: ClearCurrent Pro
-  # img:
   desc: HTML landing page with a custom YouTube video player.
-  # source:
   # url: http://www.clearcurrentpro.com
-  tech: [HTML, CSS, YouTube API]
+  tech: [HTML, CSS, JavaScript, Photoshop]
   company: VML
   client: GE
   date: 2012/11/15
   archived: true
 
-- title: Purefil<sup>TM</sup> Technology
-  # img:
-  desc: CSS theme for an AEM website.
-  # source:
-  # url: http://www.bivipurefil.com
-  tech: [AEM, CSS]
+- title: Pexion - Epilepsy in Dogs
+  desc: Responsive redesign of an AEM website.
+  # url: https://www.pexion.co.uk/
+  tech: [AEM, CSS, Photoshop]
   company: VML
   client: Boehringer Ingelheim
-  date: 2012/10/21
+  date: 2012/10/01
+  dateRange: Oct 2012 - Nov 2012
+  archived: true
+
+- title: Purefil<sup>TM</sup> Technology
+  desc: Created a responsive CSS theme for an AEM website.
+  # url: http://www.bivipurefil.com
+  tech: [AEM, CSS, Photoshop]
+  company: VML
+  client: Boehringer Ingelheim
+  date: 2012/09/21
   dateRange: Sept 2012 - Oct 2012
   archived: true
 
-- title: Heartland Trailways
-  # img:
-  desc: WordPress child theme for a charter bus company.
-  # source:
-  # url: http://www.heartlandtrailways.com
+- title: Email Templates
+  desc: Built email templates for an email marketing campaign.
+  tech: [HTML, CSS]
+  company: VML
+  client: GE
+  date: 2012/09/01
+  dateRange: Sept 2012
+  archived: true
+
+- title: LymeInfo
+  desc: Updated the CSS and content for an AEM website.
+  # url: http://www.lymeinfo.com
+  tech: [AEM, CSS]
+  company: VML
+  client: Boehringer Ingelheim
+  date: 2012/09/01
+  dateRange: Sept 2012
+  archived: true
+
+- title: Pioneer Military Loans
+  desc: Fixed layout bugs and created CSS updates for a WordPress website.
+  url: https://pioneermilitarycredit.com/military-loans/
   tech: [WordPress, CSS]
+  company: VML
+  client: Pioneer Military Credit
+  date: 2012/09/01
+  dateRange: Sept 2012
+  archived: true
+
+- title: Heartland Trailways
+  desc: Setup a WordPress site and created a child theme for a charter bus company.
+  # url: http://www.heartlandtrailways.com
+  tech: [WordPress, PHP, CSS, JavaScript]
   company: Freelance
   client: Heartland Trailways
   date: 2011/10/07
@@ -373,7 +385,7 @@
 
 - title: Knacktive
   img: assets/images/knacktive.png
-  desc: The very first website I built as a student for a university-led marketing agency.
+  desc: Developed the inaugural website for our university-led marketing agency and ported into the university CMS.
   source: https://github.com/nathanjessen/knacktive
   url: https://nathanjessen.com/knacktive/
   tech: [HTML, CSS, jQuery, Dreamweaver]
