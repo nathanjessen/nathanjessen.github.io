@@ -1,6 +1,8 @@
 # NathanJessen.github.io
 
-My personal website and blog.
+My (old) personal website and blog.
+
+My portfolio has moved to a NextJS implementation. This repository is now *Deprecated*.
 
 ## Directories
 
