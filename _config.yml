@@ -13,8 +13,7 @@ rss_path: atom.xml
 header_pages:
   - _pages/index.html
   - _pages/projects.html
-  # - _pages/posts.html
-  # - _pages/ideal-position.html
+  - _pages/posts.html
 
 # Build settings
 # theme: blogtheme
@@ -167,6 +166,3 @@ featured_content: Featured Projects
 # services_title: Services
 # services_content: Nullam risus blandit ac aliquam justo ipsum.
 footer_content: "&copy; 2022 Nathan Jessen"
-
-# New Customizable Content
-attachment_list_title: Attachments
