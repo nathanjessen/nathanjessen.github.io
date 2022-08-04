@@ -10,7 +10,7 @@
 
   .ldquo:before,
   .rdquo:after {
-    @apply text-primary text-3xl;
+    @apply text-emerald-500 text-3xl;
   }
 
   .ldquo:before {

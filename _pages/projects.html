@@ -3,14 +3,14 @@ title: Projects
 ---
 
 <div class="py-12">
-  <h2 class="text-xl md:text-2xl font-medium text-primary">
+  <h2 class="text-xl md:text-2xl font-medium text-emerald-700">
     Projects
   </h2>
-  <p class="text-3xl leading-tight tracking-wider uppercase text-white font-extrabold mt-2">
+  <p class="text-3xl leading-tight uppercase text-gray-800 font-extrabold mt-2">
     Recent Work
   </p>
   {%- assign featured_items = site.data.projects | where: "featured", true -%}
-  <ul class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3 mt-12">
+  <ul class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 mt-12">
     {%- for featured in featured_items -%}
     {%- include featured-item.html -%}
     {%- endfor -%}
@@ -19,10 +19,10 @@ title: Projects
 </div>
 
 <div class="py-12">
-  <h2 class="text-xl md:text-2xl font-medium text-primary">
+  <h2 class="text-xl md:text-2xl font-medium text-emerald-700">
     Archive
   </h2>
-  <p class="text-3xl leading-tight tracking-wider uppercase text-white font-extrabold mt-2">
+  <p class="text-3xl leading-tight uppercase text-gray-800 font-extrabold mt-2">
     Past Projects
   </p>
 

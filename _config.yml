@@ -11,11 +11,11 @@ tags_path: tags.html
 rss_path: atom.xml
 
 header_pages:
-  - _pages/index.html
   - _pages/projects.html
   - _pages/posts.html
 
 # Build settings
+ignore_theme_config: true
 # theme: blogtheme
 remote_theme: nathanjessen/blogtheme@main
 
@@ -159,10 +159,10 @@ social:
     - https://www.linkedin.com/in/njessen/
 
 # Customizable Content
-# recent_posts_title: Recent Posts
-# recent_posts_content: Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet.
+recent_posts_title: Recent Posts
+recent_posts_content: Thoughts and Insights
 featured_title: Portfolio
 featured_content: Featured Projects
-# services_title: Services
-# services_content: Nullam risus blandit ac aliquam justo ipsum.
+services_title: Services
+services_content: For any project
 footer_content: "&copy; 2022 Nathan Jessen"
