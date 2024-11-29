@@ -8,7 +8,7 @@ import tailwindcss from "tailwindcss";
 const isDevelopmentBuild = process.env.NODE_ENV === "development";
 
 const PRE_BUILD_STYLESHEET = "./_styles/style.css";
-const POST_BUILD_STYLESHEET = isDevelopmentBuild ? "./_site/assets/css/" : "./assets/css/";
+const POST_BUILD_STYLESHEET = "./assets/css/";
 const TAILWIND_CONFIG = "./tailwind.config.js";
 
 task("processStyles", () => {
@@ -27,4 +27,11 @@ task("watch", () => {
   watch([PRE_BUILD_STYLESHEET, TAILWIND_CONFIG], series("processStyles"));
 });
 
-task("default", series("processStyles", "watch"));
+// Build task for production and development
+task("build", series("processStyles"));
+
+// Development task with watch
+task("dev", series("processStyles", "watch"));
+
+// Default task is same as build
+task("default", series("build"));
