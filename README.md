@@ -4,6 +4,49 @@ My (old) personal website and blog.
 
 My portfolio has moved to a NextJS implementation. This repository is now *Deprecated*.
 
+## Development
+
+This site uses Jekyll with Docker for local development. This approach eliminates the need to install Ruby and gems directly on your machine.
+
+### Prerequisites
+
+- [Docker](https://www.docker.com/get-started)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- [Node.js and npm](https://nodejs.org/)
+
+### Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nathanjessen/nathanjessen.github.io.git
+   cd nathanjessen.github.io
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+   The site will be available at http://localhost:4000 with live reload enabled.
+
+4. To stop the server:
+   ```bash
+   npm run stop
+   ```
+
+### Available Commands
+
+- `npm run dev` or `npm start` - Start the development server
+- `npm run stop` - Stop the development server
+- `npm run clean` - Stop the server and remove volumes
+- `npm run build:dev` - Build the site with development settings
+- `npm run build` or `npm run build:production` - Build the site for production
+
 ## Directories
 
 Some directories are created using GitHub pages in other repositories.
@@ -20,6 +63,7 @@ Some directories are created using GitHub pages in other repositories.
 
 * [Github Pages](http://pages.github.com/)
 * [Jekyll](http://jekyllrb.com/)
+* [Docker](https://www.docker.com/)
 * [Gulp](http://gulpjs.com/)
 * [PostCSS](http://postcss.org/)
 * [Yarn](https://yarnpkg.com/)
@@ -50,38 +94,4 @@ A Gulpfile does the following:
 
 ## What is Jekyll?
 
->"Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories."
-–[Jekyll](https://jekyllrb.com/)
-
-## Requirements
-
-* [Bundler](http://bundler.io/)
-* [Jekyll](https://jekyllrb.com/)
-* [Node.js](https://nodejs.org/en/)
-* [npm](https://www.npmjs.com/)
-* [Ruby](https://www.ruby-lang.org/en/)
-
-## Get started
-
-* `bundle install` to install Ruby gems
-* `npm ci` to install npm packages listed in `package-lock.json`
-* `npm run start` or `npm run dev` to compile the site with development settings and run BrowserSync
-
-## Build your site
-
-* `npm run build:dev` to compile the site with development settings
-* `npm run build:production` or `npm run build` to compile the site for production
-
-## Development
-
-To clear a gem and reinstall while developing the gem.
-
-```ruby
-gem cleanup blogtheme
-bundle
-bundle exec jekyll serve
-```
-
-Local config
-
-`bundle exec jekyll serve --config _config.yml,_config_local.yml --verbose`
+Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site's look and feel, URLs, the data displayed on the page, and more.

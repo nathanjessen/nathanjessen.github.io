@@ -4,27 +4,35 @@
   "description": "Personal website of web developer, Nathan Jessen",
   "homepage": "http://nathanjessen.github.io",
   "main": "gulpfile.babel.js",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "devDependencies": {
-    "@tailwindcss/line-clamp": "^0.4.0",
-    "@tailwindcss/typography": "^0.5.4",
-    "autoprefixer": "^10.4.7",
-    "babel-preset-env": "1.7.0",
-    "babel-register": "6.26.0",
-    "browser-sync": "^2.29.1",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.7",
+    "@babel/register": "^7.23.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.17",
+    "browser-sync": "^3.0.2",
     "cross-env": "^7.0.3",
-    "cross-spawn": "7.0.3",
-    "cssnano": "^5.1.12",
-    "gulp": "^4.0.2",
-    "gulp-postcss": "^9.0.1",
-    "postcss-import": "^14.1.0",
-    "tailwindcss": "^3.1.6"
+    "cross-spawn": "^7.0.3",
+    "cssnano": "^7.0.6",
+    "gulp": "^5.0.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-postcss": "^10.0.0",
+    "postcss-import": "^16.0.0",
+    "tailwindcss": "^3.4.1"
   },
   "scripts": {
-    "build:production": "cross-env NODE_ENV=production gulp",
-    "build:dev": "cross-env NODE_ENV=development gulp",
+    "build:production": "cross-env NODE_ENV=production gulp build",
+    "build:dev": "cross-env NODE_ENV=development gulp build",
     "build": "npm run build:production",
-    "dev": "cross-env NODE_ENV=development gulp serve",
-    "start": "npm run dev"
+    "watch": "cross-env NODE_ENV=development gulp dev",
+    "dev": "docker-compose up",
+    "start": "npm run dev",
+    "stop": "docker-compose down",
+    "clean": "docker-compose down -v"
   },
   "repository": {
     "type": "git",
