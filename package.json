@@ -4,6 +4,10 @@
   "description": "Personal website of web developer, Nathan Jessen",
   "homepage": "http://nathanjessen.github.io",
   "main": "gulpfile.babel.js",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.7",
