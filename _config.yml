@@ -2,10 +2,9 @@
 lang: "en-US"
 title: "Nathan Jessen"
 email: nathan.jessen@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  "Portfolio of Nathan Jessen"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: Portfolio of Nathan Jessen
+baseurl: ""
+url: "https://nathanjessen.github.io"
 categories_path: categories.html
 tags_path: tags.html
 rss_path: atom.xml
@@ -16,24 +15,14 @@ header_pages:
 
 # Build settings
 ignore_theme_config: true
-# theme: blogtheme
 remote_theme: nathanjessen/blogtheme@main
 
-####################
-# Plugins
-####################
-# whitelist: []
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
 exclude:
   - Dockerfile
   - docker-compose.yml
@@ -49,45 +38,9 @@ exclude:
   - tailwind.config.js
   - vendor
 
-# include:
-
-####################
-# Filtering Content
-####################
-# show_drafts: null
-# limit_posts: 10
-# future: false
-# unpublished: false
-
-####################
-# Conversion
-####################
-# markdown: kramdown
-# excerpt_separator: "\n\n"
-
-####################
-# Serving
-####################
-# detach: false
-# port: 4000
-# host: 127.0.0.1
-# show_dir_listing: false
-
-####################
-# Outputting
-####################
 permalink: ":categories/:title/"
-# paginate_path: /page:num
 timezone: "America/Denver"
-verbose: false
-####################
-# Where things are
-####################
-# destination: ./_site
-# plugins_dir: _plugins
-# layouts_dir: _layouts
-# data_dir: _data
-# includes_dir: _includes
+
 collections:
   posts:
     output: true
@@ -118,43 +71,21 @@ defaults:
     values:
       layout: "default"
 
-####################
-# Markdown Processor
-####################
 kramdown:
   syntax_highlighter: rouge
 
-####################
-# Other
-####################
-
-# Liquid profiler - Generate a Liquid rendering profile to help you identify performance bottlenecks.
-profile: false
-
-####################
 # Personal Information
-####################
-
 author: Nathan Jessen
 logo: false
 
 # Social
-# facebook_url: https://facebook.com/
 github_url: https://github.com/nathanjessen
-# twitter_url: https://twitter.com/
 linkedin_url: https://www.linkedin.com/in/njessen/
-# medium_url: https://medium.com/@nathanjessen/about
-# instagram_url: https://www.instagram.com/nathanjessen
-# dribbble_url: https://dribbble.com/
-# codepen_url: https://codepen.io/njessen
-# angellist_url: https://angel.co/u/nathan-jessen
 
 # jekyll-seo-tag - social profiles
 social:
   links:
     - https://github.com/nathanjessen
-    # - https://codepen.io/njessen
-    # - https://medium.com/@nathanjessen/about
     - https://www.linkedin.com/in/njessen/
 
 # Customizable Content
