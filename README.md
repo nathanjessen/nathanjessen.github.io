@@ -64,7 +64,6 @@ npm run build
 
 Some directories are created using GitHub Pages in other repositories.
 
-* [/tokenlist/](https://github.com/nathanjessen/tokenlist)
 * [/slides/](https://github.com/nathanjessen/slides)
 
 ## Technologies
