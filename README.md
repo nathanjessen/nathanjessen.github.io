@@ -59,10 +59,6 @@ Some directories are created using GitHub Pages in other repositories.
 
 * [/tokenlist/](https://github.com/nathanjessen/tokenlist)
 * [/slides/](https://github.com/nathanjessen/slides)
-* [/knowledge/](https://github.com/nathanjessen/knowledge/)
-* [/ada-pub/](https://github.com/nathanjessen/ada-pub/)
-* [/eth-allowance/](https://github.com/nathanjessen/eth-allowance/)
-* [/octolist/](https://github.com/nathanjessen/octolist/)
 
 ## Technologies
 
