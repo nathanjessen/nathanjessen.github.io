@@ -12,17 +12,6 @@
   archived: false
   featured: true
 
-- title: "Wordle"
-  img: "/assets/images/wordle.png"
-  desc: "Word game recreated with React."
-  source: "https://github.com/nathanjessen/wordle"
-  url: "https://wordle.nathanjessen.com"
-  docs: "https://nathanjessen.github.io/wordle"
-  tech: ["React"]
-  company: "Freelance"
-  date: "2022/07/04"
-  archived: false
-  featured: true
 
 - title: "OpenSea Integration"
   img: "/assets/images/opensea.png"
@@ -47,15 +36,6 @@
   date: "2022/07/18"
   archived: true
 
-- title: "Uniswap Tokenlist"
-  img: "/assets/images/tokenlist.png"
-  desc: "Create an ERC20 token list and validate the JSON schema to display tokens in well-known UI's like Uniswap."
-  source: "https://github.com/nathanjessen/tokenlist-template"
-  url: "https://github.com/nathanjessen/tokenlist-template"
-  tech: ["JSON", "Ajv"]
-  company: "Freelance"
-  date: "2020/09/26"
-  archived: true
 
 - title: "Checking Account Recommender"
   desc: "Find the best checking account for you using this questionnaire app."
@@ -94,15 +74,6 @@
   dateRange: ["March 2017", "February 2018"]
   archived: true
 
-- title: "Google I/O Extended Las Vegas"
-  img: "/assets/images/google-io-extended.png"
-  desc: "Landing page for the Google I/O Extended event in Las Vegas."
-  source: "https://github.com/nathanjessen/ioextendedlv"
-  url: "https://nathanjessen.github.io/ioextendedlv/"
-  tech: ["Jekyll", "JavaScript"]
-  company: "Freelance"
-  date: "2017/04/10"
-  archived: true
 
 - title: "Sprint"
   desc: "Complete website redesign including marketplace, shopping cart, and customer support."
