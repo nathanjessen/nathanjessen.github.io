@@ -6,12 +6,11 @@
   <link type="text/plain" rel="author" href="{{ 'humans.txt' | absolute_url }}" />
   <title>{{ site.title }}</title>
 
-  <!-- <link rel="stylesheet" href="{{ '/assets/css/blogtheme.css' | absolute_url }}"> -->
+  {% if jekyll.environment == "development" %}
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  {% else %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
-  <link rel="icon" href="{{ '/favicon.ico' | absolute_url }}" type="image/x-icon">
+  {% endif %}
 
-  {%- if jekyll.environment == "production" -%}
-  <link rel="preconnect" href="//www.google-analytics.com">
-  {%- include analytics.html -%}
-  {%- endif -%}
+  <link rel="icon" href="{{ '/favicon.ico' | absolute_url }}" type="image/x-icon">
 </head>

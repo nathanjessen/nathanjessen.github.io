@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   jekyll:
@@ -8,9 +8,12 @@ services:
       - "35729:35729"
     volumes:
       - .:/srv/jekyll
-      - /srv/jekyll/node_modules
+      - gem-cache:/home/app/.gems
     environment:
       - JEKYLL_ENV=development
-      - NODE_ENV=development
     tty: true
     stdin_open: true
+    restart: unless-stopped
+
+volumes:
+  gem-cache:

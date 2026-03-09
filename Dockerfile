@@ -1,42 +1,35 @@
-FROM ruby:3.1-slim
+FROM ruby:3.3.10-slim
 
 RUN apt-get update && apt-get install -y \
     build-essential \
     git \
-    curl \
     && rm -rf /var/lib/apt/lists/*
-
-# Install Node.js
-RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
-    && apt-get install -y nodejs \
-    && npm install -g npm@latest
-
-# Create jekyll user first
-RUN groupadd -r jekyll && useradd -m -r -g jekyll jekyll
-RUN mkdir -p /srv/jekyll && chown -R jekyll:jekyll /srv/jekyll
 
 WORKDIR /srv/jekyll
 
-# Install gems globally first
-RUN gem install bundler:2.1.4
-COPY Gemfile* ./
-RUN bundle config set system 'true' && \
-    bundle install && \
-    chown -R jekyll:jekyll /usr/local/bundle
+# Create unprivileged user
+RUN groupadd --gid 1000 app && \
+    useradd --uid 1000 --gid app --shell /bin/bash --create-home app && \
+    chown -R app:app /srv/jekyll && \
+    mkdir -p /home/app/.gems && \
+    chown -R app:app /home/app/.gems
 
-# Copy package files and install npm dependencies
-COPY package*.json ./
-RUN npm ci && \
-    chown -R jekyll:jekyll /srv/jekyll/node_modules
+ENV GEM_HOME=/home/app/.gems
+ENV PATH=/home/app/.gems/bin:$PATH
 
-# Switch to jekyll user
-USER jekyll
-ENV HOME=/home/jekyll
+USER app
+
+RUN gem install bundler:2.6.6
+
+COPY --chown=app:app Gemfile* ./
+RUN bundle _2.6.6_ install
 
 EXPOSE 4000 35729
 
-# Copy start script
-COPY --chown=jekyll:jekyll docker-entrypoint.sh /usr/local/bin/
+USER root
+COPY docker-entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+USER app
 
 ENTRYPOINT ["docker-entrypoint.sh"]

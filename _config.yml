@@ -35,13 +35,16 @@ plugins:
 # the internal "default list".
 #
 exclude:
+  - Dockerfile
+  - docker-compose.yml
+  - docker-entrypoint.sh
   - Gemfile
   - Gemfile.lock
-  - gulpfile.babel.js
   - LICENSE.md
   - node_modules
   - package.json
   - package-lock.json
+  - postcss.config.js
   - README.md
   - tailwind.config.js
   - vendor
@@ -161,4 +164,4 @@ featured_title: Portfolio
 featured_content: Featured Projects
 services_title: Services
 services_content: For any project
-footer_content: "&copy; 2022 Nathan Jessen"
+footer_content: "&copy; 2026 Nathan Jessen"
