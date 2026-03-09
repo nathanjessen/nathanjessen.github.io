@@ -10,6 +10,8 @@ This site uses Jekyll with Docker for local development, eliminating the need to
 
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
+- [Node.js](https://nodejs.org/) (version 20 or higher)
+- npm (version 10 or higher)
 
 ### Getting Started
 
@@ -19,14 +21,19 @@ This site uses Jekyll with Docker for local development, eliminating the need to
    cd nathanjessen.github.io
    ```
 
-2. Start the development server:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
    ```bash
    npm run dev
    ```
 
    The site will be available at http://localhost:4000 with live reload enabled.
 
-3. To stop the server:
+4. To stop the server:
    ```bash
    npm run stop
    ```
