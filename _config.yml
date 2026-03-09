@@ -102,7 +102,7 @@ defaults:
       layout: post
   - scope:
       path: "_pages"
-      scope: "pages"
+      type: "pages"
     values:
       layout: "page"
   - scope:
@@ -134,10 +134,6 @@ profile: false
 
 author: Nathan Jessen
 logo: false
-
-# Google Analytics
-ga_domain: nathanjessen.github.io
-ga_tracking_id: UA-42437510-1
 
 # Social
 # facebook_url: https://facebook.com/
