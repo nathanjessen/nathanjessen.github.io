@@ -1,6 +1,7 @@
 # Build output
 _site
 _drafts
+assets/css/style.css
 
 # Cache
 .jekyll-cache
